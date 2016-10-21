@@ -21,7 +21,7 @@ namespace data
         public void writeExisting(XmlDocument dom)
         {
 
-
+            var y = 0;
 
             foreach (XmlNode channelItem
                in dom.DocumentElement.SelectNodes("channel/item"))
