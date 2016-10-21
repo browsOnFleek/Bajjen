@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ösk", "Bajjen\Ösk.csproj", "{7C56B44F-63C3-4856-A0F4-2EFDB668FEDA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "data", "data\data.csproj", "{6DD381F0-153C-4AE9-872A-999442B9C00E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7C56B44F-63C3-4856-A0F4-2EFDB668FEDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C56B44F-63C3-4856-A0F4-2EFDB668FEDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C56B44F-63C3-4856-A0F4-2EFDB668FEDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C56B44F-63C3-4856-A0F4-2EFDB668FEDA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DD381F0-153C-4AE9-872A-999442B9C00E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DD381F0-153C-4AE9-872A-999442B9C00E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DD381F0-153C-4AE9-872A-999442B9C00E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DD381F0-153C-4AE9-872A-999442B9C00E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
