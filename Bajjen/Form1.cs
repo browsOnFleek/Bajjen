@@ -1,7 +1,5 @@
 ﻿using System;
-using System.Drawing;
 using System.Windows.Forms;
-using System.Xml;
 
 
 namespace Bajjen
@@ -21,23 +19,35 @@ namespace Bajjen
         private void button1_Click(object sender, EventArgs e)
         {
 
+            Panel panels = new Panel();
 
+            Label labels = new Label();
 
+            labels.Text = textBox2.Text;
 
-            data.RefreshXml refresh = new data.RefreshXml();
+            panels.Controls.Add(labels);
 
-            refresh.startXmlRefresher(30000, inputBox.Text);
+            panels.BackColor = System.Drawing.SystemColors.ActiveCaption;
+      
+           
+            panels.Size = new System.Drawing.Size(153, 63);
+            panels.TabIndex = 0;
 
+            flowLayout2.Controls.Add(panels);
 
+           
+
+           
+
+            data.RefreshXml.startXmlRefresher(30000, inputBox.Text);
+
+            listBox1.Items.Add(textBox1.Text);
 
 
 
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
-            Console.WriteLine("hora");
-        }
+       
     }
 }

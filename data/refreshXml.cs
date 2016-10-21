@@ -1,37 +1,40 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
-using System.Xml;
 using System.Threading;
 
 namespace data
 {
-    public class RefreshXml
+    public static class RefreshXml
     {
 
-        public bool _isActive;
+        public static bool _isActive;
 
-        public void startXmlRefresher(int sleeptime, string url)
+        public static async void startXmlRefresher(int sleeptime, string url)
         {
 
-            Ressfetch fetcher = new Ressfetch();
-
-
+         
             _isActive = true;
-            RssWriter writer = new RssWriter();
 
 
-            Task.Run(() =>
+            await  xmlRefresh(sleeptime, url);
+         
+
+
+
+        }
+
+        public static Task xmlRefresh(int sleeptime, string url) {
+
+
+            return Task.Run(() =>
             {
 
 
                 while (_isActive)
                 {
 
-                    var dom = fetcher.fetchRss(url);
-                    writer.writeExisting(dom);
+                    var dom = Ressfetch.fetchRss(url);
+                    RssWriter.writeExisting(dom);
 
                     Console.WriteLine("done");
 
@@ -43,12 +46,8 @@ namespace data
             });
 
 
-
         }
 
-        public void startXmlRefresher(XmlDocument dom, int v)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 }

@@ -1,21 +1,12 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Text;
 using System.Xml;
-
-
-
-
-using System;
 
 namespace data
 {
-    public class Ressfetch
+    public static class Ressfetch
     {
 
-        public XmlDocument fetchRss(string url)
+        public static XmlDocument fetchRss(string url)
         {
 
             var xml = "";
@@ -34,15 +25,15 @@ namespace data
 
         }
 
-        public XmlDocument fetchBase()
+        public static XmlDocument fetchBase()
         {
 
             var dom = new XmlDocument();
-            dom.LoadXml(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+            dom.Load(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
             return dom;
 
 
 
-        } // bajs
+        } 
     }
 }
