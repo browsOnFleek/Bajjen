@@ -35,11 +35,12 @@ namespace Bajjen
 
             flowLayout2.Controls.Add(panels);
 
-           
 
-           
 
-            data.RefreshXml.startXmlRefresher(30000, inputBox.Text);
+            var dom = data.Ressfetch.fetchRss(inputBox.Text);
+            string rssName = textBox1.Text;
+
+            data.RssWriter.writeExisting(dom, rssName);
 
             listBox1.Items.Add(textBox1.Text);
 
@@ -48,6 +49,38 @@ namespace Bajjen
 
         }
 
-       
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+           int hello = listBox1.SelectedIndex;
+           string rssName = listBox1.Items[hello].ToString();
+            
+            foreach (string item in data.FeedRetriever.getFeed(rssName)) {
+
+
+
+                Panel panels = new Panel();
+
+                Label labels = new Label();
+
+                labels.Text = item;
+
+                panels.Controls.Add(labels);
+
+                panels.BackColor = System.Drawing.SystemColors.ActiveCaption;
+
+
+                panels.Size = new System.Drawing.Size(153, 63);
+                panels.TabIndex = 0;
+
+                flowLayout.Controls.Add(panels);
+
+
+            }
+        }
     }
 }

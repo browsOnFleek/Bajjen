@@ -1,40 +1,34 @@
 ﻿using System.Xml;
+using System;
 
 namespace data
 {
     public static class RssWriter
     {
 
-        private static bool exist = false;
-        private static int added = 0;
-        private static bool _xmlEmpty = true;
         private static XmlDocument doc = Ressfetch.fetchBase();
         private static string title = "";
+        private static XmlElement feedElement;
 
 
-        public static void writeExisting(XmlDocument dom)
+        public static void writeExisting(XmlDocument dom, string rssName)
         {
+
+
+            feedElement = doc.CreateElement(rssName);
+            doc.DocumentElement.AppendChild(feedElement);
+
 
             foreach (XmlNode channelItem
                in dom.DocumentElement.SelectNodes("channel/item"))
             {
 
-                exist = false;
-                _xmlEmpty = true;
-
                 title = channelItem.SelectSingleNode("title").InnerText;
 
-                seeIfXmlEmpty();
 
-                if (_xmlEmpty)
-                {
-                    addElements();
-                }
 
-                else
-                {
-                    lookForDubble();
-                }
+                addElements(rssName);
+
             }
         }
 
@@ -43,75 +37,21 @@ namespace data
 
 
 
-
-
-        private static void addElements()
+        private static void addElements(string rssName)
         {
 
             XmlElement podElement = doc.CreateElement("item");
             XmlElement titleElement = doc.CreateElement("title");
+            XmlElement podCast = doc.CreateElement("pod");
             titleElement.InnerText = title;
+            podCast.InnerText = rssName;
 
-            added++;
+
 
             podElement.AppendChild(titleElement);
-            doc.DocumentElement.AppendChild(podElement);
+            podElement.AppendChild(podCast);
+            feedElement.AppendChild(podElement);
             doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
         }
-
-
-
-
-
-
-
-        private static void lookForDubble()
-        {
-
-
-            foreach (XmlNode item
-                      in doc.DocumentElement.SelectNodes("item"))
-            {
-
-                string check = item.SelectSingleNode("title").InnerText;
-
-                if (title.Equals(check))
-                {
-                    exist = true;
-                }
-            }
-
-            if (exist == false)
-            {
-                addElements();
-            }
-        }
-
-
-
-
-
-
-
-
-
-
-        private static void seeIfXmlEmpty()
-        {
-
-
-            foreach (XmlNode podItem
-                               in doc.DocumentElement.SelectNodes("item"))
-            {
-
-                _xmlEmpty = false;
-            }
-        }
-
-
-
-
-
-
     }
 }

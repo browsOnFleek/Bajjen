@@ -9,21 +9,21 @@ namespace data
 
         public static bool _isActive;
 
-        public static async void startXmlRefresher(int sleeptime, string url)
+        public static async void startXmlRefresher(int sleeptime, string url, string rssName)
         {
 
          
             _isActive = true;
 
 
-            await  xmlRefresh(sleeptime, url);
+            await  xmlRefresh(sleeptime, url, rssName);
          
 
 
 
         }
 
-        public static Task xmlRefresh(int sleeptime, string url) {
+        public static Task xmlRefresh(int sleeptime, string url, string rssName) {
 
 
             return Task.Run(() =>
@@ -34,7 +34,7 @@ namespace data
                 {
 
                     var dom = Ressfetch.fetchRss(url);
-                    RssWriter.writeExisting(dom);
+                   XmlEditor.writeExisting(dom, rssName);
 
                     Console.WriteLine("done");
 
