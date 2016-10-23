@@ -7,13 +7,14 @@ using System.Xml;
 
 namespace data
 {
-   public static class FeedRetriever
+    public static class FeedRetriever
     {
         private static XmlDocument doc;
 
 
         private static List<string> titleList;
-        public static List<string> getFeed(string rssName) {
+        public static List<string> getFeed(string rssName)
+        {
 
             titleList = new List<string>();
 
@@ -21,18 +22,44 @@ namespace data
             doc = Ressfetch.fetchBase();
 
             foreach (XmlNode item
-                          in doc.DocumentElement.SelectNodes(rssName+"/item"))
+                          in doc.DocumentElement.SelectNodes(rssName + "/item"))
             {
 
                 string check = item.SelectSingleNode("title").InnerText;
 
                 titleList.Add(check);
 
-                
-
             }
 
             return titleList;
         }
+
+        public static List<string> getFeeds() {
+
+            List<string> feedList = new List<string>();
+
+
+            doc = Ressfetch.fetchBase();
+
+            foreach (XmlNode item
+                        in doc.DocumentElement.ChildNodes)
+            {
+
+                string check = item.Attributes["feed"].Value;
+                Console.WriteLine(check);
+
+                feedList.Add(check);
+
+                
+
+            }
+
+            List<string> distinctFeedList = feedList.Distinct().ToList();
+
+            return distinctFeedList;
+
+
+        }
+
     }
 }

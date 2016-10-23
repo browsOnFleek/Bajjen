@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Windows.Forms;
+using System.Collections.Generic;
 
 
 namespace Bajjen
@@ -9,6 +10,19 @@ namespace Bajjen
         public Form1()
         {
             InitializeComponent();
+
+            List<string> feeds = data.FeedRetriever.getFeeds();
+
+            foreach (string feed in feeds) {
+
+                listBox1.Items.Add(feed);
+
+
+
+            }
+
+            
+
         }
 
         private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)

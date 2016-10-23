@@ -1,375 +1,253 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <channel xmlns="Aslex">
-  <poop xmlns="">
+  <hejsan feed="hejsan" xmlns="">
+    <item>
+      <title>Man knivskuren i Malmö</title>
+      <pod>hejsan</pod>
+    </item>
+    <item>
+      <title>Carl Larsson-gården i kris
+– utsattes för miljonsvindel</title>
+      <pod>hejsan</pod>
+    </item>
+    <item>
+      <title>Paul Hansen:
+”Det var långa minuter”</title>
+      <pod>hejsan</pod>
+    </item>
+    <item>
+      <title>Brittisk polis gick på dejt – dödades av kannibal</title>
+      <pod>hejsan</pod>
+    </item>
+    <item>
+      <title>Domaren: Alla bevis är emot Hammarby</title>
+      <pod>hejsan</pod>
+    </item>
+    <item>
+      <title>Migrationsministern: ”Vi kan inte ta ansvar för alla Mellanösterns tonårspojkar”</title>
+      <pod>hejsan</pod>
+    </item>
+    <item>
+      <title>Jills tack efter hyllningen i "Så mycket bättre"</title>
+      <pod>hejsan</pod>
+    </item>
+    <item>
+      <title>Mannen bakom kultserien död</title>
+      <pod>hejsan</pod>
+    </item>
+    <item>
+      <title>Målet är en dröm –passningen är värre</title>
+      <pod>hejsan</pod>
+    </item>
     <item>
       <title>Erica: ”Att komma ut förändrade allt”</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>Falsk ”polis” stal från 96-åring - åtalas</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
-      <title>Polis utreder mordförsök i Fagersjö</title>
-      <pod>poop</pod>
-    </item>
-    <item>
-      <title>Två skadade i frontalkrock</title>
-      <pod>poop</pod>
+      <title>Kvinna död i frontalkrock</title>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>13 döda efter busskrasch</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>Man med farliga ämnen i 2 dygn långt dödläge med polisen</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>SD-toppar hånade 15-åring: ”Det var humoristiskt”</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>Löfven pratade dödsstraff</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>En död när hjullastare gled ner i å</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>Elevresursen kan
 bli dubbelmiljonär</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>Hon bytte lyxlivet i New York mot hjälparbete</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>Krossade United i Mourinhos återkomst</title>
-      <pod>poop</pod>
-    </item>
-    <item>
-      <title>Förvirringen total efter spökstraffen</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>William ”Wille” Löfqvist död</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
-      <title>Skandal under knattecup – förälder bröt benet</title>
-      <pod>poop</pod>
+      <title>Polska snuskbuskar på kyrkogård</title>
+      <pod>hejsan</pod>
     </item>
     <item>
-      <title>DN-fotograf skottskadad utanför Mosul</title>
-      <pod>poop</pod>
+      <title>Flygbolag får rätt att väga sina resenärer</title>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>Kalla: Hela skidsporten kommer att ifrågasättas</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>Allvarlig kollision mellan buss och lastbil på Arlandaleden</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>Titanic-nyckel såld för nästan 1 miljon</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>Mitt i skönsången – då händer det otäcka</title>
-      <pod>poop</pod>
-    </item>
-    <item>
-      <title>Jacob, 16, tros ha sugits ner i brunn</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>Här räddas 10-åriga Aysha från IS</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
       <title>Kvinna hittat död utomhus – man gripen</title>
-      <pod>poop</pod>
+      <pod>hejsan</pod>
     </item>
     <item>
-      <title>Nu sänker Madonna nivån i presidentvalet</title>
-      <pod>poop</pod>
+      <title>Kiruna är perfekt för en thrillerserie</title>
+      <pod>hejsan</pod>
+    </item>
+  </hejsan>
+  <korven feed="korven" xmlns="">
+    <item>
+      <title>Man knivskuren i Malmö</title>
+      <pod>korven</pod>
     </item>
     <item>
-      <title>152 miljoner - för att stoppa 78 flyktingar</title>
-      <pod>poop</pod>
+      <title>Carl Larsson-gården i kris
+– utsattes för miljonsvindel</title>
+      <pod>korven</pod>
     </item>
     <item>
-      <title>Epa-traktor välte – pojke allvarligt skadad</title>
-      <pod>poop</pod>
+      <title>Paul Hansen:
+”Det var långa minuter”</title>
+      <pod>korven</pod>
     </item>
     <item>
-      <title>”Är Per Wästbergs personliga mening – inte Akademiens”</title>
-      <pod>poop</pod>
+      <title>Brittisk polis gick på dejt – dödades av kannibal</title>
+      <pod>korven</pod>
     </item>
     <item>
-      <title>Ska spela hjälte – förstör för alla</title>
-      <pod>poop</pod>
+      <title>Domaren: Alla bevis är emot Hammarby</title>
+      <pod>korven</pod>
     </item>
     <item>
-      <title>Michelle ska vinna valet - men inte bli president</title>
-      <pod>poop</pod>
+      <title>Migrationsministern: ”Vi kan inte ta ansvar för alla Mellanösterns tonårspojkar”</title>
+      <pod>korven</pod>
     </item>
     <item>
-      <title>Stor manifestation till minne
-av offren i Trollhättan-attacken</title>
-      <pod>poop</pod>
+      <title>Jills tack efter hyllningen i "Så mycket bättre"</title>
+      <pod>korven</pod>
     </item>
-  </poop>
-  <Aftonblad xmlns="">
+    <item>
+      <title>Mannen bakom kultserien död</title>
+      <pod>korven</pod>
+    </item>
+    <item>
+      <title>Målet är en dröm –passningen är värre</title>
+      <pod>korven</pod>
+    </item>
     <item>
       <title>Erica: ”Att komma ut förändrade allt”</title>
-      <pod>Aftonblad</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>Falsk ”polis” stal från 96-åring - åtalas</title>
-      <pod>Aftonblad</pod>
+      <pod>korven</pod>
     </item>
     <item>
-      <title>Polis utreder mordförsök i Fagersjö</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Två skadade i frontalkrock</title>
-      <pod>Aftonblad</pod>
+      <title>Kvinna död i frontalkrock</title>
+      <pod>korven</pod>
     </item>
     <item>
       <title>13 döda efter busskrasch</title>
-      <pod>Aftonblad</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>Man med farliga ämnen i 2 dygn långt dödläge med polisen</title>
-      <pod>Aftonblad</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>SD-toppar hånade 15-åring: ”Det var humoristiskt”</title>
-      <pod>Aftonblad</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>Löfven pratade dödsstraff</title>
-      <pod>Aftonblad</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>En död när hjullastare gled ner i å</title>
-      <pod>Aftonblad</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>Elevresursen kan
 bli dubbelmiljonär</title>
-      <pod>Aftonblad</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>Hon bytte lyxlivet i New York mot hjälparbete</title>
-      <pod>Aftonblad</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>Krossade United i Mourinhos återkomst</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Förvirringen total efter spökstraffen</title>
-      <pod>Aftonblad</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>William ”Wille” Löfqvist död</title>
-      <pod>Aftonblad</pod>
+      <pod>korven</pod>
     </item>
     <item>
-      <title>Skandal under knattecup – förälder bröt benet</title>
-      <pod>Aftonblad</pod>
+      <title>Polska snuskbuskar på kyrkogård</title>
+      <pod>korven</pod>
     </item>
     <item>
-      <title>DN-fotograf skottskadad utanför Mosul</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Kalla: Hela skidsporten kommer att ifrågasättas</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Allvarlig kollision mellan buss och lastbil på Arlandaleden</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Titanic-nyckel såld för nästan 1 miljon</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Mitt i skönsången – då händer det otäcka</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Jacob, 16, tros ha sugits ner i brunn</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Här räddas 10-åriga Aysha från IS</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Kvinna hittat död utomhus – man gripen</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Nu sänker Madonna nivån i presidentvalet</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>152 miljoner - för att stoppa 78 flyktingar</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Epa-traktor välte – pojke allvarligt skadad</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>”Är Per Wästbergs personliga mening – inte Akademiens”</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Ska spela hjälte – förstör för alla</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Michelle ska vinna valet - men inte bli president</title>
-      <pod>Aftonblad</pod>
-    </item>
-    <item>
-      <title>Stor manifestation till minne
-av offren i Trollhättan-attacken</title>
-      <pod>Aftonblad</pod>
-    </item>
-  </Aftonblad>
-  <gammeldansk xmlns="">
-    <item>
-      <title>Erica: ”Att komma ut förändrade allt”</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Falsk ”polis” stal från 96-åring - åtalas</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Polis utreder mordförsök i Fagersjö</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Två skadade i frontalkrock</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>13 döda efter busskrasch</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Man med farliga ämnen i 2 dygn långt dödläge med polisen</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>SD-toppar hånade 15-åring: ”Det var humoristiskt”</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Löfven pratade dödsstraff</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>En död när hjullastare gled ner i å</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Elevresursen kan
-bli dubbelmiljonär</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Hon bytte lyxlivet i New York mot hjälparbete</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Krossade United i Mourinhos återkomst</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Förvirringen total efter spökstraffen</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>William ”Wille” Löfqvist död</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Skandal under knattecup – förälder bröt benet</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>DN-fotograf skottskadad utanför Mosul</title>
-      <pod>gammeldansk</pod>
+      <title>Flygbolag får rätt att väga sina resenärer</title>
+      <pod>korven</pod>
     </item>
     <item>
       <title>Kalla: Hela skidsporten kommer att ifrågasättas</title>
-      <pod>gammeldansk</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>Allvarlig kollision mellan buss och lastbil på Arlandaleden</title>
-      <pod>gammeldansk</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>Titanic-nyckel såld för nästan 1 miljon</title>
-      <pod>gammeldansk</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>Mitt i skönsången – då händer det otäcka</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Jacob, 16, tros ha sugits ner i brunn</title>
-      <pod>gammeldansk</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>Här räddas 10-åriga Aysha från IS</title>
-      <pod>gammeldansk</pod>
+      <pod>korven</pod>
     </item>
     <item>
       <title>Kvinna hittat död utomhus – man gripen</title>
-      <pod>gammeldansk</pod>
+      <pod>korven</pod>
     </item>
     <item>
-      <title>Nu sänker Madonna nivån i presidentvalet</title>
-      <pod>gammeldansk</pod>
+      <title>Kiruna är perfekt för en thrillerserie</title>
+      <pod>korven</pod>
     </item>
-    <item>
-      <title>152 miljoner - för att stoppa 78 flyktingar</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Epa-traktor välte – pojke allvarligt skadad</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>”Är Per Wästbergs personliga mening – inte Akademiens”</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Ska spela hjälte – förstör för alla</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Michelle ska vinna valet - men inte bli president</title>
-      <pod>gammeldansk</pod>
-    </item>
-    <item>
-      <title>Stor manifestation till minne
-av offren i Trollhättan-attacken</title>
-      <pod>gammeldansk</pod>
-    </item>
-  </gammeldansk>
+  </korven>
 </channel>

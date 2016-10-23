@@ -16,6 +16,7 @@ namespace data
 
 
             feedElement = doc.CreateElement(rssName);
+            feedElement.SetAttribute("feed", rssName);
             doc.DocumentElement.AppendChild(feedElement);
 
 
