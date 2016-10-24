@@ -68,12 +68,19 @@ namespace Bajjen
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
+      
+
+        private void listBox1_Click(object sender, EventArgs e)
         {
-           int hello = listBox1.SelectedIndex;
-           string rssName = listBox1.Items[hello].ToString();
-            
-            foreach (string item in data.FeedRetriever.getFeed(rssName)) {
+
+            flowLayout.Controls.Clear();
+
+
+            int hello = listBox1.SelectedIndex;
+            string rssName = listBox1.Items[hello].ToString();
+
+            foreach (string item in data.FeedRetriever.getFeed(rssName))
+            {
 
 
 
@@ -92,7 +99,6 @@ namespace Bajjen
                 panels.TabIndex = 0;
 
                 flowLayout.Controls.Add(panels);
-
 
             }
         }
