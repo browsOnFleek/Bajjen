@@ -54,8 +54,7 @@ namespace Bajjen
             var dom = data.Ressfetch.fetchRss(inputBox.Text);
             string rssName = textBox1.Text;
             
-            
-            data.RssWriter.writeExisting(dom, rssName,);
+            data.RssWriter.writeExisting(dom, rssName);
 
             listBox1.Items.Add(textBox1.Text);
 
@@ -102,6 +101,21 @@ namespace Bajjen
                 flowLayout.Controls.Add(panels);
 
             }
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        public void textBox2_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

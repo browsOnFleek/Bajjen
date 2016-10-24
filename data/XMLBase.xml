@@ -1,501 +1,131 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <channel xmlns="Aslex">
-  <hejsan feed="hejsan" xmlns="">
+  <Aftonen feed="Aftonen" xmlns="">
     <item>
-      <title>Man knivskuren i Malmö</title>
-      <pod>hejsan</pod>
+      <title>Stefan Löfven KU-anmäls för uttalande</title>
+      <pod>Aftonen</pod>
     </item>
     <item>
-      <title>Carl Larsson-gården i kris
-– utsattes för miljonsvindel</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Paul Hansen:
-”Det var långa minuter”</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Brittisk polis gick på dejt – dödades av kannibal</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Domaren: Alla bevis är emot Hammarby</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Migrationsministern: ”Vi kan inte ta ansvar för alla Mellanösterns tonårspojkar”</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Jills tack efter hyllningen i "Så mycket bättre"</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Mannen bakom kultserien död</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Målet är en dröm –passningen är värre</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Erica: ”Att komma ut förändrade allt”</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Falsk ”polis” stal från 96-åring - åtalas</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Kvinna död i frontalkrock</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>13 döda efter busskrasch</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Man med farliga ämnen i 2 dygn långt dödläge med polisen</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>SD-toppar hånade 15-åring: ”Det var humoristiskt”</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Löfven pratade dödsstraff</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>En död när hjullastare gled ner i å</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Elevresursen kan
-bli dubbelmiljonär</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Hon bytte lyxlivet i New York mot hjälparbete</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Krossade United i Mourinhos återkomst</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>William ”Wille” Löfqvist död</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Polska snuskbuskar på kyrkogård</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Flygbolag får rätt att väga sina resenärer</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Kalla: Hela skidsporten kommer att ifrågasättas</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Allvarlig kollision mellan buss och lastbil på Arlandaleden</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Titanic-nyckel såld för nästan 1 miljon</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Mitt i skönsången – då händer det otäcka</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Här räddas 10-åriga Aysha från IS</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Kvinna hittat död utomhus – man gripen</title>
-      <pod>hejsan</pod>
-    </item>
-    <item>
-      <title>Kiruna är perfekt för en thrillerserie</title>
-      <pod>hejsan</pod>
-    </item>
-  </hejsan>
-  <korven feed="korven" xmlns="">
-    <item>
-      <title>Man knivskuren i Malmö</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Carl Larsson-gården i kris
-– utsattes för miljonsvindel</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Paul Hansen:
-”Det var långa minuter”</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Brittisk polis gick på dejt – dödades av kannibal</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Domaren: Alla bevis är emot Hammarby</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Migrationsministern: ”Vi kan inte ta ansvar för alla Mellanösterns tonårspojkar”</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Jills tack efter hyllningen i "Så mycket bättre"</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Mannen bakom kultserien död</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Målet är en dröm –passningen är värre</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Erica: ”Att komma ut förändrade allt”</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Falsk ”polis” stal från 96-åring - åtalas</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Kvinna död i frontalkrock</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>13 döda efter busskrasch</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Man med farliga ämnen i 2 dygn långt dödläge med polisen</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>SD-toppar hånade 15-åring: ”Det var humoristiskt”</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Löfven pratade dödsstraff</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>En död när hjullastare gled ner i å</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Elevresursen kan
-bli dubbelmiljonär</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Hon bytte lyxlivet i New York mot hjälparbete</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Krossade United i Mourinhos återkomst</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>William ”Wille” Löfqvist död</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Polska snuskbuskar på kyrkogård</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Flygbolag får rätt att väga sina resenärer</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Kalla: Hela skidsporten kommer att ifrågasättas</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Allvarlig kollision mellan buss och lastbil på Arlandaleden</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Titanic-nyckel såld för nästan 1 miljon</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Mitt i skönsången – då händer det otäcka</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Här räddas 10-åriga Aysha från IS</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Kvinna hittat död utomhus – man gripen</title>
-      <pod>korven</pod>
-    </item>
-    <item>
-      <title>Kiruna är perfekt för en thrillerserie</title>
-      <pod>korven</pod>
-    </item>
-  </korven>
-  <tobbe feed="tobbe" xmlns="">
-    <item>
-      <title>Bettina tillbaka i ”Paradise hotel”</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>EU-plan i krasch – fem döda</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Flera viltolyckor i morgontrafiken</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Märkliga bilderna på Zlatans familj</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Här gör han tabben – framför kungen</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Nu ber Robert Gustafsson om ursäkt</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Nu ska ”Djungeln” jämnas med marken</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Lotta Engberg ringde Christer Sjögrens fru</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Hemtjänsten hinner inte – äldre svälter</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Man skjuten i Traneberg – ”träffad av flera skott”</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>L: Pröva utvisning för fler brott</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Trump har insett att han kan förlora – ”Ligger efter”</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Zlatan sågad: ”Hans plats kan vara hotad”</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Man knivskuren i Malmö</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Carl Larsson-gården i kris
-– utsattes för miljonsvindel</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Paul Hansen:
-”Det var långa minuter”</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Brittisk polis gick på dejt – dödades av kannibal</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Domaren: Alla bevis är emot Hammarby</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Migrationsministern: ”Vi kan inte ta ansvar för alla Mellanösterns tonårspojkar”</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Jills tack efter hyllningen i "Så mycket bättre"</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Matchen börjar – då gör fansen det fantastiska</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Mannen bakom kultserien död</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Målet är en dröm –passningen är värre</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Erica: ”Att komma ut förändrade allt”</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Falsk ”polis” stal från 96-åring - åtalas</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Kvinna död i frontalkrock</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>13 döda efter busskrasch</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Man med farliga ämnen i 2 dygn långt dödläge med polisen</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>SD-toppar hånade 15-åring: ”Det var humoristiskt”</title>
-      <pod>tobbe</pod>
-    </item>
-    <item>
-      <title>Löfven pratade dödsstraff</title>
-      <pod>tobbe</pod>
-    </item>
-  </tobbe>
-  <Aftonbladet d2p1:feed="Viking" xmlns:d2p1="Aftonbladet" xmlns="Viking">
-    <item xmlns="">
       <title>Kraftig bilbrand på E4</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Kraftig lägenhetsbrand</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
-      <title>Birgitta Ohlsson KU-anmäler Löfven</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item xmlns="">
+    <item>
       <title>”Fick lyssna på kroppen varje kväll”</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
-      <title>Domen mot Fikru Maru – knappt 5 års fängelse i Etiopien</title>
-      <pod>Aftonbladet</pod>
+    <item>
+      <title>Domen mot Fikru Maru – nästan 5 års fängelse i Etiopien</title>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Bettina tillbaka i ”Paradise hotel”</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Fem döda i flygkrasch på Malta</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Flera viltolyckor i morgontrafiken</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Märkliga bilderna på Zlatans familj</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Sofia Wistams bror nära att dö i olyckan</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Här gör han tabben – framför kungen</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Nu ber Robert Gustafsson om ursäkt</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Nu ska ”Djungeln” jämnas med marken</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Lotta Engberg ringde Christer Sjögrens fru</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Hemtjänsten hinner inte – äldre svälter</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Man skjuten i Traneberg – ”träffad av flera skott”</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>L: Pröva utvisning för fler brott</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Trump har insett att han kan förlora</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Zlatan sågad: ”Hans plats kan vara hotad”</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Man knivskuren i Malmö</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
-      <title>Carl Larsson-gården i kris
-– utsattes för miljonsvindel</title>
-      <pod>Aftonbladet</pod>
+    <item>
+      <title>
+        Carl Larsson-gården i kris
+        – utsattes för miljonsvindel
+      </title>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
-      <title>Paul Hansen:
-”Det var långa minuter”</title>
-      <pod>Aftonbladet</pod>
+    <item>
+      <title>
+        Paul Hansen:
+        ”Det var långa minuter”
+      </title>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Brittisk polis gick på dejt – dödades av kannibal</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Domaren: Alla bevis är emot Hammarby</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Migrationsministern: ”Vi kan inte ta ansvar för alla Mellanösterns tonårspojkar”</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Jills tack efter hyllningen i "Så mycket bättre"</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Matchen börjar – då gör fansen det fantastiska</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Mannen bakom kultserien död</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Målet är en dröm –passningen är värre</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-    <item xmlns="">
+    <item>
       <title>Erica: ”Att komma ut förändrade allt”</title>
-      <pod>Aftonbladet</pod>
+      <pod>Aftonen</pod>
     </item>
-  </Aftonbladet>
+  </Aftonen>
 </channel>

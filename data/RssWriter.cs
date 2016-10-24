@@ -14,13 +14,11 @@ namespace data
         public static void writeExisting(XmlDocument dom, string rssName)
         {
 
-            feed
+
             feedElement = doc.CreateElement(rssName);
             feedElement.SetAttribute("feed", rssName);
-            
             doc.DocumentElement.AppendChild(feedElement);
-
-
+            
 
             foreach (XmlNode channelItem
                in dom.DocumentElement.SelectNodes("channel/item"))
@@ -54,7 +52,7 @@ namespace data
             podElement.AppendChild(titleElement);
             podElement.AppendChild(podCast);
             feedElement.AppendChild(podElement);
-            doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+            doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
         }
     }
 }
