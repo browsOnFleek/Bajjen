@@ -102,6 +102,7 @@
             this.flowLayout2.Name = "flowLayout2";
             this.flowLayout2.Size = new System.Drawing.Size(1793, 82);
             this.flowLayout2.TabIndex = 4;
+            this.flowLayout2.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayout2_Paint);
             // 
             // panel2
             // 
@@ -182,7 +183,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ButtonFace;
-            this.ClientSize = new System.Drawing.Size(1821, 1038);
+            this.ClientSize = new System.Drawing.Size(1821, 1028);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox2);

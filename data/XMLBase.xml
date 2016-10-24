@@ -1,131 +1,255 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <channel xmlns="Aslex">
-  <Aftonen feed="Aftonen" xmlns="">
+  <Aftonbladet feed="Aftonbladet" xmlns="">
+    <category>Tidningar</category>
     <item>
-      <title>Stefan Löfven KU-anmäls för uttalande</title>
-      <pod>Aftonen</pod>
+      <title>Statssekreterare reser ofta och dyrt</title>
+      <pod>Aftonbladet</pod>
+    </item>
+    <item>
+      <title>Bil voltade efter krock med lastare</title>
+      <pod>Aftonbladet</pod>
+    </item>
+    <item>
+      <title>Tände eld på krockad bil – tre gripna</title>
+      <pod>Aftonbladet</pod>
+    </item>
+    <item>
+      <title>Ung kvinna till sjukhus – stacks i ena benet</title>
+      <pod>Aftonbladet</pod>
+    </item>
+    <item>
+      <title>Dopad i OS – nu kan Smigun mista gulden</title>
+      <pod>Aftonbladet</pod>
+    </item>
+    <item>
+      <title>Intervju med Blondinbella ställdes in</title>
+      <pod>Aftonbladet</pod>
+    </item>
+    <item>
+      <title>Svenskt par i flygdrama i Paris</title>
+      <pod>Aftonbladet</pod>
+    </item>
+    <item>
+      <title>”Jag fick övertala frun i 20 minuter”</title>
+      <pod>Aftonbladet</pod>
+    </item>
+    <item>
+      <title>Tittarsuccé för ”Så mycket bättre”</title>
+      <pod>Aftonbladet</pod>
+    </item>
+    <item>
+      <title>Trafikbråk bakom misstänkt mordförsök</title>
+      <pod>Aftonbladet</pod>
+    </item>
+    <item>
+      <title>Guardiolas krismöte:
+”Rödvinet var gott...”</title>
+      <pod>Aftonbladet</pod>
+    </item>
+    <item>
+      <title>Tog med ”stödankan” Daniel på flyget</title>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
       <title>Kraftig bilbrand på E4</title>
-      <pod>Aftonen</pod>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
-      <title>Kraftig lägenhetsbrand</title>
-      <pod>Aftonen</pod>
+      <title>Kim Kardashian försvarar sin talang</title>
+      <pod>Aftonbladet</pod>
+    </item>
+    <item>
+      <title>Storbrand i lägenhetshus i Motala</title>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
       <title>”Fick lyssna på kroppen varje kväll”</title>
-      <pod>Aftonen</pod>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
       <title>Domen mot Fikru Maru – nästan 5 års fängelse i Etiopien</title>
-      <pod>Aftonen</pod>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
-      <title>Bettina tillbaka i ”Paradise hotel”</title>
-      <pod>Aftonen</pod>
+      <title>Här äter programledaren malda syrsor</title>
+      <pod>Aftonbladet</pod>
+    </item>
+    <item>
+      <title>Så undviker Britney katastrofen på scenen</title>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
       <title>Fem döda i flygkrasch på Malta</title>
-      <pod>Aftonen</pod>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
       <title>Flera viltolyckor i morgontrafiken</title>
-      <pod>Aftonen</pod>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
       <title>Märkliga bilderna på Zlatans familj</title>
-      <pod>Aftonen</pod>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
       <title>Sofia Wistams bror nära att dö i olyckan</title>
-      <pod>Aftonen</pod>
-    </item>
-    <item>
-      <title>Här gör han tabben – framför kungen</title>
-      <pod>Aftonen</pod>
-    </item>
-    <item>
-      <title>Nu ber Robert Gustafsson om ursäkt</title>
-      <pod>Aftonen</pod>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
       <title>Nu ska ”Djungeln” jämnas med marken</title>
-      <pod>Aftonen</pod>
-    </item>
-    <item>
-      <title>Lotta Engberg ringde Christer Sjögrens fru</title>
-      <pod>Aftonen</pod>
-    </item>
-    <item>
-      <title>Hemtjänsten hinner inte – äldre svälter</title>
-      <pod>Aftonen</pod>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
       <title>Man skjuten i Traneberg – ”träffad av flera skott”</title>
-      <pod>Aftonen</pod>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
       <title>L: Pröva utvisning för fler brott</title>
-      <pod>Aftonen</pod>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
       <title>Trump har insett att han kan förlora</title>
-      <pod>Aftonen</pod>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
-      <title>Zlatan sågad: ”Hans plats kan vara hotad”</title>
-      <pod>Aftonen</pod>
+      <title>Carl Larsson-gården i kris
+– utsattes för miljonsvindel</title>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
-      <title>Man knivskuren i Malmö</title>
-      <pod>Aftonen</pod>
-    </item>
-    <item>
-      <title>
-        Carl Larsson-gården i kris
-        – utsattes för miljonsvindel
-      </title>
-      <pod>Aftonen</pod>
-    </item>
-    <item>
-      <title>
-        Paul Hansen:
-        ”Det var långa minuter”
-      </title>
-      <pod>Aftonen</pod>
+      <title>Paul Hansen:
+”Det var långa minuter”</title>
+      <pod>Aftonbladet</pod>
     </item>
     <item>
       <title>Brittisk polis gick på dejt – dödades av kannibal</title>
-      <pod>Aftonen</pod>
+      <pod>Aftonbladet</pod>
+    </item>
+  </Aftonbladet>
+  <AftonHoran feed="AftonHoran" xmlns="">
+    <category>Komedi</category>
+    <item>
+      <title>Statssekreterare reser ofta och dyrt</title>
+      <pod>AftonHoran</pod>
     </item>
     <item>
-      <title>Domaren: Alla bevis är emot Hammarby</title>
-      <pod>Aftonen</pod>
+      <title>Bil voltade efter krock med lastare</title>
+      <pod>AftonHoran</pod>
     </item>
     <item>
-      <title>Migrationsministern: ”Vi kan inte ta ansvar för alla Mellanösterns tonårspojkar”</title>
-      <pod>Aftonen</pod>
+      <title>Tände eld på krockad bil – tre gripna</title>
+      <pod>AftonHoran</pod>
     </item>
     <item>
-      <title>Jills tack efter hyllningen i "Så mycket bättre"</title>
-      <pod>Aftonen</pod>
+      <title>Ung kvinna till sjukhus – stacks i ena benet</title>
+      <pod>AftonHoran</pod>
     </item>
     <item>
-      <title>Matchen börjar – då gör fansen det fantastiska</title>
-      <pod>Aftonen</pod>
+      <title>Dopad i OS – nu kan Smigun mista gulden</title>
+      <pod>AftonHoran</pod>
     </item>
     <item>
-      <title>Mannen bakom kultserien död</title>
-      <pod>Aftonen</pod>
+      <title>Intervju med Blondinbella ställdes in</title>
+      <pod>AftonHoran</pod>
     </item>
     <item>
-      <title>Målet är en dröm –passningen är värre</title>
-      <pod>Aftonen</pod>
+      <title>Svenskt par i flygdrama i Paris</title>
+      <pod>AftonHoran</pod>
     </item>
     <item>
-      <title>Erica: ”Att komma ut förändrade allt”</title>
-      <pod>Aftonen</pod>
+      <title>”Jag fick övertala frun i 20 minuter”</title>
+      <pod>AftonHoran</pod>
     </item>
-  </Aftonen>
+    <item>
+      <title>Tittarsuccé för ”Så mycket bättre”</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Trafikbråk bakom misstänkt mordförsök</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Guardiolas krismöte:
+”Rödvinet var gott...”</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Tog med ”stödankan” Daniel på flyget</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Kraftig bilbrand på E4</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Kim Kardashian försvarar sin talang</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Storbrand i lägenhetshus i Motala</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>”Fick lyssna på kroppen varje kväll”</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Domen mot Fikru Maru – nästan 5 års fängelse i Etiopien</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Här äter programledaren malda syrsor</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Så undviker Britney katastrofen på scenen</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Fem döda i flygkrasch på Malta</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Flera viltolyckor i morgontrafiken</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Märkliga bilderna på Zlatans familj</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Sofia Wistams bror nära att dö i olyckan</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Nu ska ”Djungeln” jämnas med marken</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Man skjuten i Traneberg – ”träffad av flera skott”</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>L: Pröva utvisning för fler brott</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Trump har insett att han kan förlora</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Carl Larsson-gården i kris
+– utsattes för miljonsvindel</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Paul Hansen:
+”Det var långa minuter”</title>
+      <pod>AftonHoran</pod>
+    </item>
+    <item>
+      <title>Brittisk polis gick på dejt – dödades av kannibal</title>
+      <pod>AftonHoran</pod>
+    </item>
+  </AftonHoran>
 </channel>

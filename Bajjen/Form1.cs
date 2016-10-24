@@ -53,10 +53,10 @@ namespace Bajjen
 
             var dom = data.Ressfetch.fetchRss(inputBox.Text);
             string rssName = textBox1.Text;
-            
-            data.RssWriter.writeExisting(dom, rssName);
-
+            string chosenCategory = textBox2.Text;
+            data.RssWriter.writeExisting(dom, rssName, chosenCategory);
             listBox1.Items.Add(textBox1.Text);
+
 
 
 
@@ -114,6 +114,11 @@ namespace Bajjen
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void flowLayout2_Paint(object sender, PaintEventArgs e)
         {
 
         }

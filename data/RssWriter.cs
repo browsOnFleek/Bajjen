@@ -11,14 +11,16 @@ namespace data
         private static XmlElement feedElement;
 
 
-        public static void writeExisting(XmlDocument dom, string rssName)
+        public static void writeExisting(XmlDocument dom, string rssName, string chosenCategory)
         {
 
 
             feedElement = doc.CreateElement(rssName);
+            XmlElement Category = doc.CreateElement("category");
+            Category.InnerText = chosenCategory;
             feedElement.SetAttribute("feed", rssName);
             doc.DocumentElement.AppendChild(feedElement);
-            
+            feedElement.AppendChild(Category);
 
             foreach (XmlNode channelItem
                in dom.DocumentElement.SelectNodes("channel/item"))
@@ -29,6 +31,7 @@ namespace data
 
 
                 addElements(rssName);
+                
 
             }
         }
