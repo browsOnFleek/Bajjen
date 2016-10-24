@@ -14,10 +14,12 @@ namespace data
         public static void writeExisting(XmlDocument dom, string rssName)
         {
 
-
+            feed
             feedElement = doc.CreateElement(rssName);
             feedElement.SetAttribute("feed", rssName);
+            
             doc.DocumentElement.AppendChild(feedElement);
+
 
 
             foreach (XmlNode channelItem

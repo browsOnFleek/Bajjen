@@ -53,8 +53,9 @@ namespace Bajjen
 
             var dom = data.Ressfetch.fetchRss(inputBox.Text);
             string rssName = textBox1.Text;
-
-            data.RssWriter.writeExisting(dom, rssName);
+            
+            
+            data.RssWriter.writeExisting(dom, rssName,);
 
             listBox1.Items.Add(textBox1.Text);
 
