@@ -33,14 +33,13 @@
             this.inputBox = new System.Windows.Forms.TextBox();
             this.flowLayout = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayout2 = new System.Windows.Forms.FlowLayoutPanel();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.panel3 = new System.Windows.Forms.Panel();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
+            this.button2 = new System.Windows.Forms.Button();
             this.flowLayout2.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -95,33 +94,13 @@
             // 
             // flowLayout2
             // 
-            this.flowLayout2.Controls.Add(this.panel2);
-            this.flowLayout2.Controls.Add(this.panel3);
+            this.flowLayout2.Controls.Add(this.button2);
             this.flowLayout2.Location = new System.Drawing.Point(15, 16);
             this.flowLayout2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayout2.Name = "flowLayout2";
             this.flowLayout2.Size = new System.Drawing.Size(1793, 82);
             this.flowLayout2.TabIndex = 4;
             this.flowLayout2.Paint += new System.Windows.Forms.PaintEventHandler(this.flowLayout2_Paint);
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.SystemColors.ActiveCaption;
-            this.panel2.Location = new System.Drawing.Point(3, 4);
-            this.panel2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(172, 79);
-            this.panel2.TabIndex = 0;
-            // 
-            // panel3
-            // 
-            this.panel3.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.panel3.Location = new System.Drawing.Point(181, 4);
-            this.panel3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(197, 79);
-            this.panel3.TabIndex = 1;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // textBox1
             // 
@@ -178,6 +157,15 @@
             this.label4.TabIndex = 12;
             this.label4.Text = "Flows";
             // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(3, 3);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(177, 79);
+            this.button2.TabIndex = 0;
+            this.button2.Text = "button2";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -211,14 +199,13 @@
         private System.Windows.Forms.TextBox inputBox;
         private System.Windows.Forms.FlowLayoutPanel flowLayout;
         private System.Windows.Forms.FlowLayoutPanel flowLayout2;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Button button2;
     }
 }
 

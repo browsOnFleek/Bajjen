@@ -2,11 +2,13 @@
 using System.Windows.Forms;
 using System.Collections.Generic;
 
+using System.Xml;
 
 namespace Bajjen
 {
     public partial class Form1 : Form
     {
+        
         public Form1()
         {
             InitializeComponent();
@@ -16,7 +18,7 @@ namespace Bajjen
             foreach (string feed in feeds) {
 
                 listBox1.Items.Add(feed);
-
+            
 
 
             }
@@ -33,31 +35,42 @@ namespace Bajjen
         private void button1_Click(object sender, EventArgs e)
         {
 
-            Panel panels = new Panel();
-
-            Label labels = new Label();
-
-            labels.Text = textBox2.Text;
-
-            panels.Controls.Add(labels);
-
-            panels.BackColor = System.Drawing.SystemColors.ActiveCaption;
-      
            
-            panels.Size = new System.Drawing.Size(153, 63);
-            panels.TabIndex = 0;
-
-            flowLayout2.Controls.Add(panels);
-
 
 
             var dom = data.Ressfetch.fetchRss(inputBox.Text);
             string rssName = textBox1.Text;
             string chosenCategory = textBox2.Text;
             data.RssWriter.writeExisting(dom, rssName, chosenCategory);
-            listBox1.Items.Add(textBox1.Text);
+
+            
 
 
+
+            listBox1.Items.Clear();
+            flowLayout2.Controls.Clear();
+
+            List<string> feeds = data.FeedRetriever.getFeeds();
+            foreach (string feed in feeds)
+            {
+
+                listBox1.Items.Add(feed);
+
+            }
+
+            List<string> cats = data.FeedRetriever.getCats();
+            foreach (string cat in cats)
+            {
+
+                Button buttons = new Button();
+                buttons.Text = cat;
+
+                buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
+                buttons.Size = new System.Drawing.Size(153, 63);
+                buttons.TabIndex = 0;
+                flowLayout2.Controls.Add(buttons);
+
+            }
 
 
 
@@ -122,5 +135,7 @@ namespace Bajjen
         {
 
         }
+
+      
     }
 }

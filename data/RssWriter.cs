@@ -13,14 +13,34 @@ namespace data
 
         public static void writeExisting(XmlDocument dom, string rssName, string chosenCategory)
         {
+            bool _exists = false;
+            Console.WriteLine("elo");
 
-
-            feedElement = doc.CreateElement(rssName);
-            XmlElement Category = doc.CreateElement("category");
-            Category.InnerText = chosenCategory;
+            feedElement = doc.CreateElement("feed");
             feedElement.SetAttribute("feed", rssName);
-            doc.DocumentElement.AppendChild(feedElement);
-            feedElement.AppendChild(Category);
+
+            foreach (XmlNode getCategory in doc.DocumentElement.SelectNodes("category"))
+            {
+                string xmlCategory = getCategory.Attributes["cat"].Value;
+
+                Console.WriteLine("foreach");
+                if (chosenCategory.Equals(xmlCategory))
+                {
+                    _exists = true;
+                    Console.WriteLine("if");
+                    getCategory.AppendChild(feedElement);
+                }
+                
+            }
+
+            if(_exists == false)
+            {
+                 XmlElement category = doc.CreateElement("category");
+                 category.SetAttribute("cat", chosenCategory);
+            category.AppendChild(feedElement);
+            doc.DocumentElement.AppendChild(category);
+            }
+
 
             foreach (XmlNode channelItem
                in dom.DocumentElement.SelectNodes("channel/item"))

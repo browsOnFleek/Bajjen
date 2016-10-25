@@ -1,255 +1,1251 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <channel xmlns="Aslex">
-  <Aftonbladet feed="Aftonbladet" xmlns="">
-    <category>Tidningar</category>
-    <item>
-      <title>Statssekreterare reser ofta och dyrt</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Bil voltade efter krock med lastare</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Tände eld på krockad bil – tre gripna</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Ung kvinna till sjukhus – stacks i ena benet</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Dopad i OS – nu kan Smigun mista gulden</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Intervju med Blondinbella ställdes in</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Svenskt par i flygdrama i Paris</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>”Jag fick övertala frun i 20 minuter”</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Tittarsuccé för ”Så mycket bättre”</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Trafikbråk bakom misstänkt mordförsök</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Guardiolas krismöte:
-”Rödvinet var gott...”</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Tog med ”stödankan” Daniel på flyget</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Kraftig bilbrand på E4</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Kim Kardashian försvarar sin talang</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Storbrand i lägenhetshus i Motala</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>”Fick lyssna på kroppen varje kväll”</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Domen mot Fikru Maru – nästan 5 års fängelse i Etiopien</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Här äter programledaren malda syrsor</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Så undviker Britney katastrofen på scenen</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Fem döda i flygkrasch på Malta</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Flera viltolyckor i morgontrafiken</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Märkliga bilderna på Zlatans familj</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Sofia Wistams bror nära att dö i olyckan</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Nu ska ”Djungeln” jämnas med marken</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Man skjuten i Traneberg – ”träffad av flera skott”</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>L: Pröva utvisning för fler brott</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Trump har insett att han kan förlora</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Carl Larsson-gården i kris
-– utsattes för miljonsvindel</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Paul Hansen:
-”Det var långa minuter”</title>
-      <pod>Aftonbladet</pod>
-    </item>
-    <item>
-      <title>Brittisk polis gick på dejt – dödades av kannibal</title>
-      <pod>Aftonbladet</pod>
-    </item>
-  </Aftonbladet>
-  <AftonHoran feed="AftonHoran" xmlns="">
-    <category>Komedi</category>
-    <item>
-      <title>Statssekreterare reser ofta och dyrt</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Bil voltade efter krock med lastare</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Tände eld på krockad bil – tre gripna</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Ung kvinna till sjukhus – stacks i ena benet</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Dopad i OS – nu kan Smigun mista gulden</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Intervju med Blondinbella ställdes in</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Svenskt par i flygdrama i Paris</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>”Jag fick övertala frun i 20 minuter”</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Tittarsuccé för ”Så mycket bättre”</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Trafikbråk bakom misstänkt mordförsök</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Guardiolas krismöte:
-”Rödvinet var gott...”</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Tog med ”stödankan” Daniel på flyget</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Kraftig bilbrand på E4</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Kim Kardashian försvarar sin talang</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Storbrand i lägenhetshus i Motala</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>”Fick lyssna på kroppen varje kväll”</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Domen mot Fikru Maru – nästan 5 års fängelse i Etiopien</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Här äter programledaren malda syrsor</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Så undviker Britney katastrofen på scenen</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Fem döda i flygkrasch på Malta</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Flera viltolyckor i morgontrafiken</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Märkliga bilderna på Zlatans familj</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Sofia Wistams bror nära att dö i olyckan</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Nu ska ”Djungeln” jämnas med marken</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Man skjuten i Traneberg – ”träffad av flera skott”</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>L: Pröva utvisning för fler brott</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Trump har insett att han kan förlora</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Carl Larsson-gården i kris
-– utsattes för miljonsvindel</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Paul Hansen:
-”Det var långa minuter”</title>
-      <pod>AftonHoran</pod>
-    </item>
-    <item>
-      <title>Brittisk polis gick på dejt – dödades av kannibal</title>
-      <pod>AftonHoran</pod>
-    </item>
-  </AftonHoran>
+  <category cat="Nyhet" xmlns="">
+    <feed feed="goss">
+      <item>
+        <title>Polisrazzior i flera regioner i Tyskland</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Migrationsverket släpper ny prognos</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>MFF:s Eikrem tränade inte med laget</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Beroende av Coca-cola - förlorade fem tänder</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Fotbollsförbundet: "Det räcker nu!"</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Lotta misshandlades till döds – i dag föll domen</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Svenska Petras uppfinning räddar hundratusentals liv</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Danny Saucedo om sin barnlängtan</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>IS tar på sig polisattacken</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Åklagaren vill öppna döde makens grav</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Uppgift: Liverpool vill värva Alexander Isak</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Jägartrio hittade lik i skärgården</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Här räddar Orlando Bloom en skadad hund</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Här vräks hundratals råttor - mitt i morgonrusningen</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Explosion i turistorten Antalya</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>”Unitedspelarna är
+besvikna på Mou”</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Cyklist påkörd av bil – allvarligt skadad</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Fyra döda i olycka på nöjespark</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Politiker avgår efter mc-fortkörning</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Trump till attack mot porrstjärna</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Du kan aldrig gissa resultatet i matchen</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Taxibil började brinna på E4</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Det är tomatens värsta fiende</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Vakterna spred rasism – klubbarnas tillstånd utreds</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Oartigt och arrogant, Svenska Akademien</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Myndigheterna svek – det blev Lottas död</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Brittisk bankman anklagas för att ha torterat, filmat och dödat två kvinnor</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Våldtog 12-åriga dottern – släpps efter bara 60 dagar</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Firar i soffan – ska
+spara in på pengar</title>
+        <pod>goss</pod>
+      </item>
+      <item>
+        <title>Personbästa på stången – då händer detta</title>
+        <pod>goss</pod>
+      </item>
+    </feed>
+    <feed feed="fint">
+      <item>
+        <title>Polisrazzior i flera regioner i Tyskland</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Migrationsverket släpper ny prognos</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>MFF:s Eikrem tränade inte med laget</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Beroende av Coca-cola - förlorade fem tänder</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Fotbollsförbundet: "Det räcker nu!"</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Lotta misshandlades till döds – i dag föll domen</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Svenska Petras uppfinning räddar hundratusentals liv</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Danny Saucedo om sin barnlängtan</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>IS tar på sig polisattacken</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Åklagaren vill öppna döde makens grav</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Uppgift: Liverpool vill värva Alexander Isak</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Jägartrio hittade lik i skärgården</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Här räddar Orlando Bloom en skadad hund</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Här vräks hundratals råttor - mitt i morgonrusningen</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Explosion i turistorten Antalya</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>”Unitedspelarna är
+besvikna på Mou”</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Cyklist påkörd av bil – allvarligt skadad</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Fyra döda i olycka på nöjespark</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Politiker avgår efter mc-fortkörning</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Trump till attack mot porrstjärna</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Du kan aldrig gissa resultatet i matchen</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Taxibil började brinna på E4</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Det är tomatens värsta fiende</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Vakterna spred rasism – klubbarnas tillstånd utreds</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Oartigt och arrogant, Svenska Akademien</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Myndigheterna svek – det blev Lottas död</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Brittisk bankman anklagas för att ha torterat, filmat och dödat två kvinnor</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Våldtog 12-åriga dottern – släpps efter bara 60 dagar</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Firar i soffan – ska
+spara in på pengar</title>
+        <pod>fint</pod>
+      </item>
+      <item>
+        <title>Personbästa på stången – då händer detta</title>
+        <pod>fint</pod>
+      </item>
+    </feed>
+  </category>
+  <category cat="Skit" xmlns="">
+    <feed feed="findus">
+      <item>
+        <title>Polisrazzior i flera regioner i Tyskland</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Migrationsverket släpper ny prognos</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>MFF:s Eikrem tränade inte med laget</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Beroende av Coca-cola - förlorade fem tänder</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Fotbollsförbundet: "Det räcker nu!"</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Lotta misshandlades till döds – i dag föll domen</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Svenska Petras uppfinning räddar hundratusentals liv</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Danny Saucedo om sin barnlängtan</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>IS tar på sig polisattacken</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Åklagaren vill öppna döde makens grav</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Uppgift: Liverpool vill värva Alexander Isak</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Jägartrio hittade lik i skärgården</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Här räddar Orlando Bloom en skadad hund</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Här vräks hundratals råttor - mitt i morgonrusningen</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Explosion i turistorten Antalya</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>”Unitedspelarna är
+besvikna på Mou”</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Cyklist påkörd av bil – allvarligt skadad</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Fyra döda i olycka på nöjespark</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Politiker avgår efter mc-fortkörning</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Trump till attack mot porrstjärna</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Du kan aldrig gissa resultatet i matchen</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Taxibil började brinna på E4</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Det är tomatens värsta fiende</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Vakterna spred rasism – klubbarnas tillstånd utreds</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Oartigt och arrogant, Svenska Akademien</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Myndigheterna svek – det blev Lottas död</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Brittisk bankman anklagas för att ha torterat, filmat och dödat två kvinnor</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Våldtog 12-åriga dottern – släpps efter bara 60 dagar</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Firar i soffan – ska
+spara in på pengar</title>
+        <pod>findus</pod>
+      </item>
+      <item>
+        <title>Personbästa på stången – då händer detta</title>
+        <pod>findus</pod>
+      </item>
+    </feed>
+  </category>
+  <category cat="dvs" xmlns="">
+    <feed feed="tag">
+      <item>
+        <title>Polisrazzior i flera regioner i Tyskland</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Migrationsverket släpper ny prognos</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>MFF:s Eikrem tränade inte med laget</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Beroende av Coca-cola - förlorade fem tänder</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Fotbollsförbundet: "Det räcker nu!"</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Lotta misshandlades till döds – i dag föll domen</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Svenska Petras uppfinning räddar hundratusentals liv</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Danny Saucedo om sin barnlängtan</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>IS tar på sig polisattacken</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Åklagaren vill öppna döde makens grav</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Uppgift: Liverpool vill värva Alexander Isak</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Jägartrio hittade lik i skärgården</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Här räddar Orlando Bloom en skadad hund</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Här vräks hundratals råttor - mitt i morgonrusningen</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Explosion i turistorten Antalya</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>”Unitedspelarna är
+besvikna på Mou”</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Cyklist påkörd av bil – allvarligt skadad</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Fyra döda i olycka på nöjespark</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Politiker avgår efter mc-fortkörning</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Trump till attack mot porrstjärna</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Du kan aldrig gissa resultatet i matchen</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Taxibil började brinna på E4</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Det är tomatens värsta fiende</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Vakterna spred rasism – klubbarnas tillstånd utreds</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Oartigt och arrogant, Svenska Akademien</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Myndigheterna svek – det blev Lottas död</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Brittisk bankman anklagas för att ha torterat, filmat och dödat två kvinnor</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Våldtog 12-åriga dottern – släpps efter bara 60 dagar</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Firar i soffan – ska
+spara in på pengar</title>
+        <pod>tag</pod>
+      </item>
+      <item>
+        <title>Personbästa på stången – då händer detta</title>
+        <pod>tag</pod>
+      </item>
+    </feed>
+  </category>
+  <category cat="Test" xmlns="">
+    <feed feed="dag">
+      <item>
+        <title>Polisrazzior i flera regioner i Tyskland</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Migrationsverket släpper ny prognos</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>MFF:s Eikrem tränade inte med laget</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Beroende av Coca-cola - förlorade fem tänder</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Fotbollsförbundet: "Det räcker nu!"</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Lotta misshandlades till döds – i dag föll domen</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Svenska Petras uppfinning räddar hundratusentals liv</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Danny Saucedo om sin barnlängtan</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Åklagaren får tillstånd att öppna döde makens grav</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Uppgift: Liverpool vill värva Alexander Isak</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Jägartrio hittade lik i skärgården</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Här räddar Orlando Bloom en skadad hund</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Här vräks hundratals råttor - mitt i morgonrusningen</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Explosion i turistorten Antalya</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>”Unitedspelarna är
+besvikna på Mou”</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Cyklist påkörd av bil – allvarligt skadad</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Fyra döda i olycka på nöjespark</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Politiker avgår efter mc-fortkörning</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Trump till attack mot porrstjärna</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Du kan aldrig gissa resultatet i matchen</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Taxibil började brinna på E4</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Det är tomatens värsta fiende</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Vakterna spred rasism – klubbarnas tillstånd utreds</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Oartigt och arrogant, Svenska Akademien</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Brittisk bankman anklagas för att ha torterat, filmat och dödat två kvinnor</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Våldtog 12-åriga dottern – släpps efter bara 60 dagar</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Personbästa på stången – då händer detta</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Syriska barn klädslavar i Turkiet</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Många döda i attack mot polisskola i Pakistan</title>
+        <pod>dag</pod>
+      </item>
+      <item>
+        <title>Löfven gör rätt när han åker till diktaturen Saudiarabien</title>
+        <pod>dag</pod>
+      </item>
+    </feed>
+  </category>
+  <category cat="Spor5t" xmlns="">
+    <feed feed="fickA">
+      <item>
+        <title>Premier League-klubb riskerar poängavdrag</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Polisrazzior i flera regioner i Tyskland</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Dubbelt så många överklaganden nästa år</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Fotbollsförbundet: "Det räcker nu!"</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Här är Pete Burns sista tv-framträdande</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Lotta misshandlades till döds – i dag föll domen</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Svenska Petras uppfinning räddar hundratusentals liv</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Danny Saucedo om sin barnlängtan</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Åklagaren får tillstånd att öppna döde makens grav</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Uppgift: Liverpool vill värva Alexander Isak</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Jägartrio hittade lik i skärgården</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Här räddar Orlando Bloom en skadad hund</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Här vräks hundratals råttor - mitt i morgonrusningen</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Explosion i turistorten Antalya</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>”Unitedspelarna är
+besvikna på Mou”</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Cyklist påkörd av bil – allvarligt skadad</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Fyra döda i olycka på nöjespark</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Politiker avgår efter mc-fortkörning</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Trump till attack mot porrstjärna</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Du kan aldrig gissa resultatet i matchen</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Taxibil började brinna på E4</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Det är tomatens värsta fiende</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Vakterna spred rasism – klubbarnas tillstånd utreds</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Oartigt och arrogant, Svenska Akademien</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Brittisk bankman anklagas för att ha torterat, filmat och dödat två kvinnor</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Våldtog 12-åriga dottern – släpps efter bara 60 dagar</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Personbästa på stången – då händer detta</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Syriska barn klädslavar i Turkiet</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Många döda i attack mot polisskola i Pakistan</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Löfven gör rätt när han åker till diktaturen Saudiarabien</title>
+        <pod>fickA</pod>
+      </item>
+    </feed>
+    <feed feed="fickA">
+      <item>
+        <title>Premier League-klubb riskerar poängavdrag</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Polisrazzior i flera regioner i Tyskland</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Dubbelt så många överklaganden nästa år</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Nej, vi ser inte bara kostnaderna för assistans</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Fotbollsförbundet: "Det räcker nu!"</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Här är Pete Burns sista tv-framträdande</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Lotta misshandlades till döds – i dag föll domen</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Svenska Petras uppfinning räddar hundratusentals liv</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Danny Saucedo om sin barnlängtan</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Åklagaren får tillstånd att öppna döde makens grav</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Uppgift: Liverpool vill värva Alexander Isak</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Jägartrio hittade lik i skärgården</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Här räddar Orlando Bloom en skadad hund</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Här vräks hundratals råttor - mitt i morgonrusningen</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Explosion i turistorten Antalya</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>”Unitedspelarna är
+besvikna på Mou”</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Cyklist påkörd av bil – allvarligt skadad</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Fyra döda i olycka på nöjespark</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Politiker avgår efter mc-fortkörning</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Trump till attack mot porrstjärna</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Du kan aldrig gissa resultatet i matchen</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Taxibil började brinna på E4</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Det är tomatens värsta fiende</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Vakterna spred rasism – klubbarnas tillstånd utreds</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Oartigt och arrogant, Svenska Akademien</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Brittisk bankman anklagas för att ha torterat, filmat och dödat två kvinnor</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Våldtog 12-åriga dottern – släpps efter bara 60 dagar</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Personbästa på stången – då händer detta</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Syriska barn klädslavar i Turkiet</title>
+        <pod>fickA</pod>
+      </item>
+      <item>
+        <title>Många döda i attack mot polisskola i Pakistan</title>
+        <pod>fickA</pod>
+      </item>
+    </feed>
+  </category>
+  <category cat="Kon" xmlns="">
+    <feed feed="dok">
+      <item>
+        <title>Premier League-klubb riskerar poängavdrag</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Polisrazzior i flera regioner i Tyskland</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Dubbelt så många överklaganden nästa år</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Nej, vi ser inte bara kostnaderna för assistans</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Fotbollsförbundet: "Det räcker nu!"</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Här är Pete Burns sista tv-framträdande</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Lotta misshandlades till döds – i dag föll domen</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Svenska Petras uppfinning räddar hundratusentals liv</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Danny Saucedo om sin barnlängtan</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Åklagaren får tillstånd att öppna döde makens grav</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Uppgift: Liverpool vill värva Alexander Isak</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Jägartrio hittade lik i skärgården</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Här räddar Orlando Bloom en skadad hund</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Här vräks hundratals råttor - mitt i morgonrusningen</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Explosion i turistorten Antalya</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>”Unitedspelarna är
+besvikna på Mou”</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Cyklist påkörd av bil – allvarligt skadad</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Fyra döda i olycka på nöjespark</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Politiker avgår efter mc-fortkörning</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Trump till attack mot porrstjärna</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Du kan aldrig gissa resultatet i matchen</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Taxibil började brinna på E4</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Det är tomatens värsta fiende</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Vakterna spred rasism – klubbarnas tillstånd utreds</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Oartigt och arrogant, Svenska Akademien</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Brittisk bankman anklagas för att ha torterat, filmat och dödat två kvinnor</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Våldtog 12-åriga dottern – släpps efter bara 60 dagar</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Personbästa på stången – då händer detta</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Syriska barn klädslavar i Turkiet</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Många döda i attack mot polisskola i Pakistan</title>
+        <pod>dok</pod>
+      </item>
+    </feed>
+    <feed feed="dok">
+      <item>
+        <title>Premier League-klubb riskerar poängavdrag</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Polisrazzior i flera regioner i Tyskland</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Dubbelt så många överklaganden nästa år</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Nej, vi ser inte bara kostnaderna för assistans</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Fotbollsförbundet: "Det räcker nu!"</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Här är Pete Burns sista tv-framträdande</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Lotta misshandlades till döds – i dag föll domen</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Svenska Petras uppfinning räddar hundratusentals liv</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Danny Saucedo om sin barnlängtan</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Åklagaren får tillstånd att öppna döde makens grav</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Uppgift: Liverpool vill värva Alexander Isak</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Jägartrio hittade lik i skärgården</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Här räddar Orlando Bloom en skadad hund</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Här vräks hundratals råttor - mitt i morgonrusningen</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Explosion i turistorten Antalya</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>”Unitedspelarna är
+besvikna på Mou”</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Cyklist påkörd av bil – allvarligt skadad</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Fyra döda i olycka på nöjespark</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Politiker avgår efter mc-fortkörning</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Trump till attack mot porrstjärna</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Du kan aldrig gissa resultatet i matchen</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Taxibil började brinna på E4</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Det är tomatens värsta fiende</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Vakterna spred rasism – klubbarnas tillstånd utreds</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Oartigt och arrogant, Svenska Akademien</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Brittisk bankman anklagas för att ha torterat, filmat och dödat två kvinnor</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Våldtog 12-åriga dottern – släpps efter bara 60 dagar</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Personbästa på stången – då händer detta</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Syriska barn klädslavar i Turkiet</title>
+        <pod>dok</pod>
+      </item>
+      <item>
+        <title>Många döda i attack mot polisskola i Pakistan</title>
+        <pod>dok</pod>
+      </item>
+    </feed>
+  </category>
+  <category cat="asd" xmlns="">
+    <feed feed="sdfa">
+      <item>
+        <title>Arbogadottern: Jag har alltid känt mig oönskad</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Premier League-klubb riskerar poängavdrag</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Polisrazzior i flera regioner i Tyskland</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Dubbelt så många överklaganden nästa år</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Nej, vi ser inte bara kostnaderna för assistans</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Beroende av Coca-cola - förlorade fem tänder</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Fotbollsförbundet: "Det räcker nu!"</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Lotta misshandlades till döds – i dag föll domen</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Svenska Petras uppfinning räddar hundratusentals liv</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Danny Saucedo om sin barnlängtan</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Uppgift: Liverpool vill värva Alexander Isak</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Jägartrio hittade lik i skärgården</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Här räddar Orlando Bloom en skadad hund</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Här vräks hundratals råttor - mitt i morgonrusningen</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Explosion i turistorten Antalya</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>”Unitedspelarna är
+besvikna på Mou”</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Cyklist påkörd av bil – allvarligt skadad</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Fyra döda i olycka på nöjespark</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Politiker avgår efter mc-fortkörning</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Trump till attack mot porrstjärna</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Du kan aldrig gissa resultatet i matchen</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Taxibil började brinna på E4</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Det är tomatens värsta fiende</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Vakterna spred rasism – klubbarnas tillstånd utreds</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Oartigt och arrogant, Svenska Akademien</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Brittisk bankman anklagas för att ha torterat, filmat och dödat två kvinnor</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Våldtog 12-åriga dottern – släpps efter bara 60 dagar</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Personbästa på stången – då händer detta</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Syriska barn klädslavar i Turkiet</title>
+        <pod>sdfa</pod>
+      </item>
+      <item>
+        <title>Många döda i attack mot polisskola i Pakistan</title>
+        <pod>sdfa</pod>
+      </item>
+    </feed>
+  </category>
 </channel>

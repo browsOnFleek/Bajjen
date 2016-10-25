@@ -42,7 +42,7 @@ namespace data
             doc = Ressfetch.fetchBase();
 
             foreach (XmlNode item
-                        in doc.DocumentElement.ChildNodes)
+                        in  doc.DocumentElement.SelectNodes("category/feed"))
             {
 
                 string check = item.Attributes["feed"].Value;
@@ -61,5 +61,31 @@ namespace data
 
         }
 
+        public static List<string> getCats()
+        {
+
+            List<string> feedList = new List<string>();
+
+
+            doc = Ressfetch.fetchBase();
+
+            foreach (XmlNode item
+                        in doc.DocumentElement.SelectNodes("category"))
+            {
+
+                string check = item.Attributes["cat"].Value;
+                Console.WriteLine(check);
+
+                feedList.Add(check);
+            }
+
+            List<string> distinctFeedList = feedList.Distinct().ToList();
+
+            return distinctFeedList;
+
+
+
+        }
+
+        }
     }
-}
