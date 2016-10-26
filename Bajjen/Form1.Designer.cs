@@ -39,8 +39,6 @@
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.label4 = new System.Windows.Forms.Label();
-            this.button2 = new System.Windows.Forms.Button();
-            this.flowLayout2.SuspendLayout();
             this.SuspendLayout();
             // 
             // listBox1
@@ -94,7 +92,6 @@
             // 
             // flowLayout2
             // 
-            this.flowLayout2.Controls.Add(this.button2);
             this.flowLayout2.Location = new System.Drawing.Point(15, 16);
             this.flowLayout2.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.flowLayout2.Name = "flowLayout2";
@@ -157,15 +154,6 @@
             this.label4.TabIndex = 12;
             this.label4.Text = "Flows";
             // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(3, 3);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(177, 79);
-            this.button2.TabIndex = 0;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
@@ -186,7 +174,6 @@
             this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
             this.Name = "Form1";
             this.Text = "Form1";
-            this.flowLayout2.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -205,7 +192,6 @@
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Button button2;
     }
 }
 

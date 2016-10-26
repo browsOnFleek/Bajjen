@@ -18,10 +18,19 @@ namespace Bajjen
             foreach (string feed in feeds) {
 
                 listBox1.Items.Add(feed);
-            
 
+                List<string> cats = data.FeedRetriever.getCats();
+                foreach (string cat in cats)
+                {
+                    Button buttons = new Button();
+                    buttons.Text = cat;
 
-            }
+                    buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
+                    buttons.Size = new System.Drawing.Size(153, 63);
+                    buttons.TabIndex = 0;
+                    flowLayout2.Controls.Add(buttons);
+                }
+                }
 
             
 
