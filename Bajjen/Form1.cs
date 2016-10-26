@@ -28,6 +28,10 @@ namespace Bajjen
                     buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
                     buttons.Size = new System.Drawing.Size(153, 63);
                     buttons.TabIndex = 0;
+
+                    buttons.Click += btn1_click;
+
+
                     flowLayout2.Controls.Add(buttons);
                 }
                 }
@@ -126,6 +130,19 @@ namespace Bajjen
 
             }
         }
+
+
+
+        private void btn1_click(object sender, EventArgs e) {
+
+            Button button = sender as Button;
+
+            string cat = button.Text; 
+            
+           
+
+        }
+
 
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
