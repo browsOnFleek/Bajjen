@@ -19,24 +19,25 @@ namespace Bajjen
 
                 listBox1.Items.Add(feed);
 
-                List<string> cats = data.FeedRetriever.getCats();
-                foreach (string cat in cats)
-                {
-                    Button buttons = new Button();
-                    buttons.Text = cat;
-
-                    buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
-                    buttons.Size = new System.Drawing.Size(153, 63);
-                    buttons.TabIndex = 0;
-
-                    buttons.Click += btn1_click;
-
-
-                    flowLayout2.Controls.Add(buttons);
-                }
+                
                 }
 
-            
+            List<string> cats = data.FeedRetriever.getCats();
+            foreach (string cat in cats)
+            {
+                Button buttons = new Button();
+                buttons.Text = cat;
+
+                buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
+                buttons.Size = new System.Drawing.Size(153, 63);
+                buttons.TabIndex = 0;
+
+                buttons.Click += btn1_click;
+
+
+                flowLayout2.Controls.Add(buttons);
+            }
+
 
         }
 
@@ -81,6 +82,7 @@ namespace Bajjen
                 buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
                 buttons.Size = new System.Drawing.Size(153, 63);
                 buttons.TabIndex = 0;
+                buttons.Click += btn1_click;
                 flowLayout2.Controls.Add(buttons);
 
             }
@@ -134,14 +136,25 @@ namespace Bajjen
 
 
         private void btn1_click(object sender, EventArgs e) {
+            listBox1.Items.Clear();
+
 
             Button button = sender as Button;
 
-            string cat = button.Text; 
-            
-           
+            string cat = button.Text;
+            List<string> feeds = data.FeedRetriever.getCatFeeds(cat);
 
-        }
+            foreach (string feed in feeds)
+            {
+
+                listBox1.Items.Add(feed);
+
+
+
+
+            }
+
+            }
 
 
         private void panel3_Paint(object sender, PaintEventArgs e)

@@ -106,5 +106,36 @@ namespace data
 
         }
 
+        public static List<string> getCatFeeds(string category)
+        {
+            List<string> feedList = new List<string>();
+
+
+            doc = Ressfetch.fetchBase();
+
+            foreach (XmlNode item
+                        in doc.DocumentElement.SelectNodes("category"))
+            {
+
+                string check = item.Attributes["cat"].Value;
+                if (check.Equals(category))
+                {
+                    foreach (XmlNode catfeeds in item.ChildNodes)
+                    {
+                        string feed = catfeeds.Attributes["feed"].Value;
+                        feedList.Add(feed);
+                    }
+
+                }
+
+
+            }
+
+            List<string> distinctFeedList = feedList.Distinct().ToList();
+
+            return distinctFeedList;
+
         }
+
+    }
     }
