@@ -13,6 +13,10 @@ namespace data
 
 
         private static List<string> titleList;
+
+
+
+
         public static List<string> getFeed(string rssName)
         {
 
@@ -21,17 +25,32 @@ namespace data
 
             doc = Ressfetch.fetchBase();
 
-            foreach (XmlNode item
-                          in doc.DocumentElement.SelectNodes(rssName + "/item"))
+
+            foreach (XmlNode feed in doc.DocumentElement.SelectNodes("category/feed"))
             {
+                string feedString = feed.Attributes["feed"].Value;
 
-                string check = item.SelectSingleNode("title").InnerText;
+               
+                if (rssName.Equals(feedString))
+                {
 
-                titleList.Add(check);
+                    foreach (XmlNode item in feed.ChildNodes) {
+
+                        string title = item.SelectSingleNode("title").InnerText;
+                        titleList.Add(title);
+
+
+                    }
+
+
+
+                }
 
             }
 
+
             return titleList;
+           
         }
 
         public static List<string> getFeeds() {

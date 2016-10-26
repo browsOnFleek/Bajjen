@@ -101,6 +101,8 @@ namespace Bajjen
             int hello = listBox1.SelectedIndex;
             string rssName = listBox1.Items[hello].ToString();
 
+            
+
             foreach (string item in data.FeedRetriever.getFeed(rssName))
             {
 
@@ -145,6 +147,6 @@ namespace Bajjen
 
         }
 
-      
+
     }
 }
