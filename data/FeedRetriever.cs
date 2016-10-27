@@ -17,7 +17,7 @@ namespace data
 
 
 
-        public static List<string> getFeed(string rssName)
+        public static List<string> getFeed(string rssName, out string url)
         {
 
             titleList = new List<string>();
@@ -25,6 +25,7 @@ namespace data
 
             doc = Ressfetch.fetchBase();
 
+            url = "";
 
             foreach (XmlNode feed in doc.DocumentElement.SelectNodes("category/feed"))
             {
@@ -37,6 +38,8 @@ namespace data
                     foreach (XmlNode item in feed.ChildNodes) {
 
                         string title = item.SelectSingleNode("title").InnerText;
+
+                        url = item.SelectSingleNode("enclosure").InnerText;
                         titleList.Add(title);
 
 

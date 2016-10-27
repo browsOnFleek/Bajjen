@@ -17,8 +17,8 @@ namespace data
 
 
             await  xmlRefresh(sleeptime, url, rssName);
-         
 
+            Console.WriteLine("laddar om");
 
 
         }

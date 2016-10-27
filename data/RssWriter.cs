@@ -8,26 +8,28 @@ namespace data
 
         private static XmlDocument doc = Ressfetch.fetchBase();
         private static string title = "";
+        private static string enclosure = "";
         private static XmlElement feedElement;
+        
 
-
-        public static void writeExisting(XmlDocument dom, string rssName, string chosenCategory)
+        public static void writeExisting(XmlDocument dom, string rssName, string chosenCategory, string interval)
         {
             bool _exists = false;
-            Console.WriteLine("elo");
+            
 
             feedElement = doc.CreateElement("feed");
             feedElement.SetAttribute("feed", rssName);
+            feedElement.SetAttribute("interval", interval);
 
             foreach (XmlNode getCategory in doc.DocumentElement.SelectNodes("category"))
             {
                 string xmlCategory = getCategory.Attributes["cat"].Value;
 
-                Console.WriteLine("foreach");
+                
                 if (chosenCategory.Equals(xmlCategory))
                 {
                     _exists = true;
-                    Console.WriteLine("if");
+                   
                     getCategory.AppendChild(feedElement);
                 }
                 
@@ -48,12 +50,17 @@ namespace data
 
                 title = channelItem.SelectSingleNode("title").InnerText;
 
+                enclosure = channelItem.SelectSingleNode("enclosure/@url").InnerText;
+
+                
+
 
 
                 addElements(rssName);
                 
 
             }
+         
         }
 
 
@@ -67,12 +74,16 @@ namespace data
             XmlElement podElement = doc.CreateElement("item");
             XmlElement titleElement = doc.CreateElement("title");
             XmlElement podCast = doc.CreateElement("pod");
+            XmlElement podurl = doc.CreateElement("enclosure");
+
             titleElement.InnerText = title;
+            podurl.InnerText = enclosure;
             podCast.InnerText = rssName;
 
 
 
             podElement.AppendChild(titleElement);
+            podElement.AppendChild(podurl);
             podElement.AppendChild(podCast);
             feedElement.AppendChild(podElement);
             doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");

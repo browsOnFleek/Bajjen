@@ -55,11 +55,10 @@ namespace Bajjen
             var dom = data.Ressfetch.fetchRss(inputBox.Text);
             string rssName = textBox1.Text;
             string chosenCategory = textBox2.Text;
-            data.RssWriter.writeExisting(dom, rssName, chosenCategory);
-
-            
 
 
+            string interval = "10000";
+            data.RssWriter.writeExisting(dom, rssName, chosenCategory, interval);
 
             listBox1.Items.Clear();
             flowLayout2.Controls.Clear();
@@ -67,9 +66,7 @@ namespace Bajjen
             List<string> feeds = data.FeedRetriever.getFeeds();
             foreach (string feed in feeds)
             {
-
                 listBox1.Items.Add(feed);
-
             }
 
             List<string> cats = data.FeedRetriever.getCats();
@@ -84,7 +81,6 @@ namespace Bajjen
                 buttons.TabIndex = 0;
                 buttons.Click += btn1_click;
                 flowLayout2.Controls.Add(buttons);
-
             }
 
 
@@ -103,32 +99,25 @@ namespace Bajjen
 
             flowLayout.Controls.Clear();
 
-
             int hello = listBox1.SelectedIndex;
             string rssName = listBox1.Items[hello].ToString();
-
+            string url = "";
             
 
-            foreach (string item in data.FeedRetriever.getFeed(rssName))
+            foreach (string item in data.FeedRetriever.getFeed(rssName, out url))
             {
 
 
+                Button playButtons = new Button();
+                playButtons.Text = item;
 
-                Panel panels = new Panel();
-
-                Label labels = new Label();
-
-                labels.Text = item;
-
-                panels.Controls.Add(labels);
-
-                panels.BackColor = System.Drawing.SystemColors.ActiveCaption;
+                playButtons.BackColor = System.Drawing.SystemColors.ActiveCaption;
+                playButtons.Size = new System.Drawing.Size(530, 63);
+                playButtons.TabIndex = 0;
+                playButtons.Click += playButtons_click;
+                flowLayout.Controls.Add(playButtons);
 
 
-                panels.Size = new System.Drawing.Size(153, 63);
-                panels.TabIndex = 0;
-
-                flowLayout.Controls.Add(panels);
 
             }
         }
@@ -157,6 +146,15 @@ namespace Bajjen
             }
 
 
+        private void playButtons_click(object sender, EventArgs e)
+        {
+            string url;
+
+            int hello = listBox1.SelectedIndex;
+            string rssName = listBox1.Items[hello].ToString();
+            data.FeedRetriever.getFeed(rssName, out url);
+            mediaPlayer.URL = url;
+        }
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
@@ -177,6 +175,11 @@ namespace Bajjen
 
         }
 
+        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
 
+        }
+
+ 
     }
 }
