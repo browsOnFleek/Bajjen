@@ -17,7 +17,7 @@ namespace data
 
 
 
-        public static List<string> getFeed(string rssName, out string url)
+        public static List<string> getFeed(string rssName)
         {
 
             titleList = new List<string>();
@@ -25,21 +25,20 @@ namespace data
 
             doc = Ressfetch.fetchBase();
 
-            url = "";
-
+        
             foreach (XmlNode feed in doc.DocumentElement.SelectNodes("category/feed"))
             {
                 string feedString = feed.Attributes["feed"].Value;
 
-               
+
                 if (rssName.Equals(feedString))
                 {
 
-                    foreach (XmlNode item in feed.ChildNodes) {
+                    foreach (XmlNode item in feed.ChildNodes)
+                    {
 
                         string title = item.SelectSingleNode("title").InnerText;
-
-                        url = item.SelectSingleNode("enclosure").InnerText;
+                        
                         titleList.Add(title);
 
 
@@ -53,10 +52,11 @@ namespace data
 
 
             return titleList;
-           
+
         }
 
-        public static List<string> getFeeds() {
+        public static List<string> getFeeds()
+        {
 
             List<string> feedList = new List<string>();
 
@@ -64,7 +64,7 @@ namespace data
             doc = Ressfetch.fetchBase();
 
             foreach (XmlNode item
-                        in  doc.DocumentElement.SelectNodes("category/feed"))
+                        in doc.DocumentElement.SelectNodes("category/feed"))
             {
 
                 string check = item.Attributes["feed"].Value;
@@ -72,7 +72,7 @@ namespace data
 
                 feedList.Add(check);
 
-                
+
 
             }
 
@@ -115,7 +115,7 @@ namespace data
 
 
             doc = Ressfetch.fetchBase();
-
+            
             foreach (XmlNode item
                         in doc.DocumentElement.SelectNodes("category"))
             {
@@ -140,5 +140,27 @@ namespace data
 
         }
 
+        public static string getEnclosure( string buttonText)
+        {
+            doc = Ressfetch.fetchBase();
+           string url = "";
+            Console.WriteLine("tobbe");
+            
+            foreach (XmlNode xmlTitle in doc.DocumentElement.SelectNodes("category/feed/item"))
+            {
+                string title = xmlTitle.SelectSingleNode("title").InnerText;
+                Console.WriteLine("bajs");
+
+                if (title.Equals(buttonText))
+                {
+                    url = xmlTitle.SelectSingleNode("enclosure").InnerText;
+                    Console.WriteLine("joakim");
+                }
+
+
+              
+            }
+            return url;
+        }
     }
-    }
+}

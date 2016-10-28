@@ -1,1156 +1,1392 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <channel xmlns="Aslex">
-  <category cat="Komedi" xmlns="">
+  <category cat="KOmedi" xmlns="">
     <feed feed="Alex" interval="10000">
+      <item>
+        <title>231. Undergången</title>
+        <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt231.mp3?dest-id=101204</enclosure>
+        <pod>Alex</pod>
+        <status>0</status>
+      </item>
       <item>
         <title>230. Gravid</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt230.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>229. Stamningen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt229.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>228. Strömmen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt228.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>227. Mumifierad</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt227.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>226. Abrakadabra</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt226.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>225. Bubblan spricker</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt225.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>224. Stenhårt</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt224.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>223. Bagge Bagge Bagge</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt223.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>222. Kräv Schulman</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt222.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>221. Staden sluttade</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt221.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>220. Syrerikt</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt220.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>219. Stories &amp; slogans</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/219.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>218. Go high</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/testttt.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>217. Obalans</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt217.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>216. Najho</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt216.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>215. DJ Alex</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aossavsnitt215.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>214. Arga leken</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt214.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>213. Råttkungen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt213.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>212. Odjuret</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt212.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>211. Brevet</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt211.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>210. Den kusliga dalen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt210.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>209. Protesterna</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt209.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>208. Erlings dröm</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt208.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>207. Dagboken</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt207.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>206. Traumedy</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt206.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>205. Renheten</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt205.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>204. Ring Sverige!</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt204.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>203. Udda känslor</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt203.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>202. O</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt202.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>201. Skurkarna</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt201.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>200. Avsnitt 200</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt200.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>199. En röst i natten</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt199.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>198. Beef Wellington</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt198.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>197. Belsebub</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/alexosigge197.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>196. Överraskad</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/alexosigge196.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>195. Födelsedagen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt195.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>194. Två tungor</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt194.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>193. Dejten</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt193.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>192. 10 centimeter</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt192.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>191. Dröm baby dröm</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt191.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>190. Mardrömsvisan</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt190.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>189. Rock 'n' roll</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt189.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>188. Erbjudandet</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt188.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>187. Årtusendets skitår</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt187.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>186. När ingen ser på</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt186.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>185. Zorro</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt185.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>184. Traditionerna</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt184.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>183. Romance</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt183.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>182. Betydelsen av rum</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt182.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>181. Hemligt</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt181.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>180. Dunderhonung</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt180.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>179. Klabbarn</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt179.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>178. Alive</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt178.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>177. Pigg och simulerad</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt177.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>176. Olikheterna</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt176.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>175. Schack matt</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt175.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>174. Hashtaggad</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt174.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>173. Lunch, Mr Clooney?</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt173.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>172. Detektivarbete</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosvsnitt172.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>171. Fem tårar</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt171.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>170. Levande döda</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt170.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>169. Första dagen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt169.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>168. Mysteriet</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt168.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>167. Bitter &amp; nyfiken</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt167.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>166. Frukostpojken</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt166.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>165. Aquarius</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt165.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>164. Sex &amp; vargar</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt164.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>163. Skräcksyn</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt163.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>162. Självspäkning</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt162.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>161. Kanske allvar</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt161.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>160. Sommarplåga</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt160.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>159. Fast i storyn</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt159.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>158. Korta glimtar</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt158.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>157. Måsarna</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt157.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>156. Gäsp... fnys...</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt156.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>155. Erfaren</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt155.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>154. Floden</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt154.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>153. Komma ut</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt153.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>152. Motorerna</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt152.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>151. Sagotåget</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt151.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>150. Vemod i slow-motion</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt150.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>149. Rå känsla</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt149.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>148. Gloria</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt148.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>147. Vit himmel</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt147.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>146. Befrielse</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt146.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>145. Pang! Nyqvist!</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt145.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>144. GREATEST HITS</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt144.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>143. Smörblomma</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt143.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>142. Skriva om historien</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt142.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>141. Gåshud! Rysning!</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt141.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>140. The Love You Make</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt140.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>139. Ögonkontakt</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt139.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>138. Död i 4D</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt138.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>137. En ring av eld</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt137.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>136. Avsnitt 1</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt136.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>135. Skulpturerna</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt135.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>134. Ond eller god?</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavnitt134.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>133. Aha!</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt133.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>132. Magneterna</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt132.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>131. Misslyckanden</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt131.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>130. Andemening</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt130.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>129. Tunn is</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt129.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>128. Maskulint</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/alexosigge128.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>127. Tre patienter</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt127.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>126. Skryt</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt126.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>125. Portalen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt125.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>124. Förlåt</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt124.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>123. Nyckelscenen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt123.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>122. Åldrande</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt122.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>121. Ostsugen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt121.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>120. Mannen i spegeln</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt120.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>119. Det outtalade</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/alexosigge119.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>118. Puss puss</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/alexosigge118.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>117. Nästan-magi</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt117.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>116. En stund på jorden</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt116.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>115. Skitsnacket</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt115.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>114. Satans tecken</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt114.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>113. Ungdom &amp; död</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/avznitt113.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>112. Eko</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt112.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>111. Känslostöld</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt111.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>110. Äntligen dans</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt110.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>109. Elaka röster</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt109.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>108. Segla hem bort</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt108.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>107. Oöppnade brev</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt107.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>106. Berättarna</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt106.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>105. Kedjan</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt105.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>104. Anmärkningar</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt104.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>103. Basisterna</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt103.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>102. Vi och dom</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt102.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>101. Femmänningen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt101.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>100. 100-poddaren live</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt100.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>99. Sova med fienden</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt99.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>98. Slumpens poesi</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt98.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>97. Sista spiken</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt97.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>96. Är han skön eller?</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt96.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>95. Frankrikeresan</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt95.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>94. Stora Alex</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt94.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>93. Galenskap</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt93.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>92. Lyckopodden</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt92.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>91. Brott och straff</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt91.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>90. Mörkrets hjärta</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt90.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>89. Hotfull baklänges</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt89.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>88. Farligt</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt88.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>87. Naken, betraktad</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/avsnitt87.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>86. Allt är borta</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt86.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>85. Svartsjuka</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt85.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>84. Viskleken</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt84.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>83. Svarta hål</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt83.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>82. God jul</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt82.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>81. Skandal!</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt81.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>80. Överhettad</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt80.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>79. Måste krossa</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt79.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>78. Johannes</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt78.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>77. Fisk?</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt77.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>76. Knuffen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt76_c.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>75. Tillbaka hem</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt75.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>74. Älskling</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt74.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>73. Sandras sinnen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/alexosigge73.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>72. Kaninhålet</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt72.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>71. Drifting</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt71.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>70. Juanita</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt70.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>69. Off the record</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt69.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>68. Ostkupan</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt68.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>67. Oordning</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt67.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>66. Sockrad &amp; smutsig</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt66.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>65. Världarna rulla</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt65.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>64. Lajv och död</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt64.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>63. Eller hur eller?</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt63.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>62. Ljus i natten</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt62.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>61. Vänner i kris</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/avsnitt61.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>60. Feministen Barbie</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt60.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>59. Bög-ön</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/avsnitt59.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>58. Omringade</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt58.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>57. Kronjuvelen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt57.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>56. Helvetets portar</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt56.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>55. Bortom orden</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt55.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>54. Studentsorg</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnit54.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>53. It's so fresh</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt53.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>52. Podden 1 år</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt52.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>51. Otrohet</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt51.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>50. No need to argue</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt50_itunes.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>49. Kysst på torget</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/avsnitt49.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>48. Beskjuten</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt48.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>47. Visst är vi kära?</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/avsnitt47_c.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>46. Brinnande lejon</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt46.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>45. Messias 2013</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt45.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>44. Nassim!</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt44.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>43. Nytt liv</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosvsnitt43.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>42. Uppbrott</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt42.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>41. Sänkt IQ</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt41.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>40. Spädgrisen</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt40.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>39. Corleone</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt39.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>38. Maskeraden</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt38.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>37. The Loonies</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt37.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>36. Klaustrofobisk</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt36.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>35. Livsfiender</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt35.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>34. "Jaharå!"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt34.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>33. "En död hund"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt33.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>32. "Mot Sauron"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt32.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>31. "Lilla jävla apekatt"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt31.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>30. "Stalker"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt30.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>29. "Jul-tyrannerna"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt29.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>28. "Köpt och ledsen"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/avsnitt28.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>27. "Glaset &amp; koppen"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt27.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>26. "Öronknips"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt26.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>25. "Dilemmat"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt25.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>24. "Frågepoddare"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt24_2.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>23. "Förlossningen"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt23.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>22. "Ödet"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt22.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>21. "Den inre resan"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/avsnitt21.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>20. "Jag vaknade skamsen"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt20.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>19. "Lukta finkel"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt19.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>18. "Du är Samuel"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt18.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>17. "We're back for you"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt17.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>16. "Lilla Alex is present"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt16.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>15. "Vi är barnen"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt15.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>14. "Jag vill krossa honom"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt14.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>13. "Jag är rörd av den analysen"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt13.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>12. "Ett skön-filter på rösten"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt12.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>11. "Veckans barn"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt11.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>10. "Don't clap just yet!"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt10.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>9. "Använd tänderna!"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt9.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>8. "Nu får du lugna dig!"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt8.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>7. "Diem Carpe"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt7.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>6. "Yeah, yeah, yeah"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt6.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>5. "Ett uppdrag från en högre makt"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt5.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>4. "I mörkret med liten matsked"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt4.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>3. "Att raka en piggvar"</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt3.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>2. Genier, känslomänniskor, potatisgratänger</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt2.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
       <item>
         <title>1. Välkomstavsnittet</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt1.mp3?dest-id=101204</enclosure>
         <pod>Alex</pod>
+        <status>0</status>
       </item>
     </feed>
   </category>

@@ -110,7 +110,7 @@ namespace Bajjen
             string url = "";
             
 
-            foreach (string item in data.FeedRetriever.getFeed(rssName, out url))
+            foreach (string item in data.FeedRetriever.getFeed(rssName))
             {
 
 
@@ -158,11 +158,14 @@ namespace Bajjen
 
         private void playButtons_click(object sender, EventArgs e)
         {
-            string url;
 
-            int hello = listBox1.SelectedIndex;
-            string rssName = listBox1.Items[hello].ToString();
-            data.FeedRetriever.getFeed(rssName, out url);
+            
+          Button button = sender as Button;
+          string buttonText = button.Text;
+            data.RssWriter.changeStatus(buttonText);
+            string url =  data.FeedRetriever.getEnclosure(buttonText);
+
+            Console.WriteLine(url);            
             mediaPlayer.URL = url;
         }
         private void panel3_Paint(object sender, PaintEventArgs e)
