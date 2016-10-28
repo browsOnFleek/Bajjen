@@ -27,9 +27,13 @@ namespace Bajjen
             {
                 Button buttons = new Button();
                 buttons.Text = cat;
-
+                buttons.FlatAppearance.BorderSize = 0;
+                buttons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
                 buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
                 buttons.Size = new System.Drawing.Size(153, 63);
+
+               buttons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+                buttons.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
                 buttons.TabIndex = 0;
 
                 buttons.Click += btn1_click;
@@ -78,6 +82,8 @@ namespace Bajjen
 
                 buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
                 buttons.Size = new System.Drawing.Size(153, 63);
+                buttons.FlatAppearance.BorderSize = 0;
+                buttons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
                 buttons.TabIndex = 0;
                 buttons.Click += btn1_click;
                 flowLayout2.Controls.Add(buttons);
@@ -112,8 +118,12 @@ namespace Bajjen
                 playButtons.Text = item;
 
                 playButtons.BackColor = System.Drawing.SystemColors.ActiveCaption;
-                playButtons.Size = new System.Drawing.Size(530, 63);
+                playButtons.Size = new System.Drawing.Size(130, 63);
                 playButtons.TabIndex = 0;
+                playButtons.FlatAppearance.BorderSize = 0;
+                playButtons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+                playButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+                playButtons.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
                 playButtons.Click += playButtons_click;
                 flowLayout.Controls.Add(playButtons);
 
@@ -180,6 +190,9 @@ namespace Bajjen
 
         }
 
- 
+        private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

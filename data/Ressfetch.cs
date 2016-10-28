@@ -29,7 +29,7 @@ namespace data
         {
 
             var dom = new XmlDocument();
-            dom.Load(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+            dom.Load(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
             return dom;
 
 
