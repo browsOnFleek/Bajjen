@@ -8,19 +8,20 @@ namespace Bajjen
 {
     public partial class Form1 : Form
     {
-        
+
         public Form1()
         {
             InitializeComponent();
 
             List<string> feeds = data.FeedRetriever.getFeeds();
 
-            foreach (string feed in feeds) {
+            foreach (string feed in feeds)
+            {
 
                 listBox1.Items.Add(feed);
 
-                
-                }
+
+            }
 
             List<string> cats = data.FeedRetriever.getCats();
             foreach (string cat in cats)
@@ -32,7 +33,7 @@ namespace Bajjen
                 buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
                 buttons.Size = new System.Drawing.Size(153, 63);
 
-               buttons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+                buttons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
                 buttons.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
                 buttons.TabIndex = 0;
 
@@ -53,7 +54,7 @@ namespace Bajjen
         private void button1_Click(object sender, EventArgs e)
         {
 
-           
+
 
 
             var dom = data.Ressfetch.fetchRss(inputBox.Text);
@@ -116,7 +117,7 @@ namespace Bajjen
 
         }
 
-      
+
 
         private void listBox1_Click(object sender, EventArgs e)
         {
@@ -126,23 +127,34 @@ namespace Bajjen
             int hello = listBox1.SelectedIndex;
             string rssName = listBox1.Items[hello].ToString();
             string url = "";
-            
 
-            foreach (string item in data.FeedRetriever.getFeed(rssName))
+
+            foreach (data.Podcast item in data.FeedRetriever.getFeed(rssName))
             {
 
 
                 Button playButtons = new Button();
-                playButtons.Text = item;
+                playButtons.Text = item.title;
+
 
                 playButtons.BackColor = System.Drawing.SystemColors.ActiveCaption;
                 playButtons.Size = new System.Drawing.Size(130, 63);
                 playButtons.TabIndex = 0;
                 playButtons.FlatAppearance.BorderSize = 0;
                 playButtons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-                playButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(74)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+                playButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
                 playButtons.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+
+                if (item.clicked.Equals("1"))
+                {
+                    playButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+
+
+
+                }
+
                 playButtons.Click += playButtons_click;
+
                 flowLayout.Controls.Add(playButtons);
 
 
@@ -152,7 +164,8 @@ namespace Bajjen
 
 
 
-        private void btn1_click(object sender, EventArgs e) {
+        private void btn1_click(object sender, EventArgs e)
+        {
             listBox1.Items.Clear();
 
 
@@ -171,19 +184,19 @@ namespace Bajjen
 
             }
 
-            }
+        }
 
 
         private void playButtons_click(object sender, EventArgs e)
         {
 
-            
-          Button button = sender as Button;
-          string buttonText = button.Text;
-            data.RssWriter.changeStatus(buttonText);
-            string url =  data.FeedRetriever.getEnclosure(buttonText);
 
-            Console.WriteLine(url);            
+            Button button = sender as Button;
+            string buttonText = button.Text;
+            data.RssWriter.changeStatus(buttonText);
+            string url = data.FeedRetriever.getEnclosure(buttonText);
+
+            Console.WriteLine(url);
             mediaPlayer.URL = url;
         }
         private void panel3_Paint(object sender, PaintEventArgs e)
