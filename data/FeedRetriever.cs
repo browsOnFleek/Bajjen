@@ -13,14 +13,14 @@ namespace data
 
 
         private static List<string> titleList;
+        private static List<Podcast> podList;
 
 
 
-
-        public static List<string> getFeed(string rssName)
+        public static List<Podcast> getFeed(string rssName)
         {
 
-            titleList = new List<string>();
+            podList = new List<Podcast>();
 
 
             doc = Ressfetch.fetchBase();
@@ -38,8 +38,15 @@ namespace data
                     {
 
                         string title = item.SelectSingleNode("title").InnerText;
+
+                        string clicked = item.SelectSingleNode("status").InnerText;
+
+                        string description = "n00b";
+
+                        Podcast pod = new Podcast(title, clicked, description);
                         
-                        titleList.Add(title);
+                        
+                        podList.Add(pod);
 
 
                     }
@@ -51,7 +58,7 @@ namespace data
             }
 
 
-            return titleList;
+            return podList;
 
         }
 
@@ -126,6 +133,9 @@ namespace data
                     foreach (XmlNode catfeeds in item.ChildNodes)
                     {
                         string feed = catfeeds.Attributes["feed"].Value;
+
+
+
                         feedList.Add(feed);
                     }
 
@@ -144,17 +154,17 @@ namespace data
         {
             doc = Ressfetch.fetchBase();
            string url = "";
-            Console.WriteLine("tobbe");
+            
             
             foreach (XmlNode xmlTitle in doc.DocumentElement.SelectNodes("category/feed/item"))
             {
                 string title = xmlTitle.SelectSingleNode("title").InnerText;
-                Console.WriteLine("bajs");
+                
 
                 if (title.Equals(buttonText))
                 {
                     url = xmlTitle.SelectSingleNode("enclosure").InnerText;
-                    Console.WriteLine("joakim");
+                    
                 }
 
 

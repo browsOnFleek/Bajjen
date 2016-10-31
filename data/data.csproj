@@ -41,6 +41,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FeedRetriever.cs" />
+    <Compile Include="Podcast.cs" />
     <Compile Include="RefreshXml.cs" />
     <Compile Include="Ressfetch.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />

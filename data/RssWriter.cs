@@ -87,8 +87,13 @@ namespace data
             podElement.AppendChild(podCast);
             podElement.AppendChild(podStatus);
             feedElement.AppendChild(podElement);
-            doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+            doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
         }
+
+
+
+
+
 
         public static void changeStatus(string buttonText)
         {
@@ -98,12 +103,16 @@ namespace data
             foreach (XmlNode xmlTitle in doc.DocumentElement.SelectNodes("category/feed/item"))
             {
                 string title = xmlTitle.SelectSingleNode("title").InnerText;
-                Console.WriteLine("bajs");
+
 
                 if (title.Equals(buttonText))
                 {
-                    xmlTitle.SelectSingleNode("title").InnerText = "1";
-                    Console.WriteLine("joakim");
+
+                    xmlTitle.SelectSingleNode("status").InnerText = "1";
+                    Console.WriteLine(title);
+                    Console.WriteLine("korv");
+
+                    doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
                 }
             }
         }
