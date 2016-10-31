@@ -87,7 +87,7 @@ namespace data
             podElement.AppendChild(podCast);
             podElement.AppendChild(podStatus);
             feedElement.AppendChild(podElement);
-            doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+            doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
         }
 
 
@@ -112,9 +112,37 @@ namespace data
                     Console.WriteLine(title);
                     Console.WriteLine("korv");
 
-                    doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+                    doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
                 }
             }
         }
+
+        public static void deleteFeed(string deleteFeed, string deleteCategory)
+        {
+            doc = Ressfetch.fetchBase();
+
+            foreach (XmlNode xmlFeed in doc.DocumentElement.SelectNodes("category/feed"))
+            {
+
+                string check = xmlFeed.Attributes["feed"].Value;
+
+
+                if (check.Equals(deleteFeed)) xmlFeed.ParentNode.RemoveChild(xmlFeed);
+
+                    doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+
+                
+
+    
+                }
+            foreach (XmlNode xmlCategory in doc.DocumentElement.SelectNodes("category"))
+            {
+                
+                string checkCategory = xmlCategory.Attributes["cat"].Value;
+                if (checkCategory.Equals(deleteCategory)) xmlCategory.ParentNode.RemoveChild(xmlCategory);
+                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+            }
+
+            }
     }
 }

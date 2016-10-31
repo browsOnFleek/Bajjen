@@ -79,7 +79,7 @@ namespace Bajjen
             {
                 MessageBox.Show("Please choose an interval!");
             }
-
+            
 
             data.RssWriter.writeExisting(dom, rssName, chosenCategory, interval);
 
@@ -105,6 +105,7 @@ namespace Bajjen
                 buttons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
                 buttons.TabIndex = 0;
                 buttons.Click += btn1_click;
+
                 flowLayout2.Controls.Add(buttons);
             }
 
@@ -199,6 +200,10 @@ namespace Bajjen
             Console.WriteLine(url);
             mediaPlayer.URL = url;
         }
+
+
+
+
         private void panel3_Paint(object sender, PaintEventArgs e)
         {
 
@@ -226,6 +231,40 @@ namespace Bajjen
 
         private void label4_Click(object sender, EventArgs e)
         {
+
+        }
+
+        private void deleteButton_Click(object sender, EventArgs e)
+        {
+            string deleteFeed = textBox1.Text;
+            string deleteCategory = textBox2.Text;
+            data.RssWriter.deleteFeed(deleteFeed, deleteCategory);
+
+               listBox1.Items.Clear();
+            flowLayout2.Controls.Clear();
+
+            List<string> feeds = data.FeedRetriever.getFeeds();
+            foreach (string feed in feeds)
+            {
+                listBox1.Items.Add(feed);
+            }
+
+            List<string> cats = data.FeedRetriever.getCats();
+            foreach (string cat in cats)
+            {
+
+                Button buttons = new Button();
+                buttons.Text = cat;
+
+                buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
+                buttons.Size = new System.Drawing.Size(153, 63);
+                buttons.FlatAppearance.BorderSize = 0;
+                buttons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+                buttons.TabIndex = 0;
+                buttons.Click += btn1_click;
+
+                flowLayout2.Controls.Add(buttons);
+            }
 
         }
     }

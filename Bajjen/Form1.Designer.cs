@@ -43,6 +43,7 @@
             this.label5 = new System.Windows.Forms.Label();
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.mediaPlayer = new AxWMPLib.AxWindowsMediaPlayer();
+            this.deleteButton = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.mediaPlayer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -204,12 +205,31 @@
             // 
             this.mediaPlayer.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.mediaPlayer.Enabled = true;
-            this.mediaPlayer.Location = new System.Drawing.Point(0, 983);
+            this.mediaPlayer.Location = new System.Drawing.Point(0, 777);
             this.mediaPlayer.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.mediaPlayer.Name = "mediaPlayer";
             this.mediaPlayer.OcxState = ((System.Windows.Forms.AxHost.State)(resources.GetObject("mediaPlayer.OcxState")));
-            this.mediaPlayer.Size = new System.Drawing.Size(1821, 45);
+            this.mediaPlayer.Size = new System.Drawing.Size(1619, 45);
             this.mediaPlayer.TabIndex = 17;
+            // 
+            // deleteButton
+            // 
+            this.deleteButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.deleteButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.deleteButton.FlatAppearance.BorderSize = 0;
+            this.deleteButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.deleteButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.deleteButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.deleteButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.deleteButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.deleteButton.Location = new System.Drawing.Point(1609, 580);
+            this.deleteButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.deleteButton.Name = "deleteButton";
+            this.deleteButton.Size = new System.Drawing.Size(177, 70);
+            this.deleteButton.TabIndex = 18;
+            this.deleteButton.Text = "DELETE";
+            this.deleteButton.UseVisualStyleBackColor = false;
+            this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
             // Form1
             // 
@@ -217,6 +237,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.ClientSize = new System.Drawing.Size(1619, 822);
+            this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.mediaPlayer);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.label5);
@@ -256,6 +277,7 @@
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.ComboBox comboBox1;
         private AxWMPLib.AxWindowsMediaPlayer mediaPlayer;
+        private System.Windows.Forms.Button deleteButton;
     }
 }
 
