@@ -44,6 +44,9 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.mediaPlayer = new AxWMPLib.AxWindowsMediaPlayer();
             this.deleteButton = new System.Windows.Forms.Button();
+            this.changeButton = new System.Windows.Forms.Button();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox3 = new System.Windows.Forms.TextBox();
             ((System.ComponentModel.ISupportInitialize)(this.mediaPlayer)).BeginInit();
             this.SuspendLayout();
             // 
@@ -181,7 +184,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(1347, 480);
+            this.label5.Location = new System.Drawing.Point(1346, 502);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(160, 32);
             this.label5.TabIndex = 14;
@@ -231,12 +234,53 @@
             this.deleteButton.UseVisualStyleBackColor = false;
             this.deleteButton.Click += new System.EventHandler(this.deleteButton_Click);
             // 
+            // changeButton
+            // 
+            this.changeButton.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            this.changeButton.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.changeButton.FlatAppearance.BorderSize = 0;
+            this.changeButton.FlatAppearance.MouseDownBackColor = System.Drawing.Color.Black;
+            this.changeButton.FlatAppearance.MouseOverBackColor = System.Drawing.Color.White;
+            this.changeButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.changeButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.changeButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.changeButton.Location = new System.Drawing.Point(1609, 658);
+            this.changeButton.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.changeButton.Name = "changeButton";
+            this.changeButton.Size = new System.Drawing.Size(177, 70);
+            this.changeButton.TabIndex = 19;
+            this.changeButton.Text = "CHANGE ";
+            this.changeButton.UseVisualStyleBackColor = false;
+            this.changeButton.Click += new System.EventHandler(this.changeButton_Click);
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.label6.Location = new System.Drawing.Point(1346, 658);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(176, 32);
+            this.label6.TabIndex = 20;
+            this.label6.Text = "NEW NAME";
+            // 
+            // textBox3
+            // 
+            this.textBox3.Location = new System.Drawing.Point(1352, 702);
+            this.textBox3.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.textBox3.Name = "textBox3";
+            this.textBox3.Size = new System.Drawing.Size(205, 26);
+            this.textBox3.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(20)))), ((int)(((byte)(20)))), ((int)(((byte)(20)))));
             this.ClientSize = new System.Drawing.Size(1619, 822);
+            this.Controls.Add(this.textBox3);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.changeButton);
             this.Controls.Add(this.deleteButton);
             this.Controls.Add(this.mediaPlayer);
             this.Controls.Add(this.comboBox1);
@@ -278,6 +322,9 @@
         private System.Windows.Forms.ComboBox comboBox1;
         private AxWMPLib.AxWindowsMediaPlayer mediaPlayer;
         private System.Windows.Forms.Button deleteButton;
+        private System.Windows.Forms.Button changeButton;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox3;
     }
 }
 

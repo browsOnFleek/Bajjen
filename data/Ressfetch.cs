@@ -3,7 +3,7 @@ using System.Xml;
 
 namespace data
 {
-    public static class Ressfetch
+    public abstract class Ressfetch
     {
 
         public static XmlDocument fetchRss(string url)

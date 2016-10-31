@@ -238,7 +238,7 @@ namespace Bajjen
         {
             string deleteFeed = textBox1.Text;
             string deleteCategory = textBox2.Text;
-            data.RssWriter.deleteFeed(deleteFeed, deleteCategory);
+            data.RssWriter.delete(deleteFeed, deleteCategory);
 
                listBox1.Items.Clear();
             flowLayout2.Controls.Clear();
@@ -266,6 +266,40 @@ namespace Bajjen
                 flowLayout2.Controls.Add(buttons);
             }
 
+        }
+
+        private void changeButton_Click(object sender, EventArgs e)
+        {
+            string changeFeedName = textBox1.Text;
+            string changeCategoryName = textBox2.Text;
+            string changeToName = textBox3.Text;
+            data.RssWriter.change(changeFeedName, changeCategoryName, changeToName);
+
+            listBox1.Items.Clear();
+            flowLayout2.Controls.Clear();
+
+            List<string> feeds = data.FeedRetriever.getFeeds();
+            foreach (string feed in feeds)
+            {
+                listBox1.Items.Add(feed);
+            }
+
+            List<string> cats = data.FeedRetriever.getCats();
+            foreach (string cat in cats)
+            {
+
+                Button buttons = new Button();
+                buttons.Text = cat;
+
+                buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
+                buttons.Size = new System.Drawing.Size(153, 63);
+                buttons.FlatAppearance.BorderSize = 0;
+                buttons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+                buttons.TabIndex = 0;
+                buttons.Click += btn1_click;
+
+                flowLayout2.Controls.Add(buttons);
+            }
         }
     }
 }

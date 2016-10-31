@@ -3,7 +3,7 @@ using System;
 
 namespace data
 {
-    public static class RssWriter
+    public  class RssWriter
     {
 
         private static XmlDocument doc = Ressfetch.fetchBase();
@@ -98,7 +98,7 @@ namespace data
         public static void changeStatus(string buttonText)
         {
             doc = Ressfetch.fetchBase();
-
+            
 
             foreach (XmlNode xmlTitle in doc.DocumentElement.SelectNodes("category/feed/item"))
             {
@@ -117,7 +117,7 @@ namespace data
             }
         }
 
-        public static void deleteFeed(string deleteFeed, string deleteCategory)
+        public static void delete(string deleteFeed, string deleteCategory)
         {
             doc = Ressfetch.fetchBase();
 
@@ -126,13 +126,9 @@ namespace data
 
                 string check = xmlFeed.Attributes["feed"].Value;
 
-
                 if (check.Equals(deleteFeed)) xmlFeed.ParentNode.RemoveChild(xmlFeed);
 
                     doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
-
-                
-
     
                 }
             foreach (XmlNode xmlCategory in doc.DocumentElement.SelectNodes("category"))
@@ -144,5 +140,29 @@ namespace data
             }
 
             }
+
+        public static void change(string changeFeedName, string changeCategoryName, string changeToName)
+        {
+            doc = Ressfetch.fetchBase();
+
+            foreach (XmlNode xmlFeed in doc.DocumentElement.SelectNodes("category/feed"))
+            {
+                string check = xmlFeed.Attributes["feed"].Value;
+                
+                if (check.Equals(changeFeedName)) xmlFeed.Attributes["feed"].Value = changeToName;
+
+                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+            }
+
+            foreach (XmlNode xmlCategory in doc.DocumentElement.SelectNodes("category"))
+            {
+
+                string checkCategory = xmlCategory.Attributes["cat"].Value;
+                if (checkCategory.Equals(changeCategoryName)) xmlCategory.Attributes["cat"].Value = changeToName;
+                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+            }
+
+
+        } 
     }
 }
