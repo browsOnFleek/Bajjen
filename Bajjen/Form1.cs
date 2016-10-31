@@ -61,7 +61,25 @@ namespace Bajjen
             string chosenCategory = textBox2.Text;
 
 
-            string interval = "10000";
+            string interval = "";
+            if(comboBox1.Text.Equals("30 sec"))
+            {
+                interval = "30000";
+            }
+            else if (comboBox1.Text.Equals("1 min"))
+            {
+                interval = "60000";
+            }
+            else if (comboBox1.Text.Equals("5 min"))
+            {
+                interval = "300000";
+            }
+            else
+            {
+                MessageBox.Show("Please choose an interval!");
+            }
+
+
             data.RssWriter.writeExisting(dom, rssName, chosenCategory, interval);
 
             listBox1.Items.Clear();
