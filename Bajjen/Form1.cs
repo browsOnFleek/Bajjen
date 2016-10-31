@@ -12,7 +12,7 @@ namespace Bajjen
         public Form1()
         {
             InitializeComponent();
-
+            
             List<string> feeds = data.FeedRetriever.getFeeds();
 
             foreach (string feed in feeds)
