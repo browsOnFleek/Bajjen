@@ -87,7 +87,7 @@ namespace data
             podElement.AppendChild(podCast);
             podElement.AppendChild(podStatus);
             feedElement.AppendChild(podElement);
-            doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+            doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
         }
 
 
@@ -112,7 +112,7 @@ namespace data
                     Console.WriteLine(title);
                     Console.WriteLine("korv");
 
-                    doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                    doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
                 }
             }
         }
@@ -129,7 +129,7 @@ namespace data
 
                 if (check.Equals(deleteFeed)) xmlFeed.ParentNode.RemoveChild(xmlFeed);
 
-                    doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                    doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
 
                 
 
@@ -140,7 +140,7 @@ namespace data
                 
                 string checkCategory = xmlCategory.Attributes["cat"].Value;
                 if (checkCategory.Equals(deleteCategory)) xmlCategory.ParentNode.RemoveChild(xmlCategory);
-                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
             }
 
             }

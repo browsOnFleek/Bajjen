@@ -3,11 +3,14 @@ using System.Windows.Forms;
 using System.Collections.Generic;
 
 using System.Xml;
+using System.Threading.Tasks;
+using System.Threading;
 
 namespace Bajjen
 {
     public partial class Form1 : Form
     {
+        private bool _isActive;
 
         public Form1()
         {
@@ -120,7 +123,7 @@ namespace Bajjen
 
 
 
-        private void listBox1_Click(object sender, EventArgs e)
+        private async void listBox1_Click(object sender, EventArgs e)
         {
 
             flowLayout.Controls.Clear();
@@ -129,38 +132,14 @@ namespace Bajjen
             string rssName = listBox1.Items[hello].ToString();
             string url = "";
 
+            List<Button> btnList = await xmlRefresh(rssName);
+            foreach (Button btn in btnList) {
 
-            foreach (data.Podcast item in data.FeedRetriever.getFeed(rssName))
-            {
-
-
-                Button playButtons = new Button();
-                playButtons.Text = item.title;
-
-
-                playButtons.BackColor = System.Drawing.SystemColors.ActiveCaption;
-                playButtons.Size = new System.Drawing.Size(130, 63);
-                playButtons.TabIndex = 0;
-                playButtons.FlatAppearance.BorderSize = 0;
-                playButtons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-                playButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-                playButtons.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-
-                if (item.clicked.Equals("1"))
-                {
-                    playButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-
-
-
-                }
-
-                playButtons.Click += playButtons_click;
-
-                flowLayout.Controls.Add(playButtons);
-
-
+                flowLayout.Controls.Add(btn);
 
             }
+
+
         }
 
 
@@ -267,5 +246,74 @@ namespace Bajjen
             }
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+          
+
+        }
+
+
+
+        public Task<List<Button>> xmlRefresh(string rssName)
+        {
+
+
+            return Task.Run(() =>
+            {
+                List<Button> podList = new List<Button>();
+
+
+
+                foreach (data.Podcast item in data.FeedRetriever.getFeed(rssName))
+                {
+
+
+                    Button playButtons = new Button();
+                    playButtons.Text = item.title;
+
+
+                    playButtons.BackColor = System.Drawing.SystemColors.ActiveCaption;
+                    playButtons.Size = new System.Drawing.Size(130, 63);
+                    playButtons.TabIndex = 0;
+                    playButtons.FlatAppearance.BorderSize = 0;
+                    playButtons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+                    playButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+                    playButtons.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+
+                    if (item.clicked.Equals("1"))
+                    {
+                        playButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+
+
+
+                    }
+
+                    playButtons.Click += playButtons_click;
+
+                    podList.Add(playButtons);
+                }
+
+
+                return podList;
+                
+            });
+
+
+        }
+
+
+
+
     }
+
+
+
+
+
+
+
+
+
 }
