@@ -6,13 +6,13 @@
         <title>231. Undergången</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt231.mp3?dest-id=101204</enclosure>
         <pod>TT</pod>
-        <status>0</status>
+        <status>1</status>
       </item>
       <item>
         <title>230. Gravid</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt230.mp3?dest-id=101204</enclosure>
         <pod>TT</pod>
-        <status>0</status>
+        <status>1</status>
       </item>
       <item>
         <title>229. Stamningen</title>
@@ -42,7 +42,7 @@
         <title>225. Bubblan spricker</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt225.mp3?dest-id=101204</enclosure>
         <pod>TT</pod>
-        <status>0</status>
+        <status>1</status>
       </item>
       <item>
         <title>224. Stenhårt</title>
@@ -1390,19 +1390,19 @@
       </item>
     </feed>
   </category>
-  <category cat="Komedi" xmlns="">
-    <feed feed="Tunedal" interval="60000">
+  <category cat="Satan" xmlns="">
+    <feed feed="Yes man" interval="60000">
       <item>
         <title>231. Undergången</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt231.mp3?dest-id=101204</enclosure>
         <pod>Tunedal</pod>
-        <status>0</status>
+        <status>1</status>
       </item>
       <item>
         <title>230. Gravid</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt230.mp3?dest-id=101204</enclosure>
         <pod>Tunedal</pod>
-        <status>0</status>
+        <status>1</status>
       </item>
       <item>
         <title>229. Stamningen</title>
@@ -1432,7 +1432,7 @@
         <title>225. Bubblan spricker</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt225.mp3?dest-id=101204</enclosure>
         <pod>Tunedal</pod>
-        <status>0</status>
+        <status>1</status>
       </item>
       <item>
         <title>224. Stenhårt</title>
@@ -2786,13 +2786,13 @@
         <title>231. Undergången</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt231.mp3?dest-id=101204</enclosure>
         <pod>Senaste</pod>
-        <status>0</status>
+        <status>1</status>
       </item>
       <item>
         <title>230. Gravid</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt230.mp3?dest-id=101204</enclosure>
         <pod>Senaste</pod>
-        <status>0</status>
+        <status>1</status>
       </item>
       <item>
         <title>229. Stamningen</title>
@@ -2822,7 +2822,7 @@
         <title>225. Bubblan spricker</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt225.mp3?dest-id=101204</enclosure>
         <pod>Senaste</pod>
-        <status>0</status>
+        <status>1</status>
       </item>
       <item>
         <title>224. Stenhårt</title>

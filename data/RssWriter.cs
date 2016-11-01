@@ -95,7 +95,7 @@ namespace data
 
 
 
-        public static void changeStatus(string buttonText)
+        public static void change(string buttonText)
         {
             doc = Ressfetch.fetchBase();
             

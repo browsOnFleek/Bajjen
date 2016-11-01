@@ -194,7 +194,7 @@ namespace Bajjen
 
             Button button = sender as Button;
             string buttonText = button.Text;
-            data.RssWriter.changeStatus(buttonText);
+            data.RssWriter.change(buttonText);
             string url = data.FeedRetriever.getEnclosure(buttonText);
 
             Console.WriteLine(url);
