@@ -15,7 +15,7 @@ namespace Bajjen
         public Form1()
         {
             InitializeComponent();
-            
+
             List<string> feeds = data.FeedRetriever.getFeeds();
 
             foreach (string feed in feeds)
@@ -66,7 +66,7 @@ namespace Bajjen
 
 
             string interval = "";
-            if(comboBox1.Text.Equals("30 sec"))
+            if (comboBox1.Text.Equals("30 sec"))
             {
                 interval = "30000";
             }
@@ -82,7 +82,7 @@ namespace Bajjen
             {
                 MessageBox.Show("Please choose an interval!");
             }
-            
+
 
             data.RssWriter.writeExisting(dom, rssName, chosenCategory, interval);
 
@@ -134,13 +134,14 @@ namespace Bajjen
             string url = "";
 
             List<Button> btnList = await xmlRefresh(rssName);
-            foreach (Button btn in btnList) {
+            foreach (Button btn in btnList)
+            {
 
                 flowLayout.Controls.Add(btn);
 
             }
 
-            data.RefreshXml.startXmlRefresher(10000, "http://alexosigge.libsyn.com/rss" ,rssName);
+            data.RefreshXml.startXmlRefresher(10000, "http://alexosigge.libsyn.com/rss", rssName);
         }
 
 
@@ -174,7 +175,7 @@ namespace Bajjen
 
             Button button = sender as Button;
             string buttonText = button.Text;
-            data.RssWriter.changeStatus(buttonText);
+            data.RssWriter.change(buttonText);
             string url = data.FeedRetriever.getEnclosure(buttonText);
 
             Console.WriteLine(url);
@@ -218,9 +219,9 @@ namespace Bajjen
         {
             string deleteFeed = textBox1.Text;
             string deleteCategory = textBox2.Text;
-            data.RssWriter.deleteFeed(deleteFeed, deleteCategory);
+            data.RssWriter.delete(deleteFeed, deleteCategory);
 
-               listBox1.Items.Clear();
+            listBox1.Items.Clear();
             flowLayout2.Controls.Clear();
 
             List<string> feeds = data.FeedRetriever.getFeeds();
@@ -251,7 +252,7 @@ namespace Bajjen
         private void button2_Click(object sender, EventArgs e)
         {
 
-          
+
 
         }
 
@@ -298,23 +299,52 @@ namespace Bajjen
 
 
                 return podList;
-                
+
             });
 
 
         }
 
+        private void changeButton_Click(object sender, EventArgs e)
+        {
+            string changeFeedName = textBox1.Text;
+            string changeCategoryName = textBox2.Text;
+            string changeToName = textBox3.Text;
+            data.RssWriter.change(changeFeedName, changeCategoryName, changeToName);
+
+            listBox1.Items.Clear();
+            flowLayout2.Controls.Clear();
+
+            List<string> feeds = data.FeedRetriever.getFeeds();
+            foreach (string feed in feeds)
+            {
+                listBox1.Items.Add(feed);
+            }
+
+            List<string> cats = data.FeedRetriever.getCats();
+            foreach (string cat in cats)
+            {
+
+                Button buttons = new Button();
+                buttons.Text = cat;
+
+                buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
+                buttons.Size = new System.Drawing.Size(153, 63);
+                buttons.FlatAppearance.BorderSize = 0;
+                buttons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+                buttons.TabIndex = 0;
+                buttons.Click += btn1_click;
+
+                flowLayout2.Controls.Add(buttons);
+            }
+        }
+
+
+
 
 
 
     }
-
-
-
-
-
-
-
 
 
 }
