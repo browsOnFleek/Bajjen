@@ -173,6 +173,44 @@ namespace data
             return url;
         }
 
-  
+
+
+
+
+        public static string getUrl(string feedName)
+        {
+            doc = Ressfetch.fetchBase();
+            string url = "";
+
+            foreach (XmlNode xmlattributes in doc.DocumentElement.SelectNodes("category/feed"))
+            {
+                string xmlFeedName = xmlattributes.Attributes["feed"].Value;
+                if (xmlFeedName.Equals(feedName))
+                {
+                    url = xmlattributes.Attributes["url"].Value;
+                }
+            }
+            return url;
+        }
+
+
+        public static string getDescription(string buttonText)
+        {
+            doc = Ressfetch.fetchBase();
+            string description = "";
+
+            foreach (XmlNode xmlitem in doc.DocumentElement.SelectNodes("category/feed/item"))
+            {
+                string title = xmlitem.SelectSingleNode("title").InnerText;
+                if (title.Equals(buttonText))
+                {
+                    description = xmlitem.SelectSingleNode("description").InnerText; 
+                }
+            }
+            return description;
+        }
+
+
+
     }
 }

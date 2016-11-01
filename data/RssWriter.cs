@@ -10,10 +10,11 @@ namespace data
         private static string title = "";
         private static string enclosure = "";
         private static string status = "0";
+        private static string description = "";
         private static XmlElement feedElement;
 
 
-        public static void writeExisting(XmlDocument dom, string rssName, string chosenCategory, string interval)
+        public static void writeExisting(XmlDocument dom, string rssName, string chosenCategory, string interval, string url)
         {
             bool _exists = false;
 
@@ -21,6 +22,7 @@ namespace data
             feedElement = doc.CreateElement("feed");
             feedElement.SetAttribute("feed", rssName);
             feedElement.SetAttribute("interval", interval);
+            feedElement.SetAttribute("url", url);
 
             foreach (XmlNode getCategory in doc.DocumentElement.SelectNodes("category"))
             {
@@ -53,7 +55,7 @@ namespace data
 
                 enclosure = channelItem.SelectSingleNode("enclosure/@url").InnerText;
 
-
+                description = channelItem.SelectSingleNode("description").InnerText;
                 addElements(rssName);
 
 
@@ -74,18 +76,20 @@ namespace data
             XmlElement podCast = doc.CreateElement("pod");
             XmlElement podurl = doc.CreateElement("enclosure");
             XmlElement podStatus = doc.CreateElement("status");
+            XmlElement podDescription = doc.CreateElement("description");
 
             titleElement.InnerText = title;
             podurl.InnerText = enclosure;
             podCast.InnerText = rssName;
             podStatus.InnerText = status;
-
+            podDescription.InnerText = description;
 
 
             podElement.AppendChild(titleElement);
             podElement.AppendChild(podurl);
             podElement.AppendChild(podCast);
             podElement.AppendChild(podStatus);
+            podElement.AppendChild(podDescription);
             feedElement.AppendChild(podElement);
             doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
         }
@@ -141,16 +145,19 @@ namespace data
 
         }
 
-        public static void change(string changeFeedName, string changeCategoryName, string changeToName)
+        public static void change(string changeFeedName, string changeCategoryName, string changeToName, string feedName)
         {
             doc = Ressfetch.fetchBase();
 
             foreach (XmlNode xmlFeed in doc.DocumentElement.SelectNodes("category/feed"))
             {
                 string check = xmlFeed.Attributes["feed"].Value;
+                
 
                 if (check.Equals(changeFeedName)) xmlFeed.Attributes["feed"].Value = changeToName;
-
+                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+               
+                if (check.Equals(feedName)) xmlFeed.Attributes["url"].Value = changeToName;
                 doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
             }
 

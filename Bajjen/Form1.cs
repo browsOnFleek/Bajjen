@@ -57,13 +57,13 @@ namespace Bajjen
         private void button1_Click(object sender, EventArgs e)
         {
 
-
+            
 
 
             var dom = data.Ressfetch.fetchRss(inputBox.Text);
             string rssName = textBox1.Text;
             string chosenCategory = textBox2.Text;
-
+            string url = inputBox.Text;
 
             string interval = "";
             if (comboBox1.Text.Equals("30 sec"))
@@ -84,7 +84,7 @@ namespace Bajjen
             }
 
 
-            data.RssWriter.writeExisting(dom, rssName, chosenCategory, interval);
+            data.RssWriter.writeExisting(dom, rssName, chosenCategory, interval, url);
 
             listBox1.Items.Clear();
             flowLayout2.Controls.Clear();
@@ -172,12 +172,13 @@ namespace Bajjen
         private void playButtons_click(object sender, EventArgs e)
         {
 
-
+            richTextBox1.Clear();
             Button button = sender as Button;
             string buttonText = button.Text;
             data.RssWriter.change(buttonText);
             string url = data.FeedRetriever.getEnclosure(buttonText);
-
+            string description = data.FeedRetriever.getDescription(buttonText);
+            richTextBox1.Text = description;
             Console.WriteLine(url);
             mediaPlayer.URL = url;
         }
@@ -307,10 +308,16 @@ namespace Bajjen
 
         private void changeButton_Click(object sender, EventArgs e)
         {
+
+            string feedName = inputBox.Text;
+           
             string changeFeedName = textBox1.Text;
             string changeCategoryName = textBox2.Text;
             string changeToName = textBox3.Text;
-            data.RssWriter.change(changeFeedName, changeCategoryName, changeToName);
+            
+            data.RssWriter.change(changeFeedName, changeCategoryName, changeToName, feedName);
+
+
 
             listBox1.Items.Clear();
             flowLayout2.Controls.Clear();
@@ -339,11 +346,10 @@ namespace Bajjen
             }
         }
 
+        private void inputBox_TextChanged(object sender, EventArgs e)
+        {
 
-
-
-
-
+        }
     }
 
 
