@@ -126,6 +126,7 @@ namespace Bajjen
         private async void listBox1_Click(object sender, EventArgs e)
         {
 
+            Console.WriteLine("hej");
             flowLayout.Controls.Clear();
 
             int hello = listBox1.SelectedIndex;
@@ -139,7 +140,7 @@ namespace Bajjen
 
             }
 
-
+            data.RefreshXml.startXmlRefresher(10000, "http://alexosigge.libsyn.com/rss" ,rssName);
         }
 
 

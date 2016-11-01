@@ -34,9 +34,7 @@ namespace data
                 {
 
                     var dom = Ressfetch.fetchRss(url);
-                   XmlEditor.writeExisting(dom, rssName);
-
-                    Console.WriteLine("done");
+                    XmlEditor.writeExisting(dom, rssName);
 
                     if (_isActive) Thread.Sleep(sleeptime);
 

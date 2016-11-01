@@ -17,13 +17,17 @@ namespace data
      
         private static XmlDocument doc = Ressfetch.fetchBase();
         private static string title = "";
-        private static XmlNode feedNode;
+        public static XmlNode feedNode;
 
 
         public static void writeExisting(XmlDocument dom, string rssName)
         {
 
-            XmlNode feedNode = doc.SelectSingleNode("//feed[@id='" +rssName+ "']");
+            feedNode = doc.SelectSingleNode("//feed[@feed='" +rssName+ "']");
+
+           string helloy = feedNode.Attributes["feed"].Value;
+            Console.WriteLine("tjo");
+            Console.WriteLine(helloy);
 
             foreach (XmlNode channelItem
                in dom.DocumentElement.SelectNodes("channel/item"))
@@ -32,14 +36,14 @@ namespace data
                 exist = false;
 
                 title = channelItem.SelectSingleNode("title").InnerText;
-
+                
                 lookForDubble(rssName);
 
             }
         }
 
 
-        private static void addElements(string rssName)
+        public static void addElements(string rssName)
         {
 
             XmlElement podElement = doc.CreateElement("item");
@@ -47,13 +51,13 @@ namespace data
             XmlElement podCast = doc.CreateElement("pod");
             titleElement.InnerText = title;
             podCast.InnerText = rssName;
+            string kokkos = feedNode.Attributes["feed"].Value;
 
-         
-
+            Console.WriteLine("korv");
             podElement.AppendChild(titleElement);
             podElement.AppendChild(podCast);
             feedNode.AppendChild(podElement);
-            doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+            doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
         }
 
 
@@ -67,7 +71,7 @@ namespace data
 
 
             foreach (XmlNode item
-                      in doc.DocumentElement.SelectNodes("item"))
+                      in doc.DocumentElement.SelectNodes("category/feed/item"))
             {
 
                 string check = item.SelectSingleNode("title").InnerText;
