@@ -164,7 +164,7 @@ namespace Bajjen
             string rssName = feedList.Items[index].ToString();
             string url = "";
             FeedLabel.Text = rssName;
-
+            string 
             List<Button> btnList = await xmlRefresh(rssName);
             foreach (Button btn in btnList)
             {
@@ -173,7 +173,7 @@ namespace Bajjen
 
             }
 
-    //        data.RefreshXml.startXmlRefresher(10000, "http://alexosigge.libsyn.com/rss", rssName);
+            data.RefreshXml.startXmlRefresher(10000, "http://api.sr.se/api/rss/pod/22209", rssName);
         }
 
 
@@ -446,20 +446,36 @@ namespace Bajjen
 
         private void changeCategoryButton_Click(object sender, EventArgs e)
         {
+            string chosenCategory = appendCatBox.Text;
             string feedName = FeedLabel.Text;
-            string newCatName = appendCatBox.Text;
-
+            string url = data.FeedRetriever.getUrl(feedName);
+            string interval = data.FeedRetriever.getInterval(feedName);
             List<string> cats = data.FeedRetriever.getCats();
+            Console.WriteLine(url);
 
-            if (cats.Contains(newCatName))
+            if ((data.Validation.emptyString(feedName) == false) && (cats.Contains(chosenCategory)))
             {
-               
+                data.RssWriter.deleteFeed(feedName);
+
+                var dom = data.Ressfetch.fetchRss(inputBox.Text);
+                data.RssWriter.addFeed(dom, feedName, chosenCategory, interval, url);
+
+                feedList.Items.Clear();
+                flowLayout2.Controls.Clear();
+
+
+                drawFeedList();
+                drawCategoryList();
+
             }
             else
             {
-                MessageBox.Show("kategorin finns inte tyvär");
+                MessageBox.Show("Tryck på den feed du vill ändra.");
             }
-            }
+
+
+
+        }
     }
 
 

@@ -1,5 +1,359 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <channel xmlns="Aslex">
-  <category cat="hej" xmlns="" />
-  <category cat="dig" xmlns="" />
+  <category cat="hej" xmlns="">
+  </category>
+  <category cat="dig" xmlns="">
+    <feed feed="popcoorn" interval="60000" url="http://api.sr.se/api/rss/pod/22209">
+      <item>
+        <title>Avsnitt 48: Getmannen II</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5886908.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Genom skrämda berättelser och suddiga mobilfilmklipp och bilder på sociala medier tog sig clownerna upp genom USA, över Atlanten och in på svenska gator.  Ni har inte kunnat undgå att märka dem. Lättare att missa har dock varit getmannen, som nu rapporteras från svenska skogar. Det har blivit dags att följa upp ett av Creepypoddens mest omtyckta avsnitt – det om den ökända hamnskiftaren i skogen... Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 47: Oönskad</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5878437.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Har du någonsin gått in i ett rum, och omedelbart ångrat dig?  Fått känslan av att någonting i rummet, eller i huset, kanske i själva luften, inte vill ha dig där? Att vara oönskad är ett klassiskt tema som återkommer i spökhistoria efter spökhistoria - och veckans Creepypodden hör ni en ruskig berättelse om ett gammalt släkthus i skärgården där det verkligen dyker upp igen.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 46: Isolerad</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5871050.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Att vara isolerad på en plats eller i ett rum eller i en situation, är inte det något vi alla fruktar?  Ensamheten, utsattheten, och ovissheten om när isolationen ska släppa. Skräcken för vad det nu är som isolerar oss. I dagens Creepypodden berättar vi om isolering på en skärgårdsö, på ett mystisk tågstation och på en ensam bondgård i USA... Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 45: Skräcken i Haukimaa</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5863659.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Under hösten har allt fler lyssnare börjat höra av sig med ett tips jag inte hört talas om förr. En berättelse som skildrar en märklig plats i Torne lappmark, och vad den gör med de som flyttar dit.  Nedtecknade vittnesmål i gamla historieböcker skildrar en märklig plats i Torne lappmark, och vad den gör med de som oturligt nog flyttar dit. Creepypodden hittade historiens författare – och fick tillstånd att berätta både den och en annan av hans norrländska spökhistorier.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se</description>
+      </item>
+      <item>
+        <title>Avsnitt 44: En berättelse vid lägerelden</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5852650.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Har du någonsin varit på läger?  Åh, att åka iväg med sina vänner, att berätta historier kring en brasa, att vara nära naturen. Det är en perfekt plats och tidpunkt för spökhistorier, och det är den stämningen Creepypodden alltid strävar efter. Och varför då inte försöka med ett avsnitt om just detta: om historier som utspelar sig ute bland tält och träd, bland skräckslaget fnissiga tonåringar?Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 43: Secure, Contain, Protect.</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5847184.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>I tusentals historier publicerade på en hemsida på nätet berättas om en värld som till synes ligger dold under vår egna.  Texterna är korta, sakliga, ja till och med torra, men tillsammans målar de upp en fruktansvärd bild… I dagens Creepypodden möter vi agenterna och forskarna i SCP Foundation, och några av de otänkbara monster de mött.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 42: Du sköna nya värld</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5837968.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>I våra moderna tider är det svårt att avgöra om blinkande lampor och krånglande hemteknologi beror på vanliga buggar eller något övernaturligt som gömmer sig i systemen.  Och med tanke på att den enklaste mobiltelefon hade verkat som någonting magiskt för vanliga människor för bara hundra år sedan är det kanske inte konstigt att vi fortfarande ser spöken i skärmarna. I dagens Creepypodden berättar vi om de spökena.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 41: Folktro II</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5831745.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>I skogen rör sig stora gestalter som påminner om de gamla berättelsernas troll, men vars tomma ansikten kanske i själva verket döljer en helt annan sorts ondska.  Två unga killar söker upp en tjärn där den ena tänkt utmana skogens krafter, men har han verkligen vågat offra det skogen kräver? I dagens avsnitt av Creepypodden besöker vi den svenska folktron igen – och anar vidden av naturens hämnd mot människan. Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 40: Har du drömt om denna man?</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5824060.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Han har ett runt ansikte med mörkt hår som tycks tunnas ut uppe på hjässan men hänger tjockt över öronen.  Hans ögonbryn är tjocka och har nästan vuxit ihop helt, och han har en potatisnäsa som sticker ut över hans breda mun. Känner du igen honom? Det kanske är för att du drömt om honom – precis som tusentals andra. I dagens avsnitt berättar vi om honom och andra varelser och skepnader som många människor tycker sig ha sett.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 39: Speciella omständigheter</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5817269.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Barn har en tendens att vända ens vardag upp och ner – såväl innan som efter de föds.  Men att som boende i Stockholm hitta en större bostad så familjen får plats med den nytillkomne är tyvärr lättare sagt än gjort. I dagens avsnitt, en specialare där ingen annan än John Ajvide Lindqvist står för berättelsen och Jack Werner står för berättandet, avslöjar vi om vad som händer när ett par struntar i märkliga varningar och flyttar in i en till synes perfekt villa… Historien är hämtad ur Ajvide Lindqvists bok ”Våran hud vårat blod våra ben”.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 38: I Vermonts skogar</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5771750.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Våren 2010 rullades en märklig historia upp på Reddit, om avlägsna och oförklarliga ljud, kraschade gamla flygplan och krånglande kameror.  En historia som berättaren själv inte orkade slutföra, utan som kanske fortfarande pågår sig uppe i de djupa, nordamerikanska skogarna. Dagens avsnitt är helt vigt åt den historien.Historien är skriven av Redditanvändare Ducttape36, finns publicerad här – http://creepycampingvt.blogspot.se/ – och är uppläst av Jack Werner och Ludvig Josephson.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 37: Vad barnen ser II</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5767673.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>En förälders främsta uppgift är att skydda ens barn.  Men vad kan föräldern – eller systern, kompisen eller läraren – göra om de inte själva ser hotet? I veckans avsnitt tar vi upp några av de många historier som skickats till Creepypodden sedan vi gjorde avsnitt 18, ”Vad barnen ser”. Ni hör om jultomtar, garderober, och Island – och hur alla tre kan göra en livrädd.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 36: Till sjöss</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5762078.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Människan har alltid burits vidare av den skräckblandade förtjusningen för vita fläckar på kartan.  Men haven, vattendragen, sjöarna, är inte vita fläckar – de är svarta fläckar. Vi vet var de finns på kartan men vet ingenting om vad de döljer. I veckans Creepypodden ska vi berätta historier om havets hemligheter.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 35: Nattskiftet II</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5759445.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>I vissa avsnitt råkar Creepypodden vidröra något av en känslig nerv – åtminstone en som många delar.  När vi i avsnitt 21 uppmärksammade upplevelser på arbetsplatsen var det många som hörde av sig och skrev att de också hade varit med om liknande saker. I dagens avsnitt berättar vi mer historier om kusligheter på kneget.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 34: Svensk folktro</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5759329.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>En lyssnare hör av sig med en historia om några märkliga passagerare på pendeltåget i Stockholm. De verkade - som det så ofta är i urgamla folksägner, folktro och myter - vara bara precis så förklädda som de behövde för att ta sig in mitt i vår vardag. Folktro finns fortfarande överallt omkring oss – och i dagens avsnitt berättar vi om hur.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 33: En skogvakts berättelser</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5750368.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>I en serie inlägg på nätet har en anonym skogvakt berättat om sina upplevelser i de till synes oändliga, djupa skogarna, där människor ibland går vilse och ibland – kanske ännu värre – hittas igen.  I veckans Creepypodden får ni veta mer än ni någonsin önskat om vad som kan gömma sig bakom nästa träd.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 32: På Gotland</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5744741.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Sedan urminnes tider har Gotland varit såväl en del av Sverige som någonting lite utanför.  Dess isolerade läge har låtit legender och sägner växa fram på egen hand, med toner och inslag som är unika – unikt kusliga. I veckans Creepypodden tar vi färjan över och undersöker vad som gömmer sig bakom blodiga väggar och ensliga hus.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se. </description>
+      </item>
+      <item>
+        <title>Avsnitt 31: Bakom scenerna</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5733057.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>I en populär funkgrupps kändaste singel hörs ett skrik i dödsångest, i en Tarantinofilm dör en skådespelare på riktigt och var det inte något konstigt med Måns under Eurovisionsfinalen?  I dagens Creepypodden tittar vi in bakom ridåerna och får en skrämmande inblick i vad som pågår bakom scenerna.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 30: Svenska galgbackar</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5729757.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Det är inte så länge sedan dödsstraffet var en vardagssak i Sverige.  Någon som du kan ha träffat kan ha träffat någon som var med när människor hängdes offentligt. I veckans Creepypodden vandrar vi mellan gamla kvarlämnade galgar och skogsdungar där mörkret hänger tungt, och hör om en tid när blod och våld var ett folknöje.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se. </description>
+      </item>
+      <item>
+        <title>Avsnitt 29: Deepweb</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5718787.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>”Du vet väl om att det internet du surfar på bara är en liten del av hela internet?”  Det sade lyssnaren Rebeckas pojkvän till henne, och nu önskar hon ett Creepypodden-avsnitt om det internet som gömmer sig bakom blockeringar och kryptering. Varsågod, Rebecka.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 28: Under ytan</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5716215.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Mitt i soliga Sommarsverige saknas en bensinmack. Under en skola öppnar sig okända korridorer. I dagens avsnitt av Creepypodden pratar vi om sådant som verkar gömma sig under ytan. Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 27: Gömt mitt ibland oss</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5708842.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Hus, lägenheter, parker, det finns många platser vi av olika skäl går omvägar för att slippa trots att det tar längre tid och är opraktiskt.  Vad är det som får oss att på det sättet krångla till våra liv? Vilken sorts händelser kan räcka för att skapa den rädslan? Vad är det som skapar ilningarna nedför ryggraden? Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 26: Sömnparalys</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5701703.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Har du någonsin vaknat paralyserad, och sedan sett skuggor och former röra sig i rummet?  Har du känt paniken stiga medan du legat där, med en droppe kallsvett rinnande på pannan, med ett tryck över bröstkorgen som nästan gör det omöjligt att andas? Då har du kanske upplevt fenomenet vi ska berätta om i dagens avsnitt – sömparalys.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se. </description>
+      </item>
+      <item>
+        <title>Avsnitt 25: Oändliga huset</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5687304.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>För 5000 kronor kan en fattig arbetssökande tänka sig göra mycket.  Och om det bara handlar om att promenera genom samtliga rum i ett märkligt hus så är det för många en självklar deal. För hur läskigt kan det egentligen bli där inne, liksom?Creepypodden är producerad av Ludvig Josephson som också gjort musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 24. När Matrix buggar</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5683224.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Det är lätt att tro att de forna tidernas urgamla sägnerna om okända skogsvarelser försvann då städerna började breda ut sig.  Men om man sedan går in på nätet och letar efter liknande upplevelser inser man något mer. Dessa händelser har aldrig slutat inträffa. De har bara bytt namn. I dag kallas de för buggar i The Matrix.Creepypodden är producerad av Ludvig Josephson och musiken i det här avsnittet gjordes av Stefanie Engl. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 23: Herre i huset</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5678819.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>När figurerna i tavlor, utsmyckningen i hyllorna, ja, till och med väggarna i huset tycks börja leva sitt eget liv – är det verkligen du som bestämmer i ditt eget hem då?  I dagens avsnitt tittar Creepypodden närmare på hur maktlösa vi människor ibland kan känna oss inför märkliga makter.Creepypodden är producerad av Ludvig Josephson och musiken i det här avsnittet gjordes av Stefanie Engl. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se. </description>
+      </item>
+      <item>
+        <title>Avsnitt 22:  Har du känt att någonting är här?</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5670492.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Det finns något med ensamheten i ett hus, och ljuden som hörs när man försöker sova.  Är du ensam? Är du i trygghet? Dagens Creepypodden har nöjet att presentera en hett efterfrågad spökhistoria från podden Knifepoint Horror – men bjuder också på en lyssnarhistoria från Enköping.</description>
+      </item>
+      <item>
+        <title>Avsnitt 21: Nattskiftet </title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5661658.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>En lyssnare visar en bild från sin vardag med Creepypodden, tusen meter under jordytan, och till hans ära ägnar sig veckans avsnitt åt märkliga upplevelser sena nätter på jobbet.  Historier från väktare, hantverkare och hotelltjänstemän, alla är de lika skrämmande. Creepypodden är producerad av Ludvig Josephson som också gjort musiken till det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 20: I din telefon</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5656417.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Dagens avsnitt handlar om din kära mobiltelefon. Den har du alltid i närheten, och den känner du dig alltid lite tryggare om du har i fickan Din telefon, som du inte riktigt vet exakt hur den fungerar, men som du ändå alltid litar på. Förutom när du tappat bort den, eller någon tagit den. Eller när den ser något du inte kan se.Creepypodden är producerad av Ludvig Josephson och musiken gjordes av Erik Edsbagge Engström. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 19: Creepypodden live</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5651291.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Om en av nätets största och mest skräckinjagande myter: Slender Man. Eller ”Slendy” som han också kallas av sina hängivna fans. Det här rysliga avsnittet av Creepypodden spelades in inför publik på Sveriges Radios festival DokuPodd. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 18: Vad barnen ser</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5642534.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Redan i den äldsta folktron finns det uppgifter om att barn och djur kan uppfatta sådant som vi vuxna inte märker, att de har ögon och öron som uppfattar saker ingen annan kan se eller höra. I dagens avsnitt ska vi berätta historier om vad barnen är med om, som de vuxna aldrig kan förstå.Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 17: Försvunnen</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5634835.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Det händer att människor eller ibland hela städer bara gått upp i rök, lämnar jordeytan med bara frågetecknen bland de kvarlevande efter sig. Ibland söker de sig tillbaka till folket de lämnat, antingen som döda kroppar burna av vågorna eller som något annat, men ofta sitter vi med bara gissningar till svar.Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 16: Hem, trygga hem</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5628015.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>I dagens avsnitt ska vi höra två historier om en av de värsta upplevelserna många kan tänka sig: när det visar sig att man inte alls är så ensam eller trygg där hemma som man kanske trott. Podden är producerad av Ludvig Josephson, och musiken i det här avsnittet gjordes av Erik Edsbagge Engström. Du kan hitta Erik på Spotify, genom att söka på bland annat Ereden, E.E. Engström &amp; The Twin Street Tree Trunk Love Ensemble och Sönderriket. </description>
+      </item>
+      <item>
+        <title>Avsnitt 15: Duscharna</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5583568.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Läraren Pelle berättade en gång en historia, om ett hus i Danmark, som aldrig lämnat Jacks huvud. När Jack går ut högskolan bestämmer han sig för att åka och se om det avlägsna huset står kvar... Historien är skriven av Dylan Sindelar, och är ursprungligen publicerad på Reddit.com/r/nosleep. (länka in https://www.reddit.com/r/nosleep/comments/10hpmi/the_showers/ ) Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 14: Ensam kvar</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5576213.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description> Den enda överlevande i ett skeppsvrak, den skiftarbetande nattvakten och den stressade kontorsråttan som måste sitta kvar efter stängning har alla en sak gemensamt: de är lämnade ensamma kvar.  I dagens Creepypodden berättar vi historier om vad som kan hända då.Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.Källanvisning:http://www.williamdalphin.comhttps://www.reddit.com/r/AskReddit/comments/29yyr6/nsfw_graveyardnightshift_workers_of_reddit_care/ciq5ri2https://www.reddit.com/r/AskReddit/comments/29yyr6/nsfw_graveyardnightshift_workers_of_reddit_care/cipyyj9/https://www.reddit.com/r/nosleep/comments/3c6aj5/my_friend_arthur_passed_away_yesterday_and_now_i/ </description>
+      </item>
+      <item>
+        <title>Avsnitt 13: Oförklarligt döda</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5569810.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>En övervakningskamera fångar en ung kvinnas sista ögonblick i livet, då hon beter sig märkligt i en hiss. Det enda spåret efter ett kärlekspar i skogen är en fläckig, konstig dagbok.  I dagens avsnitt av Creepypodden berättar vi om märkliga dödsfall. Och vad som ibland kan vara ännu värre. Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.Källa till historierna avsnitt 13:https://theghostinmymachine.wordpress.com/2014/06/25/the-most-dangerous-games-elevator-to-another-world/ https://www.reddit.com/r/nosleep/comments/3vb2jk/i_found_a_diary_while_i_was_out_hiking_in_new/Lyssnarhistoria, skriven av Vincent KrichauMusiken i avsnitt 13 görs av bland annat Erik Edsbagge Engström.</description>
+      </item>
+      <item>
+        <title>Avsnitt 12: Oförklarliga ljud</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5565440.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Från en döende astronauts sista rosslingar och mystiska djuphavssuckar som är höga nog att höras över hela havsbottnen till märkliga radiosändningar – de här ljuden kommer lämna dig sömnlös. Inspelningar som förvirrar, skrämmer, och tycks ha fångat livstecken från en värld vi vet mycket lite om.Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.Musiken i avsnitt 12 görs av bland annat Erik Edsbagge Engström.</description>
+      </item>
+      <item>
+        <title>Avsnitt 11: Julspecial</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5557074.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>I det första avsnittet av Creepypoddens tredje säsong får ni sällskap i decembermörkret – av märkliga filminspelningar och hemsökta shoppinggallerior. Musiken i avsnitt 11 görs av bland annat Erik Edsbagge Engström.Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Snart är Creepypodden tillbaka </title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5551510.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Sovit onödigt gott på senaste? Här har du en teaser inför kommande säsong av Creepypodden Det är den mörkaste tiden på året, och självklart är det då dags för nya avsnitt av Creepypodden. Den 21 december kommer första avsnittet av säsong tre, och det blir en julspecial. Här har du en teaser tills dess.Har du upplevt något kusligt i juletid, eller känner du till en bra spökhistoria om denna årstid? Tipsa oss i ett mejl till creepypodden@sverigesradio.se. Och missa inte denna teaser, en kort historia skriven av thatredguy i sajten Jezebels kommentarsfält.Länk: http://jezebel.com/this-happened-in-my-junior-year-of-high-school-one-eve-1650794522</description>
+      </item>
+      <item>
+        <title>Avsnitt 10: Grottutforskaren Teds berättelse</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5465011.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Äntligen kan Creepypodden presentera en av nätets mest omtyckta och legendariska spökhistorier.  Avsnittet tillägnas helt och hållet den anonyma berättelse som återfinns på den mystiska, övergivna bloggen “Ted’s Caving Page”.  Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 9: Det ryska sömnexperimentet</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5464985.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Öppna en historiebok, och du kommer snabbt snubbla på märkliga berättelser från förr. Slutna, hemlighetsfulla riken där människor ibland bara försvinner utan att någonsin synas igen, till exempel. Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 8: Ljud</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5472231.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Creepypodden viger hela detta avsnitt åt en enda berättelse. Den handlar om hur två förrymda fångar försöker fly fängelset genom en djup skog, och de allt mer skrämmande saker de upplever under de kalla och ensamma nätterna.  Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 7: Creepypastor i Sverige</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5464894.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>De flesta spökhistorierna på nätet är skrivna på engelska, men då och då stöter man på sådana som sägs utspela sig i Sverige. I det här avsnittet tittar vi på allt från möten med mystiska varelser i Boden till en lyssnares berättelse om en märklig vindslucka. Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 6: Den leende mannen</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5464787.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>En man beter sig märkligt på gatan mitt i natten i en amerikansk storstad, och i en källare någon annanstans sitter en ung kille och undrar om det är honom eller verkligheten det är fel på. Creepypodden är äntligen tillbaka efter säsongsuppehållet.  Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Snart är Creepypodden tillbaka…</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5452249.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>&lt;p&gt;Sovit onödigt gott på sistone? Om bara en eller två veckor kommer fem nya avsnitt av Creepypodden. För att ni inte ska stå helt utan underhållning fram tills dess kommer här ett litet specialavsnitt med creepypastan Mästerverket, skriven av DeviantArt-användaren&amp;nbsp;Supermans-Son.&lt;/p&gt; Sovit onödigt gott på sistone? Om bara en eller två veckor kommer fem nya avsnitt av Creepypodden. För att ni inte ska stå helt utan underhållning fram tills dess kommer här ett litet specialavsnitt med creepypastan Mästerverket, skriven av DeviantArt-användaren Supermans-Son.</description>
+      </item>
+      <item>
+        <title>Avsnitt 5: Security tape och Någon härmar mamma</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5372955.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Vad är läskigast, en kollega som verkar kunna kontrollera tiden eller en varelse som låtsas vara din mamma? Välj själv i den första säsongens femte och sista avsnitt av Creepypodden. Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 4: Candle Cove</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5362156.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Vissa barnprogram minns man väldigt tydligt. Ändå blir man besviken, förvirrad eller till och med skrämd när man ser dem igen. Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor: creepypodden@sverigesradio.se.  </description>
+      </item>
+      <item>
+        <title>Avsnitt 3: Getmannen</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5362152.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>De senaste åren har fler och fler berättat på nätet om sina möten med getmannen. Vi tittar närmare på det skrämmande fenomenet. Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 2: Spökkonton på Facebook</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5362142.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Den nya tidens vandringssägner sprids på internet, och handlar om vad vi inte förstår oss på. Som till exempel spökkonton på Facebook. Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <title>Avsnitt 1: Black eyed children</title>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5369753.mp3</enclosure>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Har du hört talas om barn med svarta ögon? I det första avsnittet av Creepypodden bekantar vi oss med det skrämmande fenomenet – på balkongen, utanför dörren, och i skogen. Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor: creepypodden@sverigesradio.se.</description>
+      </item>
+    </feed>
+  </category>
 </channel>

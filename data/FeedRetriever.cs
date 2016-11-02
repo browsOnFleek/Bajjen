@@ -193,6 +193,26 @@ namespace data
             return url;
         }
 
+        public static string getInterval(string feedName) {
+
+
+            doc = Ressfetch.fetchBase();
+            string url = "";
+
+            foreach (XmlNode xmlattributes in doc.DocumentElement.SelectNodes("category/feed"))
+            {
+                string xmlFeedName = xmlattributes.Attributes["feed"].Value;
+                if (xmlFeedName.Equals(feedName))
+                {
+                    url = xmlattributes.Attributes["interval"].Value;
+                }
+            }
+            return url;
+
+
+
+        }
+
 
         public static string getDescription(string buttonText)
         {

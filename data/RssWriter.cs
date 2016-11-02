@@ -59,9 +59,35 @@ namespace data
         }
 
 
-        public static void appendFeedToCategory() {
+        public static void appendFeedToCategory(string feedName, string chosenCategory) {
+
+            doc = Ressfetch.fetchBase();
+
+            foreach (XmlNode xmlFeed in doc.DocumentElement.SelectNodes("category/feed"))
+            {
+                string check = xmlFeed.Attributes["feed"].Value;
 
 
+                if (check.Equals(feedName)) {
+
+                    foreach (XmlNode getCategory in doc.DocumentElement.SelectNodes("category"))
+                    {
+                        string xmlCategory = getCategory.Attributes["cat"].Value;
+
+
+                        if (chosenCategory.Equals(xmlCategory))
+                        {
+
+                            Console.WriteLine("tobbes korvar");
+                            getCategory.AppendChild(xmlFeed);
+                        }
+
+                    }
+
+                }
+
+
+            }
 
 
         }
