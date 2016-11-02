@@ -5,6 +5,8 @@ using System.Collections.Generic;
 using System.Xml;
 using System.Threading.Tasks;
 using System.Threading;
+using System.IO;
+using System.Reflection;
 
 namespace Bajjen
 {
@@ -220,7 +222,8 @@ namespace Bajjen
         {
             feedList.Items.Clear();
 
-
+            string patn = Path.GetDirectoryName(Assembly.GetEntryAssembly().Location);
+            Console.WriteLine(patn);
             Button button = sender as Button;
 
             string cat = button.Text;
