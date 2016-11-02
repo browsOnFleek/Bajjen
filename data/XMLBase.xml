@@ -3,34 +3,13 @@
   <category cat="hej" xmlns="">
   </category>
   <category cat="dig" xmlns="">
-    <feed feed="popcoorn" interval="60000" url="http://api.sr.se/api/rss/pod/22209">
+    <feed feed="popcoorn" interval="30000" url="http://api.sr.se/api/rss/pod/22209">
       <item>
         <title>Avsnitt 48: Getmannen II</title>
         <enclosure>http://sverigesradio.se/topsy/ljudfil/5886908.mp3</enclosure>
         <pod>popcoorn</pod>
         <status>0</status>
         <description>Genom skrämda berättelser och suddiga mobilfilmklipp och bilder på sociala medier tog sig clownerna upp genom USA, över Atlanten och in på svenska gator.  Ni har inte kunnat undgå att märka dem. Lättare att missa har dock varit getmannen, som nu rapporteras från svenska skogar. Det har blivit dags att följa upp ett av Creepypoddens mest omtyckta avsnitt – det om den ökända hamnskiftaren i skogen... Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
-      </item>
-      <item>
-        <title>Avsnitt 47: Oönskad</title>
-        <enclosure>http://sverigesradio.se/topsy/ljudfil/5878437.mp3</enclosure>
-        <pod>popcoorn</pod>
-        <status>0</status>
-        <description>Har du någonsin gått in i ett rum, och omedelbart ångrat dig?  Fått känslan av att någonting i rummet, eller i huset, kanske i själva luften, inte vill ha dig där? Att vara oönskad är ett klassiskt tema som återkommer i spökhistoria efter spökhistoria - och veckans Creepypodden hör ni en ruskig berättelse om ett gammalt släkthus i skärgården där det verkligen dyker upp igen.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
-      </item>
-      <item>
-        <title>Avsnitt 46: Isolerad</title>
-        <enclosure>http://sverigesradio.se/topsy/ljudfil/5871050.mp3</enclosure>
-        <pod>popcoorn</pod>
-        <status>0</status>
-        <description>Att vara isolerad på en plats eller i ett rum eller i en situation, är inte det något vi alla fruktar?  Ensamheten, utsattheten, och ovissheten om när isolationen ska släppa. Skräcken för vad det nu är som isolerar oss. I dagens Creepypodden berättar vi om isolering på en skärgårdsö, på ett mystisk tågstation och på en ensam bondgård i USA... Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
-      </item>
-      <item>
-        <title>Avsnitt 45: Skräcken i Haukimaa</title>
-        <enclosure>http://sverigesradio.se/topsy/ljudfil/5863659.mp3</enclosure>
-        <pod>popcoorn</pod>
-        <status>0</status>
-        <description>Under hösten har allt fler lyssnare börjat höra av sig med ett tips jag inte hört talas om förr. En berättelse som skildrar en märklig plats i Torne lappmark, och vad den gör med de som flyttar dit.  Nedtecknade vittnesmål i gamla historieböcker skildrar en märklig plats i Torne lappmark, och vad den gör med de som oturligt nog flyttar dit. Creepypodden hittade historiens författare – och fick tillstånd att berätta både den och en annan av hans norrländska spökhistorier.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se</description>
       </item>
       <item>
         <title>Avsnitt 44: En berättelse vid lägerelden</title>
@@ -353,6 +332,27 @@
         <pod>popcoorn</pod>
         <status>0</status>
         <description>Har du hört talas om barn med svarta ögon? I det första avsnittet av Creepypodden bekantar vi oss med det skrämmande fenomenet – på balkongen, utanför dörren, och i skogen. Vill du läsa fler creepypastor kan du söka dig fram till vår hemsida på sverigesradio.se, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5878437.mp3</enclosure>
+        <title>Avsnitt 47: Oönskad</title>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Har du någonsin gått in i ett rum, och omedelbart ångrat dig?  Fått känslan av att någonting i rummet, eller i huset, kanske i själva luften, inte vill ha dig där? Att vara oönskad är ett klassiskt tema som återkommer i spökhistoria efter spökhistoria - och veckans Creepypodden hör ni en ruskig berättelse om ett gammalt släkthus i skärgården där det verkligen dyker upp igen.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5871050.mp3</enclosure>
+        <title>Avsnitt 46: Isolerad</title>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Att vara isolerad på en plats eller i ett rum eller i en situation, är inte det något vi alla fruktar?  Ensamheten, utsattheten, och ovissheten om när isolationen ska släppa. Skräcken för vad det nu är som isolerar oss. I dagens Creepypodden berättar vi om isolering på en skärgårdsö, på ett mystisk tågstation och på en ensam bondgård i USA... Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se.</description>
+      </item>
+      <item>
+        <enclosure>http://sverigesradio.se/topsy/ljudfil/5863659.mp3</enclosure>
+        <title>Avsnitt 45: Skräcken i Haukimaa</title>
+        <pod>popcoorn</pod>
+        <status>0</status>
+        <description>Under hösten har allt fler lyssnare börjat höra av sig med ett tips jag inte hört talas om förr. En berättelse som skildrar en märklig plats i Torne lappmark, och vad den gör med de som flyttar dit.  Nedtecknade vittnesmål i gamla historieböcker skildrar en märklig plats i Torne lappmark, och vad den gör med de som oturligt nog flyttar dit. Creepypodden hittade historiens författare – och fick tillstånd att berätta både den och en annan av hans norrländska spökhistorier.Creepypodden är producerad av Ludvig Josephson, som också gjorde musiken i det här avsnittet. Vill du läsa fler creepypastor kan klicka dig runt bland våra tidigare avsnitt, eller gilla oss på Facebook där vi heter Creepypodden. Mejla oss gärna med tips på bra creepypastor eller med egna skrämmande upplevelser: creepypodden@sverigesradio.se</description>
       </item>
     </feed>
   </category>

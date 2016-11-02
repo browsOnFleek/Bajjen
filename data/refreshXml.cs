@@ -9,36 +9,32 @@ namespace data
 
         public static bool _isActive;
 
-        public static async void startXmlRefresher(int sleeptime, string url, string rssName)
+        public static async void startXmlRefresher(string url, string rssName)
         {
 
          
             _isActive = true;
 
 
-            await  xmlRefresh(sleeptime, url, rssName);
+            await  xmlRefresh(url, rssName);
 
             Console.WriteLine("laddar om");
 
 
         }
 
-        public static Task xmlRefresh(int sleeptime, string url, string rssName) {
+        public static Task xmlRefresh(string url, string rssName) {
 
 
             return Task.Run(() =>
             {
 
 
-                while (_isActive)
-                {
 
                     var dom = Ressfetch.fetchRss(url);
                     XmlEditor.writeExisting(dom, rssName);
 
-                    if (_isActive) Thread.Sleep(sleeptime);
-
-                }
+                  
 
 
             });

@@ -18,6 +18,9 @@ namespace data
         private static XmlDocument doc = Ressfetch.fetchBase();
         private static string title = "";
         public static XmlNode feedNode;
+        private static string enclosure = "";
+        private static string status = "0";
+        private static string description = "";
 
 
         public static void writeExisting(XmlDocument dom, string rssName)
@@ -36,6 +39,9 @@ namespace data
 
                 title = channelItem.SelectSingleNode("title").InnerText;
 
+                enclosure = channelItem.SelectSingleNode("enclosure/@url").InnerText;
+
+                description = channelItem.SelectSingleNode("description").InnerText;
                 if (findDoubles.doublePods(title) == false) {
 
                     addElements(rssName);
@@ -54,15 +60,27 @@ namespace data
             XmlElement podElement = doc.CreateElement("item");
             XmlElement titleElement = doc.CreateElement("title");
             XmlElement podCast = doc.CreateElement("pod");
+            XmlElement podurl = doc.CreateElement("enclosure");
+            XmlElement podStatus = doc.CreateElement("status");
+            XmlElement podDescription = doc.CreateElement("description");
+
             titleElement.InnerText = title;
             podCast.InnerText = rssName;
             string kokkos = feedNode.Attributes["feed"].Value;
+            podurl.InnerText = enclosure;
+            podStatus.InnerText = status;
+            podDescription.InnerText = description;
+
+
 
             Console.WriteLine("korv");
+            podElement.AppendChild(podurl);
             podElement.AppendChild(titleElement);
             podElement.AppendChild(podCast);
+            podElement.AppendChild(podStatus);
+            podElement.AppendChild(podDescription);
             feedNode.AppendChild(podElement);
-            doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+            doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
         }
 
 

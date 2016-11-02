@@ -11,12 +11,15 @@ namespace Bajjen
     public partial class Form1 : Form
     {
         private bool _isActive;
+        private System.Windows.Forms.Timer time;
+             
 
         public Form1()
         {
             InitializeComponent();
             drawFeedList();
             drawCategoryList();
+            time = new System.Windows.Forms.Timer();
 
 
         }
@@ -158,13 +161,14 @@ namespace Bajjen
         private async void feedList_Click(object sender, EventArgs e)
         {
 
+            time.Dispose();
             flowLayout.Controls.Clear();
 
             int index = feedList.SelectedIndex;
             string rssName = feedList.Items[index].ToString();
             string url = "";
             FeedLabel.Text = rssName;
-            string 
+        
             List<Button> btnList = await xmlRefresh(rssName);
             foreach (Button btn in btnList)
             {
@@ -173,13 +177,40 @@ namespace Bajjen
 
             }
 
-            data.RefreshXml.startXmlRefresher(10000, "http://api.sr.se/api/rss/pod/22209", rssName);
+            time = new System.Windows.Forms.Timer();
+
+            string interval = data.FeedRetriever.getInterval(rssName);
+
+            int inter = int.Parse(interval);
+
+            time.Interval = inter;
+            time.Tick += new EventHandler(timer_Tick);
+            time.Start();
+
+
+            
         }
 
 
 
 
+        private async void timer_Tick(object sender, EventArgs e)
+        {
+            string rssName = FeedLabel.Text;
+            string url = data.FeedRetriever.getUrl(rssName);
 
+            data.RefreshXml.startXmlRefresher(url, rssName);
+            flowLayout.Controls.Clear();
+
+            List<Button> btnList = await xmlRefresh(rssName);
+            foreach (Button btn in btnList)
+            {
+
+                flowLayout.Controls.Add(btn);
+
+            }
+
+        }
 
 
 
