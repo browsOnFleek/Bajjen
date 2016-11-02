@@ -3,13 +3,17 @@ using System.Xml;
 
 namespace data
 {
-    public abstract class Ressfetch
+    internal class emptyClass
+    {
+        internal string emptyString = "";
+    }
+    public class Ressfetch
     {
 
         public static XmlDocument fetchRss(string url)
         {
-
-            var xml = "";
+            emptyClass tom = new emptyClass();
+            var xml = tom.emptyString;
             using (var client = new System.Net.WebClient())
             {
                 client.Encoding = Encoding.UTF8;
@@ -29,7 +33,7 @@ namespace data
         {
 
             var dom = new XmlDocument();
-            dom.Load(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+            dom.Load(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
             return dom;
 
 
