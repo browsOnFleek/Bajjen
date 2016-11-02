@@ -17,16 +17,31 @@ namespace data
 
             bool _notEmpty = true;
 
-            string regex = @"/^$|\s +/";
+            string regex = @"";
 
             if (regex.Equals(testSubject)) {
 
                 _notEmpty = false;
+                Console.WriteLine("error");
 
             }
 
             return _notEmpty;
 
         }
+
+        public static bool emptyString(string testString) {
+
+            bool empty = false;
+
+            if (string.IsNullOrEmpty(testString))
+            {
+                empty = true;
+            }
+            return empty;
+        }
+
+     
+
     }
 }

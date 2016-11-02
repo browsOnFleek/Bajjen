@@ -16,48 +16,55 @@ namespace data
 
         public static void addFeed(XmlDocument dom, string rssName, string chosenCategory, string interval, string url)
         {
-           
 
-
-            feedElement = doc.CreateElement("feed");
-            feedElement.SetAttribute("feed", rssName);
-            feedElement.SetAttribute("interval", interval);
-            feedElement.SetAttribute("url", url);
-
-            foreach (XmlNode getCategory in doc.DocumentElement.SelectNodes("category"))
+            if (dom == null) { }
+            else
             {
-                string xmlCategory = getCategory.Attributes["cat"].Value;
 
+                feedElement = doc.CreateElement("feed");
+                feedElement.SetAttribute("feed", rssName);
+                feedElement.SetAttribute("interval", interval);
+                feedElement.SetAttribute("url", url);
 
-                if (chosenCategory.Equals(xmlCategory))
+                foreach (XmlNode getCategory in doc.DocumentElement.SelectNodes("category"))
                 {
-                    
+                    string xmlCategory = getCategory.Attributes["cat"].Value;
 
-                    getCategory.AppendChild(feedElement);
+
+                    if (chosenCategory.Equals(xmlCategory))
+                    {
+
+
+                        getCategory.AppendChild(feedElement);
+                    }
+
                 }
 
+
+                foreach (XmlNode channelItem
+                   in dom.DocumentElement.SelectNodes("channel/item"))
+                {
+
+                    title = channelItem.SelectSingleNode("title").InnerText;
+
+                    enclosure = channelItem.SelectSingleNode("enclosure/@url").InnerText;
+
+                    description = channelItem.SelectSingleNode("description").InnerText;
+                    RssWriter writer = new RssWriter();
+                    writer.addElements(rssName);
+
+
+                }
             }
-
-          
-            foreach (XmlNode channelItem
-               in dom.DocumentElement.SelectNodes("channel/item"))
-            {
-
-                title = channelItem.SelectSingleNode("title").InnerText;
-
-                enclosure = channelItem.SelectSingleNode("enclosure/@url").InnerText;
-
-                description = channelItem.SelectSingleNode("description").InnerText;
-                RssWriter writer = new RssWriter();
-                writer.addElements(rssName);
-
-
-            }
-
         }
 
 
+        public static void appendFeedToCategory() {
 
+
+
+
+        }
 
 
 
@@ -84,7 +91,7 @@ namespace data
             podElement.AppendChild(podStatus);
             podElement.AppendChild(podDescription);
             feedElement.AppendChild(podElement);
-            doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+            doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
         }
 
 
@@ -109,7 +116,7 @@ namespace data
                     Console.WriteLine(title);
                     Console.WriteLine("korv");
 
-                    doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+                    doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
                 }
             }
         }
@@ -124,7 +131,7 @@ namespace data
 
                 string checkCategory = xmlCategory.Attributes["cat"].Value;
                 if (checkCategory.Equals(deleteCategory)) xmlCategory.ParentNode.RemoveChild(xmlCategory);
-                doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
             }
 
         }
@@ -139,7 +146,7 @@ namespace data
 
                 if (check.Equals(deleteFeed)) xmlFeed.ParentNode.RemoveChild(xmlFeed);
 
-                doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
 
             }
 
@@ -159,7 +166,7 @@ namespace data
                 
 
                 if (check.Equals(oldName)) xmlFeed.Attributes["feed"].Value = newName;
-                doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
              
             }
 
@@ -179,7 +186,7 @@ namespace data
 
 
                 if (check.Equals(oldName)) xmlFeed.Attributes["url"].Value = newUrl;
-                doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
 
             }
         }
@@ -192,7 +199,7 @@ namespace data
 
                 string checkCategory = xmlCategory.Attributes["cat"].Value;
                 if (checkCategory.Equals(oldName)) xmlCategory.Attributes["cat"].Value = newName;
-                doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
             }
 
 
@@ -209,7 +216,7 @@ namespace data
                 XmlElement category = doc.CreateElement("category");
                 category.SetAttribute("cat", catName);
                 doc.DocumentElement.AppendChild(category);
-                doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
             }
 
            
@@ -217,6 +224,24 @@ namespace data
 
         }
 
+        public static void changeInterval(string oldName, string newInterval)
+        {
+
+            doc = Ressfetch.fetchBase();
+
+            foreach (XmlNode xmlFeed in doc.DocumentElement.SelectNodes("category/feed"))
+            {
+                string check = xmlFeed.Attributes["feed"].Value;
+
+
+                if (check.Equals(oldName)) xmlFeed.Attributes["interval"].Value = newInterval;
+                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+
+
+            }
+        }
+
+       
 
     }
 }

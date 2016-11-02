@@ -101,41 +101,52 @@ namespace Bajjen
 
         private void button1_Click(object sender, EventArgs e)
         {
+            bool _empty = false;
+            List<string> feeds = data.FeedRetriever.getFeeds();
 
 
-            var dom = data.Ressfetch.fetchRss(inputBox.Text);
             string rssName = feedNameBox.Text;
             string chosenCategory = CatLabel.Text;
             string url = inputBox.Text;
 
-            string interval = "";
-            if (comboBox1.Text.Equals("30 sec"))
+           string interval = chooseInterval();
+
+            if (interval.Equals("nothing"))
             {
-                interval = "30000";
+                _empty = true;
             }
-            else if (comboBox1.Text.Equals("1 min"))
-            {
-                interval = "60000";
+            if (data.Validation.emptyString(rssName))
+             {
+                _empty = true;
             }
-            else if (comboBox1.Text.Equals("5 min"))
+            if (data.Validation.emptyString(url))
             {
-                interval = "300000";
+                _empty = true;
+            }
+            if (data.Validation.emptyString(chosenCategory))
+            {
+                _empty = true;
+            }
+            if (feeds.Contains(rssName))
+            {
+                MessageBox.Show("Feednamnet finns redan.");
+            }
+            if (_empty)
+            {
+                MessageBox.Show("Någon ruta va tom");
             }
             else
             {
-                MessageBox.Show("Please choose an interval!");
+                var dom = data.Ressfetch.fetchRss(inputBox.Text);
+                data.RssWriter.addFeed(dom, rssName, chosenCategory, interval, url);
+
+                feedList.Items.Clear();
+                flowLayout2.Controls.Clear();
+
+                drawFeedList();
+
+                drawCategoryList();
             }
-
-
-            data.RssWriter.addFeed(dom, rssName, chosenCategory, interval, url);
-
-            feedList.Items.Clear();
-            flowLayout2.Controls.Clear();
-
-            drawFeedList();
-
-            drawCategoryList();
-
 
 
         }
@@ -162,7 +173,7 @@ namespace Bajjen
 
             }
 
-            data.RefreshXml.startXmlRefresher(10000, "http://alexosigge.libsyn.com/rss", rssName);
+    //        data.RefreshXml.startXmlRefresher(10000, "http://alexosigge.libsyn.com/rss", rssName);
         }
 
 
@@ -221,14 +232,22 @@ namespace Bajjen
         {
          
             string deleteCategory = CatLabel.Text;
-            data.RssWriter.deleteCategory(deleteCategory);
-
-            feedList.Items.Clear();
-            flowLayout2.Controls.Clear();
+            if(data.Validation.emptyString(deleteCategory) == false)
+            {
+                data.RssWriter.deleteCategory(deleteCategory);
+                feedList.Items.Clear();
+                flowLayout2.Controls.Clear();
 
 
             drawFeedList();
             drawCategoryList();
+
+            }
+            else
+            {
+                MessageBox.Show("Tryck på den kategori du vill ta bort.");
+            }
+            
 
         }
 
@@ -271,28 +290,40 @@ namespace Bajjen
         private void changeButton_Click(object sender, EventArgs e)
         {
 
-            
-           
 
+
+            
 
 
             string oldName = FeedLabel.Text;
 
-
+            string newInterval = intervalBox.Text;
             string newUrl = inputBox.Text;
             string newName = feedNameBox.Text;
+            chooseInterval();
 
-            if (data.Validation.notEmpty(newName))
-            {
-
-                data.RssWriter.change(oldName, newName);
-
-            }
-            if (data.Validation.notEmpty(newUrl))
+            
+            if (data.Validation.emptyString(newUrl) == false)
             {
                 data.RssWriter.changeUrl(oldName, newUrl);
             }
+            if (data.Validation.emptyString(newInterval) == false)
+            {
+                data.RssWriter.changeInterval(oldName, newInterval);
+            }
 
+
+            if (data.Validation.emptyString(newName) == false)
+            {
+
+                data.RssWriter.change(oldName, newName);
+            }
+            if (data.Validation.emptyString(oldName) == true)
+            {
+
+                MessageBox.Show("tryck på den feed du vill byta namn på");
+            
+            }
 
             feedList.Items.Clear();
             flowLayout2.Controls.Clear();
@@ -309,16 +340,29 @@ namespace Bajjen
 
         private void addCategory_Click(object sender, EventArgs e)
         {
-
+            
             string catName = textBox2.Text;
-            data.RssWriter.addCategory(catName);
+            List<string> cats = data.FeedRetriever.getCats();
 
-            feedList.Items.Clear();
-            flowLayout2.Controls.Clear();
+            if ((data.Validation.emptyString(catName)) || (cats.Contains(catName)))
+            {
+                MessageBox.Show("Det finns redan en kategori vid det namnet eller så är namnrutan tom");
+            }
+            else
+            {
+               
 
-            drawFeedList();
+                data.RssWriter.addCategory(catName);
 
-            drawCategoryList();
+                feedList.Items.Clear();
+                flowLayout2.Controls.Clear();
+
+                drawFeedList();
+
+                drawCategoryList();
+            }
+            
+
 
         }
 
@@ -328,15 +372,24 @@ namespace Bajjen
 
 
             string feedName = FeedLabel.Text;
-            data.RssWriter.deleteFeed(feedName);
+            
+            if (data.Validation.emptyString(feedName) == false)
+            {
+                data.RssWriter.deleteFeed(feedName);
 
-            feedList.Items.Clear();
-            flowLayout2.Controls.Clear();
+                feedList.Items.Clear();
+                flowLayout2.Controls.Clear();
 
 
-            drawFeedList();
-            drawCategoryList();
-
+                drawFeedList();
+                drawCategoryList();
+                
+            }
+            else
+            {
+                MessageBox.Show("Tryck på den feed du vill ta bort.");
+            }
+                
         }
 
         private void changeCatNameButton_Click(object sender, EventArgs e)
@@ -344,18 +397,69 @@ namespace Bajjen
 
             string newName = textBox3.Text;
             string oldName = CatLabel.Text;
+            if (data.Validation.emptyString(oldName) == true)
+            {
+                MessageBox.Show("Vänligen tryck på den kategori du vill byta namn på.");
+            }
+            if (data.Validation.emptyString(newName) == true)
+            {
+                MessageBox.Show("Skriv vilket namn kategorin ska få.");
+            }
+            else
+            {
+                data.RssWriter.changeCategoryName(oldName, newName);
 
-            data.RssWriter.changeCategoryName(oldName, newName);
+                feedList.Items.Clear();
+                flowLayout2.Controls.Clear();
 
+                drawFeedList();
 
-            feedList.Items.Clear();
-            flowLayout2.Controls.Clear();
+                drawCategoryList();
+            }
+            
 
-            drawFeedList();
-
-            drawCategoryList();
 
         }
+
+        public string chooseInterval()
+        {
+            string interval = "";
+            if (intervalBox.Text.Equals("30 sec"))
+            {
+                interval = "30000";
+            }
+            else if (intervalBox.Text.Equals("1 min"))
+            {
+                interval = "60000";
+            }
+            else if (intervalBox.Text.Equals("5 min"))
+            {
+                interval = "300000";
+            }
+            else
+            {
+                interval = "nothing";
+            }
+
+            return interval;
+        }
+
+        private void changeCategoryButton_Click(object sender, EventArgs e)
+        {
+            string feedName = FeedLabel.Text;
+            string newCatName = appendCatBox.Text;
+
+            List<string> cats = data.FeedRetriever.getCats();
+
+            if (cats.Contains(newCatName))
+            {
+               
+            }
+            else
+            {
+                MessageBox.Show("kategorin finns inte tyvär");
+            }
+            }
     }
 
 

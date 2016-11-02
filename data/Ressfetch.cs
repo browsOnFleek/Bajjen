@@ -1,5 +1,6 @@
 ﻿using System.Text;
 using System.Xml;
+using System;
 
 namespace data
 {
@@ -17,14 +18,31 @@ namespace data
             using (var client = new System.Net.WebClient())
             {
                 client.Encoding = Encoding.UTF8;
-                xml = client.DownloadString(url);
+
+                try
+                {
+                    xml = client.DownloadString(url);
+
+
+
+                    var dom = new System.Xml.XmlDocument();
+                    dom.LoadXml(xml);
+
+                    return dom;
+                }
+
+                catch (System.Net.WebException e)
+                {
+                    Console.WriteLine("error error");
+                    var dom = new System.Xml.XmlDocument();
+                    dom = null;
+                    return dom;
+                }
+
             }
 
             //Skapa en objektrepresentation.
-            var dom = new System.Xml.XmlDocument();
-            dom.LoadXml(xml);
-
-            return dom;
+         
 
 
         }
@@ -33,7 +51,7 @@ namespace data
         {
 
             var dom = new XmlDocument();
-            dom.Load(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+            dom.Load(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
             return dom;
 
 
