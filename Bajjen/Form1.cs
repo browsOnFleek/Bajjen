@@ -15,16 +15,61 @@ namespace Bajjen
         public Form1()
         {
             InitializeComponent();
+            drawFeedList();
+            drawCategoryList();
+
+
+        }
+
+
+
+
+        public void drawFeedList()
+        {
 
             List<string> feeds = data.FeedRetriever.getFeeds();
 
             foreach (string feed in feeds)
             {
+                feedList.Items.Add(feed);
+            }
 
-                listBox1.Items.Add(feed);
+        }
+
+
+       public Button drawPlayButton(data.Podcast item)
+        {
+
+            Button playButtons = new Button();
+            playButtons.Text = item.title;
+
+
+            playButtons.BackColor = System.Drawing.SystemColors.ActiveCaption;
+            playButtons.Size = new System.Drawing.Size(130, 63);
+            playButtons.TabIndex = 0;
+            playButtons.FlatAppearance.BorderSize = 0;
+            playButtons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            playButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+            playButtons.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+
+            if (item.clicked.Equals("1"))
+            {
+                playButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
+
 
 
             }
+
+            playButtons.Click += playButtons_click;
+
+            return playButtons;
+        }
+
+
+
+        public void drawCategoryList()
+        {
+
 
             List<string> cats = data.FeedRetriever.getCats();
             foreach (string cat in cats)
@@ -40,29 +85,27 @@ namespace Bajjen
                 buttons.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
                 buttons.TabIndex = 0;
 
-                buttons.Click += btn1_click;
+                buttons.Click += catButton_click;
 
 
                 flowLayout2.Controls.Add(buttons);
             }
 
-
         }
 
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
 
-        }
+
+
+
+
 
         private void button1_Click(object sender, EventArgs e)
         {
 
-            
-
 
             var dom = data.Ressfetch.fetchRss(inputBox.Text);
-            string rssName = textBox1.Text;
-            string chosenCategory = textBox2.Text;
+            string rssName = feedNameBox.Text;
+            string chosenCategory = CatLabel.Text;
             string url = inputBox.Text;
 
             string interval = "";
@@ -84,54 +127,32 @@ namespace Bajjen
             }
 
 
-            data.RssWriter.writeExisting(dom, rssName, chosenCategory, interval, url);
+            data.RssWriter.addFeed(dom, rssName, chosenCategory, interval, url);
 
-            listBox1.Items.Clear();
+            feedList.Items.Clear();
             flowLayout2.Controls.Clear();
 
-            List<string> feeds = data.FeedRetriever.getFeeds();
-            foreach (string feed in feeds)
-            {
-                listBox1.Items.Add(feed);
-            }
+            drawFeedList();
 
-            List<string> cats = data.FeedRetriever.getCats();
-            foreach (string cat in cats)
-            {
-
-                Button buttons = new Button();
-                buttons.Text = cat;
-
-                buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
-                buttons.Size = new System.Drawing.Size(153, 63);
-                buttons.FlatAppearance.BorderSize = 0;
-                buttons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-                buttons.TabIndex = 0;
-                buttons.Click += btn1_click;
-
-                flowLayout2.Controls.Add(buttons);
-            }
+            drawCategoryList();
 
 
 
         }
 
-        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+
+
+
+
+        private async void feedList_Click(object sender, EventArgs e)
         {
 
-        }
-
-
-
-        private async void listBox1_Click(object sender, EventArgs e)
-        {
-
-            Console.WriteLine("hej");
             flowLayout.Controls.Clear();
 
-            int hello = listBox1.SelectedIndex;
-            string rssName = listBox1.Items[hello].ToString();
+            int index = feedList.SelectedIndex;
+            string rssName = feedList.Items[index].ToString();
             string url = "";
+            FeedLabel.Text = rssName;
 
             List<Button> btnList = await xmlRefresh(rssName);
             foreach (Button btn in btnList)
@@ -146,20 +167,29 @@ namespace Bajjen
 
 
 
-        private void btn1_click(object sender, EventArgs e)
+
+
+
+
+
+
+
+        private void catButton_click(object sender, EventArgs e)
         {
-            listBox1.Items.Clear();
+            feedList.Items.Clear();
 
 
             Button button = sender as Button;
 
             string cat = button.Text;
+            CatLabel.Text = cat;
+
             List<string> feeds = data.FeedRetriever.getCatFeeds(cat);
 
             foreach (string feed in feeds)
             {
 
-                listBox1.Items.Add(feed);
+                feedList.Items.Add(feed);
 
 
 
@@ -186,76 +216,25 @@ namespace Bajjen
 
 
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        public void textBox2_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void flowLayout2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label4_Click(object sender, EventArgs e)
-        {
-
-        }
 
         private void deleteButton_Click(object sender, EventArgs e)
         {
-            string deleteFeed = textBox1.Text;
-            string deleteCategory = textBox2.Text;
-            data.RssWriter.delete(deleteFeed, deleteCategory);
+         
+            string deleteCategory = CatLabel.Text;
+            data.RssWriter.deleteCategory(deleteCategory);
 
-            listBox1.Items.Clear();
+            feedList.Items.Clear();
             flowLayout2.Controls.Clear();
 
-            List<string> feeds = data.FeedRetriever.getFeeds();
-            foreach (string feed in feeds)
-            {
-                listBox1.Items.Add(feed);
-            }
 
-            List<string> cats = data.FeedRetriever.getCats();
-            foreach (string cat in cats)
-            {
-
-                Button buttons = new Button();
-                buttons.Text = cat;
-
-                buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
-                buttons.Size = new System.Drawing.Size(153, 63);
-                buttons.FlatAppearance.BorderSize = 0;
-                buttons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-                buttons.TabIndex = 0;
-                buttons.Click += btn1_click;
-
-                flowLayout2.Controls.Add(buttons);
-            }
+            drawFeedList();
+            drawCategoryList();
 
         }
 
-        private void button2_Click(object sender, EventArgs e)
-        {
+        
 
 
-
-        }
 
 
 
@@ -272,32 +251,8 @@ namespace Bajjen
                 foreach (data.Podcast item in data.FeedRetriever.getFeed(rssName))
                 {
 
-
-                    Button playButtons = new Button();
-                    playButtons.Text = item.title;
-
-
-                    playButtons.BackColor = System.Drawing.SystemColors.ActiveCaption;
-                    playButtons.Size = new System.Drawing.Size(130, 63);
-                    playButtons.TabIndex = 0;
-                    playButtons.FlatAppearance.BorderSize = 0;
-                    playButtons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-                    playButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(110)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-                    playButtons.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-
-                    if (item.clicked.Equals("1"))
-                    {
-                        playButtons.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(65)))), ((int)(((byte)(34)))), ((int)(((byte)(34)))));
-
-
-
-                    }
-
-                    playButtons.Click += playButtons_click;
-
-                    podList.Add(playButtons);
+                    podList.Add(drawPlayButton(item));
                 }
-
 
                 return podList;
 
@@ -306,48 +261,99 @@ namespace Bajjen
 
         }
 
+
+
+
+
+
+
+
         private void changeButton_Click(object sender, EventArgs e)
         {
 
-            string feedName = inputBox.Text;
-           
-            string changeFeedName = textBox1.Text;
-            string changeCategoryName = textBox2.Text;
-            string changeToName = textBox3.Text;
             
-            data.RssWriter.change(changeFeedName, changeCategoryName, changeToName, feedName);
+           
 
 
 
-            listBox1.Items.Clear();
+            string oldName = FeedLabel.Text;
+
+
+            string newUrl = inputBox.Text;
+            string newName = feedNameBox.Text;
+
+            if (data.Validation.notEmpty(newName))
+            {
+
+                data.RssWriter.change(oldName, newName);
+
+            }
+            if (data.Validation.notEmpty(newUrl))
+            {
+                data.RssWriter.changeUrl(oldName, newUrl);
+            }
+
+
+            feedList.Items.Clear();
             flowLayout2.Controls.Clear();
 
-            List<string> feeds = data.FeedRetriever.getFeeds();
-            foreach (string feed in feeds)
-            {
-                listBox1.Items.Add(feed);
-            }
+            drawFeedList();
 
-            List<string> cats = data.FeedRetriever.getCats();
-            foreach (string cat in cats)
-            {
-
-                Button buttons = new Button();
-                buttons.Text = cat;
-
-                buttons.BackColor = System.Drawing.SystemColors.ActiveCaption;
-                buttons.Size = new System.Drawing.Size(153, 63);
-                buttons.FlatAppearance.BorderSize = 0;
-                buttons.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-                buttons.TabIndex = 0;
-                buttons.Click += btn1_click;
-
-                flowLayout2.Controls.Add(buttons);
-            }
+            drawCategoryList();
         }
 
-        private void inputBox_TextChanged(object sender, EventArgs e)
+        
+
+
+
+
+        private void addCategory_Click(object sender, EventArgs e)
         {
+
+            string catName = textBox2.Text;
+            data.RssWriter.addCategory(catName);
+
+            feedList.Items.Clear();
+            flowLayout2.Controls.Clear();
+
+            drawFeedList();
+
+            drawCategoryList();
+
+        }
+
+        private void deleteFeedButton_Click(object sender, EventArgs e)
+        {
+
+
+
+            string feedName = FeedLabel.Text;
+            data.RssWriter.deleteFeed(feedName);
+
+            feedList.Items.Clear();
+            flowLayout2.Controls.Clear();
+
+
+            drawFeedList();
+            drawCategoryList();
+
+        }
+
+        private void changeCatNameButton_Click(object sender, EventArgs e)
+        {
+
+            string newName = textBox3.Text;
+            string oldName = CatLabel.Text;
+
+            data.RssWriter.changeCategoryName(oldName, newName);
+
+
+            feedList.Items.Clear();
+            flowLayout2.Controls.Clear();
+
+            drawFeedList();
+
+            drawCategoryList();
 
         }
     }

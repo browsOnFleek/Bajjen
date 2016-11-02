@@ -25,20 +25,25 @@ namespace data
 
             feedNode = doc.SelectSingleNode("//feed[@feed='" +rssName+ "']");
 
-           string helloy = feedNode.Attributes["feed"].Value;
-            Console.WriteLine("tjo");
-            Console.WriteLine(helloy);
+           string helloy = feedNode.Attributes["feed"].Value;  
+
 
             foreach (XmlNode channelItem
                in dom.DocumentElement.SelectNodes("channel/item"))
             {
 
-                exist = false;
+               
 
                 title = channelItem.SelectSingleNode("title").InnerText;
-                
-                lookForDubble(rssName);
 
+                if (findDoubles.doublePods(title) == false) {
+
+                    addElements(rssName);
+
+
+                }
+                
+               
             }
         }
 
@@ -57,7 +62,7 @@ namespace data
             podElement.AppendChild(titleElement);
             podElement.AppendChild(podCast);
             feedNode.AppendChild(podElement);
-            doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+            doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
         }
 
 
@@ -66,27 +71,8 @@ namespace data
 
 
 
-        private static void lookForDubble(string rssName)
-        {
-
-
-            foreach (XmlNode item
-                      in doc.DocumentElement.SelectNodes("category/feed/item"))
-            {
-
-                string check = item.SelectSingleNode("title").InnerText;
-
-                if (title.Equals(check))
-                {
-                    exist = true;
-                }
-            }
-
-            if (exist == false)
-            {
-                addElements(rssName);
-            }
-        }
+       
+        
 
 
 

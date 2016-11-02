@@ -3,7 +3,7 @@ using System;
 
 namespace data
 {
-    public static class RssWriter
+    public class RssWriter : BaseClass
     {
 
         private static XmlDocument doc = Ressfetch.fetchBase();
@@ -14,9 +14,9 @@ namespace data
         private static XmlElement feedElement;
 
 
-        public static void writeExisting(XmlDocument dom, string rssName, string chosenCategory, string interval, string url)
+        public static void addFeed(XmlDocument dom, string rssName, string chosenCategory, string interval, string url)
         {
-            bool _exists = false;
+           
 
 
             feedElement = doc.CreateElement("feed");
@@ -31,22 +31,14 @@ namespace data
 
                 if (chosenCategory.Equals(xmlCategory))
                 {
-                    _exists = true;
+                    
 
                     getCategory.AppendChild(feedElement);
                 }
 
             }
 
-            if (_exists == false)
-            {
-                XmlElement category = doc.CreateElement("category");
-                category.SetAttribute("cat", chosenCategory);
-                category.AppendChild(feedElement);
-                doc.DocumentElement.AppendChild(category);
-            }
-
-
+          
             foreach (XmlNode channelItem
                in dom.DocumentElement.SelectNodes("channel/item"))
             {
@@ -56,7 +48,8 @@ namespace data
                 enclosure = channelItem.SelectSingleNode("enclosure/@url").InnerText;
 
                 description = channelItem.SelectSingleNode("description").InnerText;
-                addElements(rssName);
+                RssWriter writer = new RssWriter();
+                writer.addElements(rssName);
 
 
             }
@@ -68,7 +61,7 @@ namespace data
 
 
 
-        private static void addElements(string rssName)
+        public override void addElements(string rssName)
         {
 
             XmlElement podElement = doc.CreateElement("item");
@@ -91,7 +84,7 @@ namespace data
             podElement.AppendChild(podStatus);
             podElement.AppendChild(podDescription);
             feedElement.AppendChild(podElement);
-            doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+            doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
         }
 
 
@@ -116,14 +109,28 @@ namespace data
                     Console.WriteLine(title);
                     Console.WriteLine("korv");
 
-                    doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                    doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
                 }
             }
         }
 
-        public static void delete(string deleteFeed, string deleteCategory)
+        public static void deleteCategory(string deleteCategory)
         {
             doc = Ressfetch.fetchBase();
+
+           
+            foreach (XmlNode xmlCategory in doc.DocumentElement.SelectNodes("category"))
+            {
+
+                string checkCategory = xmlCategory.Attributes["cat"].Value;
+                if (checkCategory.Equals(deleteCategory)) xmlCategory.ParentNode.RemoveChild(xmlCategory);
+                doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+            }
+
+        }
+
+
+        public static void deleteFeed(string deleteFeed) {
 
             foreach (XmlNode xmlFeed in doc.DocumentElement.SelectNodes("category/feed"))
             {
@@ -132,20 +139,17 @@ namespace data
 
                 if (check.Equals(deleteFeed)) xmlFeed.ParentNode.RemoveChild(xmlFeed);
 
-                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
 
             }
-            foreach (XmlNode xmlCategory in doc.DocumentElement.SelectNodes("category"))
-            {
 
-                string checkCategory = xmlCategory.Attributes["cat"].Value;
-                if (checkCategory.Equals(deleteCategory)) xmlCategory.ParentNode.RemoveChild(xmlCategory);
-                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
-            }
+
 
         }
 
-        public static void change(string changeFeedName, string changeCategoryName, string changeToName, string feedName)
+
+
+        public static void change(string oldName, string newName)
         {
             doc = Ressfetch.fetchBase();
 
@@ -154,22 +158,65 @@ namespace data
                 string check = xmlFeed.Attributes["feed"].Value;
                 
 
-                if (check.Equals(changeFeedName)) xmlFeed.Attributes["feed"].Value = changeToName;
-                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
-               
-                if (check.Equals(feedName)) xmlFeed.Attributes["url"].Value = changeToName;
-                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                if (check.Equals(oldName)) xmlFeed.Attributes["feed"].Value = newName;
+                doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+             
             }
+
+          
+
+        }
+
+
+        public static void changeUrl(string oldName, string newUrl)
+        {
+
+            doc = Ressfetch.fetchBase();
+
+            foreach (XmlNode xmlFeed in doc.DocumentElement.SelectNodes("category/feed"))
+            {
+                string check = xmlFeed.Attributes["feed"].Value;
+
+
+                if (check.Equals(oldName)) xmlFeed.Attributes["url"].Value = newUrl;
+                doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+
+            }
+        }
+
+
+        public static void changeCategoryName(string oldName, string newName) {
 
             foreach (XmlNode xmlCategory in doc.DocumentElement.SelectNodes("category"))
             {
 
                 string checkCategory = xmlCategory.Attributes["cat"].Value;
-                if (checkCategory.Equals(changeCategoryName)) xmlCategory.Attributes["cat"].Value = changeToName;
-                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                if (checkCategory.Equals(oldName)) xmlCategory.Attributes["cat"].Value = newName;
+                doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
             }
 
 
+
         }
+
+
+        public static void addCategory(string catName) {
+
+           
+
+            if (findDoubles.doubleCategory(catName) == false)
+            {
+                XmlElement category = doc.CreateElement("category");
+                category.SetAttribute("cat", catName);
+                doc.DocumentElement.AppendChild(category);
+                doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+            }
+
+           
+
+
+        }
+
+
     }
 }
