@@ -96,7 +96,7 @@
         <title>220. Syrerikt</title>
         <enclosure>http://traffic.libsyn.com/alexosigge/aosavsnitt220.mp3?dest-id=101204</enclosure>
         <pod>asdaf</pod>
-        <status>0</status>
+        <status>1</status>
         <description>
         </description>
       </item>
@@ -1854,4 +1854,6 @@
       </item>
     </feed>
   </category>
+  <category cat="hhukh" xmlns="" />
+  <category cat="bgrgr" xmlns="" />
 </channel>

@@ -80,7 +80,7 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Location = new System.Drawing.Point(1633, 630);
+            this.button1.Location = new System.Drawing.Point(1508, 612);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 56);
             this.button1.TabIndex = 1;
@@ -90,7 +90,7 @@
             // 
             // inputBox
             // 
-            this.inputBox.Location = new System.Drawing.Point(1701, 482);
+            this.inputBox.Location = new System.Drawing.Point(1457, 461);
             this.inputBox.Name = "inputBox";
             this.inputBox.Size = new System.Drawing.Size(227, 22);
             this.inputBox.TabIndex = 2;
@@ -116,7 +116,7 @@
             // 
             // feedNameBox
             // 
-            this.feedNameBox.Location = new System.Drawing.Point(1701, 402);
+            this.feedNameBox.Location = new System.Drawing.Point(1457, 381);
             this.feedNameBox.Name = "feedNameBox";
             this.feedNameBox.Size = new System.Drawing.Size(161, 22);
             this.feedNameBox.TabIndex = 7;
@@ -126,7 +126,7 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label2.Location = new System.Drawing.Point(1696, 434);
+            this.label2.Location = new System.Drawing.Point(1452, 413);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(63, 29);
             this.label2.TabIndex = 8;
@@ -137,7 +137,7 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label3.Location = new System.Drawing.Point(1696, 358);
+            this.label3.Location = new System.Drawing.Point(1452, 337);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(161, 29);
             this.label3.TabIndex = 9;
@@ -145,7 +145,7 @@
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(1701, 188);
+            this.textBox2.Location = new System.Drawing.Point(1457, 167);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(198, 22);
             this.textBox2.TabIndex = 10;
@@ -155,7 +155,7 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label1.Location = new System.Drawing.Point(1696, 137);
+            this.label1.Location = new System.Drawing.Point(1452, 116);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(155, 29);
             this.label1.TabIndex = 11;
@@ -177,7 +177,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label5.Location = new System.Drawing.Point(1697, 526);
+            this.label5.Location = new System.Drawing.Point(1453, 505);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(137, 29);
             this.label5.TabIndex = 14;
@@ -190,7 +190,7 @@
             "30 sec",
             "1 min",
             "5 min"});
-            this.comboBox1.Location = new System.Drawing.Point(1701, 571);
+            this.comboBox1.Location = new System.Drawing.Point(1457, 550);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(132, 24);
@@ -217,7 +217,7 @@
             this.deleteCategoryButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.deleteCategoryButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.deleteCategoryButton.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.deleteCategoryButton.Location = new System.Drawing.Point(1430, 285);
+            this.deleteCategoryButton.Location = new System.Drawing.Point(1200, 285);
             this.deleteCategoryButton.Name = "deleteCategoryButton";
             this.deleteCategoryButton.Size = new System.Drawing.Size(177, 74);
             this.deleteCategoryButton.TabIndex = 18;
@@ -235,7 +235,7 @@
             this.change.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.change.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.change.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.change.Location = new System.Drawing.Point(1804, 630);
+            this.change.Location = new System.Drawing.Point(1518, 680);
             this.change.Name = "change";
             this.change.Size = new System.Drawing.Size(124, 68);
             this.change.TabIndex = 19;
@@ -245,7 +245,7 @@
             // 
             // textBox3
             // 
-            this.textBox3.Location = new System.Drawing.Point(1432, 471);
+            this.textBox3.Location = new System.Drawing.Point(1202, 471);
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(217, 22);
             this.textBox3.TabIndex = 20;
@@ -255,7 +255,7 @@
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label6.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.label6.Location = new System.Drawing.Point(1434, 434);
+            this.label6.Location = new System.Drawing.Point(1204, 434);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(215, 20);
             this.label6.TabIndex = 21;
@@ -288,13 +288,13 @@
             this.richTextBox1.Location = new System.Drawing.Point(1202, 630);
             this.richTextBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.richTextBox1.Name = "richTextBox1";
-            this.richTextBox1.Size = new System.Drawing.Size(387, 118);
+            this.richTextBox1.Size = new System.Drawing.Size(226, 118);
             this.richTextBox1.TabIndex = 22;
             this.richTextBox1.Text = "";
             // 
             // addCategory
             // 
-            this.addCategory.Location = new System.Drawing.Point(1701, 244);
+            this.addCategory.Location = new System.Drawing.Point(1457, 223);
             this.addCategory.Name = "addCategory";
             this.addCategory.Size = new System.Drawing.Size(158, 67);
             this.addCategory.TabIndex = 25;
@@ -304,7 +304,7 @@
             // 
             // deleteFeedButton
             // 
-            this.deleteFeedButton.Location = new System.Drawing.Point(1430, 188);
+            this.deleteFeedButton.Location = new System.Drawing.Point(1200, 188);
             this.deleteFeedButton.Name = "deleteFeedButton";
             this.deleteFeedButton.Size = new System.Drawing.Size(177, 76);
             this.deleteFeedButton.TabIndex = 26;
@@ -314,7 +314,7 @@
             // 
             // changeCatNameButton
             // 
-            this.changeCatNameButton.Location = new System.Drawing.Point(1432, 514);
+            this.changeCatNameButton.Location = new System.Drawing.Point(1202, 514);
             this.changeCatNameButton.Name = "changeCatNameButton";
             this.changeCatNameButton.Size = new System.Drawing.Size(175, 60);
             this.changeCatNameButton.TabIndex = 29;
