@@ -40,6 +40,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="BaseClass.cs" />
     <Compile Include="FeedRetriever.cs" />
     <Compile Include="Podcast.cs" />
     <Compile Include="RefreshXml.cs" />
