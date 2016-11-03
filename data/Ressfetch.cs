@@ -1,6 +1,9 @@
 ﻿using System.Text;
 using System.Xml;
 using System;
+using System.IO;
+using static System.Net.Mime.MediaTypeNames;
+
 
 namespace data
 {
@@ -41,7 +44,7 @@ namespace data
 
             }
 
-            //Skapa en objektrepresentation.
+            
          
 
 
@@ -50,8 +53,11 @@ namespace data
         public static XmlDocument fetchBase()
         {
 
+            string path2 = System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetEntryAssembly().Location);
+
+            string path = Directory.GetCurrentDirectory() + @"\XMLBase.xml";
             var dom = new XmlDocument();
-            dom.Load(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+            dom.Load(path);
             return dom;
 
 

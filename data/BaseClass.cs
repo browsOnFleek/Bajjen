@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -39,7 +40,8 @@ namespace data
             podElement.AppendChild(podStatus);
             podElement.AppendChild(podDescription);
             feedElement.AppendChild(podElement);
-            doc.Save(@"C:\Users\jonas\documents\visual studio 2015\Projects\Bajjen\data\XMLBase.xml");
+            string path = Directory.GetCurrentDirectory() + @"\XMLBase.xml";
+            doc.Save(path);
         }
 
 

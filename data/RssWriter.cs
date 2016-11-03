@@ -1,5 +1,6 @@
 ﻿using System.Xml;
 using System;
+using System.IO;
 
 namespace data
 {
@@ -78,7 +79,7 @@ namespace data
                         if (chosenCategory.Equals(xmlCategory))
                         {
 
-                            Console.WriteLine("tobbes korvar");
+                            
                             getCategory.AppendChild(xmlFeed);
                         }
 
@@ -117,7 +118,8 @@ namespace data
             podElement.AppendChild(podStatus);
             podElement.AppendChild(podDescription);
             feedElement.AppendChild(podElement);
-            doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+            string path = Directory.GetCurrentDirectory() + @"\XMLBase.xml";
+            doc.Save(path);
         }
 
 
@@ -141,8 +143,9 @@ namespace data
                     xmlTitle.SelectSingleNode("status").InnerText = "1";
                     Console.WriteLine(title);
                     Console.WriteLine("korv");
-
-                    doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                    string path = Directory.GetCurrentDirectory() + @"\XMLBase.xml";
+                    doc.Save(path);
+             //       doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
                 }
             }
         }
@@ -157,7 +160,8 @@ namespace data
 
                 string checkCategory = xmlCategory.Attributes["cat"].Value;
                 if (checkCategory.Equals(deleteCategory)) xmlCategory.ParentNode.RemoveChild(xmlCategory);
-                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                string path = Directory.GetCurrentDirectory() + @"\XMLBase.xml";
+                doc.Save(path);
             }
 
         }
@@ -172,7 +176,8 @@ namespace data
 
                 if (check.Equals(deleteFeed)) xmlFeed.ParentNode.RemoveChild(xmlFeed);
 
-                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                string path = Directory.GetCurrentDirectory() + @"\XMLBase.xml";
+                doc.Save(path);
 
             }
 
@@ -192,8 +197,9 @@ namespace data
                 
 
                 if (check.Equals(oldName)) xmlFeed.Attributes["feed"].Value = newName;
-                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
-             
+                string path = Directory.GetCurrentDirectory() + @"\XMLBase.xml";
+                doc.Save(path);
+
             }
 
           
@@ -212,7 +218,8 @@ namespace data
 
 
                 if (check.Equals(oldName)) xmlFeed.Attributes["url"].Value = newUrl;
-                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                string path = Directory.GetCurrentDirectory() + @"\XMLBase.xml";
+                doc.Save(path);
 
             }
         }
@@ -225,7 +232,8 @@ namespace data
 
                 string checkCategory = xmlCategory.Attributes["cat"].Value;
                 if (checkCategory.Equals(oldName)) xmlCategory.Attributes["cat"].Value = newName;
-                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                string path = Directory.GetCurrentDirectory() + @"\XMLBase.xml";
+                doc.Save(path);
             }
 
 
@@ -242,7 +250,8 @@ namespace data
                 XmlElement category = doc.CreateElement("category");
                 category.SetAttribute("cat", catName);
                 doc.DocumentElement.AppendChild(category);
-                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                string path = Directory.GetCurrentDirectory() + @"\XMLBase.xml";
+                doc.Save(path);
             }
 
            
@@ -261,7 +270,8 @@ namespace data
 
 
                 if (check.Equals(oldName)) xmlFeed.Attributes["interval"].Value = newInterval;
-                doc.Save(@"C:\Users\Tobias\Source\Repos\Bajjen\data\XMLBase.xml");
+                string path = Directory.GetCurrentDirectory() + @"\XMLBase.xml";
+                doc.Save(path);
 
 
             }

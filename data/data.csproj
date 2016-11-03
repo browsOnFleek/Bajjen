@@ -52,8 +52,9 @@
     <Compile Include="XmlEditor.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="XMLBase.xml">
+    <Content Include="..\Bajjen\bin\Debug\XMLBase.xml">
       <SubType>Designer</SubType>
+      <Link>XMLBase.xml</Link>
     </Content>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

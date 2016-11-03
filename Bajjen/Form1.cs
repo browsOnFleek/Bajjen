@@ -374,6 +374,7 @@ namespace Bajjen
 
         private void addCategory_Click(object sender, EventArgs e)
         {
+
             
             string catName = textBox2.Text;
             List<string> cats = data.FeedRetriever.getCats();
@@ -384,7 +385,7 @@ namespace Bajjen
             }
             else
             {
-               
+                
 
                 data.RssWriter.addCategory(catName);
 
